@@ -110,7 +110,7 @@ write.csv(pf_data, file = "./data/cleaned_ssp_richness.csv")
 
 #####################################
 #
-#  Point frame species diversity analysis
+#  Species diversity analysis
 #
 #####################################
 
