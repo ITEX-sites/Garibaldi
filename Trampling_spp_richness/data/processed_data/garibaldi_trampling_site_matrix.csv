@@ -1,4 +1,4 @@
-﻿PLOT,SITE,TRTMT,date,samplers,community_type,d_trail_m,slope,aspect,start_gps,tea_bags,transect_notes
+﻿PLOT,SITE,TRTMT,DATE,OBSERVER,community_type,d_trail_m,slope,aspect,start_gps,tea_bags,transect_notes
 1,TM,trampled,,,cas/vac/phy,NA,2,52,TM-1,"A,A","trampling off trail, close to standing water, nice view of Black Tusk"
 2,TM,untrampled,,,phy/cas/vac,7,4,48,TM-2,"B,B","very green, untrampled, heather meadow"
 3,TM,trampled,,,phy/vac/cas,0,16,222,TM-3,"C,C","Boulder in transect, side trail"
