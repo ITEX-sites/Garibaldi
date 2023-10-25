@@ -44,12 +44,15 @@ library(ggthemes)
 #setwd("~/GitHub/Garibaldi/Trampling_spp_richness")
 
 # read in spp and site matrices
-species.data <- read.csv(file = "./data/processed_data/garibaldi_trampling_species_matrix.csv")
+species.data0 <- read.csv(file = "./data/processed_data/garibaldi_trampling_species_matrix.csv")
 site.data <- read.csv(file = "./data/processed_data/garibaldi_trampling_site_matrix.csv")
 
+# remove transect column
+transect <- species.data0$transect
+species.data <- species.data0[,-c(1:2)]
 #####################################
 #
-# Preliminary data analysis / graphing
+# Diversity indices
 #
 #####################################
 
@@ -62,10 +65,12 @@ diversity(species.data, index = "simpson")#this is the Simpson index
 fisher.alpha(species.data) #this is Fisher's alpha from the log-series distribution, fairly independent of sample size
 
 site.data$shannon<-(diversity(species.data, index = "shannon"))#makes a new column in site data with the shannon values
+site.data$simpson<-(diversity(species.data, index = "simpson"))
+site.data$fisher<-fisher.alpha(species.data)
 
 # effects of OBSERVER on shannon diversity
-model1<-lm(shannon~Observer, data =site.data)
-#summary(lm(shannon~Observer, data =site.data))
+model1<-lm(shannon~OBSERVER, data =site.data)
+#summary(lm(shannon~OBSERVER, data =site.data))
 anova(model1)
 
 # effects of Site on shannon diversity
@@ -78,6 +83,27 @@ model3<-lm(shannon~TRTMT, data =site.data)
 #summary(lm(shannon~TRTMT, data =site.data))
 anova(model3)
 
+# effects of aspect on shannon diversity
+model3<-lm(shannon~aspect, data =site.data)
+#summary(lm(shannon~aspect, data =site.data))
+anova(model3)
+
+# effects of slope on shannon diversity
+model3<-lm(shannon~slope, data =site.data)
+#summary(lm(shannon~slope, data =site.data))
+anova(model3)
+
+# effects of TRTMT on fisher alpha
+model4<-lm(fisher~TRTMT, data =site.data)
+#summary(lm(fisher~TRTMT, data =site.data))
+anova(model4)
+
+# effects of TRTMT on simpson diversity
+model5<-lm(simpson~TRTMT, data =site.data)
+#summary(lm(simpson~TRTMT, data =site.data))
+anova(model5)
+
+#---------------------------------------------
 # create graph of species diversity separated by X1 and coloured by X2
 #plot(site.data$shannon ~ site.data$TRTMT,  main= "Shannon Diversity Index changes with TRTMT", xlab="TRTMT", ylab="Shannon Diversity", pch=20)
 #abline(model1) #adds the trend line
@@ -94,21 +120,11 @@ ggplot(data=site.data, aes(x=SITE, y=shannon, colour=Observer)) + geom_point(siz
 ggplot(data=site.data, aes(x=TRTMT, y=shannon, colour=SITE)) + geom_point(size=3)+
   stat_smooth(method = "lm")#add the line
 
-# example of how to save a jpeg image in R
-png("./figures/Shannon_diversity_OTC_site.jpg", width = 856, height = 540)
-ggplot(data=site.data, aes(x=TRTMT, y=shannon, colour=SITE)) + geom_point(size=3, position = "jitter")
+# example of how to save a png image in R
+png("./figures/Shannon_trampling_site_dotplot.jpg", width = 856, height = 540)
+ggplot(data=site.data, aes(x=TRTMT, y=shannon, colour=SITE)) + geom_point(size=3)
 dev.off()
 
-
-#####################################
-#
-# Diversity indices {vegan}
-#
-#####################################
-
-diversity(species.data, index = "shannon")# Shannon-Wiener index
-diversity(species.data, index = "simpson")# Simpson index
-fisher.alpha(species.data) #Fisher's alpha from the log-series distribution, fairly independent of sample size
 
 #####################################
 #
@@ -126,7 +142,23 @@ anova(model5)
 
 boxplot(shannon~SITE, data=site.data, col="light blue", xlab="SITE", ylab="Shannon Diversity Index", main="Shannon Diversity")
 
-#Revised Shannon vs Site/TRTMT graph
+#Revised Shannon vs TRTMT graph
+ggplot(site.data, aes(x=TRTMT, y= shannon)) +
+  geom_boxplot(color = "black", fill = "light blue") +
+  theme_solarized_2() +
+  labs(x = 'TRTMT', y = 'Shannon Diversity Index', title = 'Shannon Diversity') +
+  theme(axis.text.x = element_text(angle=90, vjust=0.5)) +
+  theme(plot.title = element_text(hjust = 0.5))
+
+boxplot(shannon~TRTMT, data=site.data, las=2, col="light blue", xlab="TRTMT", ylab="Shannon Diversity Index", main="Shannon Diversity")
+
+#------------------------------------
+# make SITE_TRMT combined character and plot
+
+site.data$SITE.TRTMT <- paste0(site.data$TRTMT, "_", site.data$SITE)
+
+png("./figures/Shannon_trampling_site_boxplot.jpg", width = 856, height = 540)
+#Revised Shannon vs Site.TRTMT graph
 ggplot(site.data, aes(x=SITE.TRTMT, y= shannon)) +
   geom_boxplot(color = "black", fill = "light blue") +
   theme_solarized_2() +
@@ -135,6 +167,7 @@ ggplot(site.data, aes(x=SITE.TRTMT, y= shannon)) +
   theme(plot.title = element_text(hjust = 0.5))
 
 boxplot(shannon~SITE.TRTMT, data=site.data, las=2, col="light blue", xlab="Site/TRTMT", ylab="Shannon Diversity Index", main="Shannon Diversity")
+dev.off()
 
 #Revised PielouJ vs Site/TRTMT graph
 ggplot(site.data, aes(x=SITE.TRTMT, y=PielouJ)) +
@@ -183,32 +216,43 @@ radlattice(radfit(colSums(species.data))) #other functions for rank-abundance, t
 #####################################
 
 
-RankAbun.1 <- rankabundance(plantspeciesonly.data)
+RankAbun.1 <- rankabundance(species.data)
 RankAbun.1 # a dataframe of the rank of each species
+
+png("./figures/Rank_abundance_total.jpg", width = 856, height = 540)
 rankabunplot(RankAbun.1,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,650)) #rank abundance plot, labelling the most common 3 species
+dev.off()
 
 site.data$TRTMT <- as.factor(site.data$TRTMT)
 site.data$SITE <- as.factor(site.data$SITE)
-site.data$Observer <- as.factor(site.data$Observer)
+site.data$Observer <- as.factor(site.data$OBSERVER)
 site.data$SITE.TRTMT <- as.factor(site.data$SITE.TRTMT)
 
-rankabuncomp(plantspeciesonly.data, y=site.data, factor=c('TRTMT'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
-rankabuncomp(plantspeciesonly.data, y=site.data, factor=c('SITE'),scale='proportion', legend=TRUE, specnames=c(1:3)) #click on where on plot you want to have the legend
-rankabuncomp(plantspeciesonly.data, y=site.data, factor=c('Observer'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
-rankabuncomp(plantspeciesonly.data, y=site.data, factor=c('SITE.TRTMT'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
+rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
+
+png("./figures/Rank_abundance_treatment.jpg", width = 856, height = 540)
+rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='proportion', legend=FALSE) #click on where on plot you want to have the legend
+dev.off()
+
+rankabuncomp(species.data, y=site.data, factor=c('SITE'),scale='proportion', legend=TRUE, specnames=c(1:3)) #click on where on plot you want to have the legend
+rankabuncomp(species.data, y=site.data, factor=c('SITE.TRTMT'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
 
 #------------------------------------
-RankAbun.SAL <- rankabundance(plantspeciesonly.data[which(site.data$SITE=="Salix"),])
-RankAbun.SAL # a dataframe of the rank of each species
-rankabunplot(RankAbun.SAL,scale='abundance', addit=FALSE, specnames=c(1:12), srt = 45, ylim = c(0,225)) #rank abudnance plot, labelling the most common 3 species
+RankAbun.trampled <- rankabundance(species.data[which(site.data$TRTMT=="trampled"),])
+RankAbun.trampled # a dataframe of the rank of each species
 
-RankAbun.CASS <- rankabundance(plantspeciesonly.data[which(site.data$SITE=="Cassiope"),])
-RankAbun.CASS # a dataframe of the rank of each species
-rankabunplot(RankAbun.CASS,scale='abundance', addit=FALSE, specnames=c(1:22), srt = 45, ylim = c(0,175)) #rank abudnance plot, labelling the most common 3 species
+png("./figures/Rank_abundance_trampled.jpg", width = 856, height = 540)
+rankabunplot(RankAbun.trampled,scale='abundance', addit=FALSE, specnames=c(1:50), ylim=c(0,500),srt = 45) #rank abudnance plot, labelling the most common 3 species
+dev.off()
 
-RankAbun.Mead <- rankabundance(plantspeciesonly.data[which(site.data$SITE=="Meadow"),])
-RankAbun.Mead # a dataframe of the rank of each species
-rankabunplot(RankAbun.Mead,scale='abundance', addit=FALSE, specnames=c(1:14), srt = 45, ylim = c(0,400)) #rank abudnance plot, labelling the most common 3 species
+RankAbun.untrampled <- rankabundance(species.data[which(site.data$TRTMT=="untrampled"),])
+RankAbun.untrampled # a dataframe of the rank of each species
+
+png("./figures/Rank_abundance_untrampled.jpg", width = 856, height = 540)
+rankabunplot(RankAbun.untrampled,scale='abundance', addit=FALSE, specnames=c(1:50), ylim=c(0,500), srt = 45) #rank abudnance plot, labelling the most common 3 species
+dev.off()
+
+# Erigeron glacialis looks like it is relatively less with trampling
 
 #####################################
 #
@@ -253,7 +297,14 @@ plot(fit); rect.hclust(fit, h=0.5, border="red") # emphasize clusters <0.5 diffe
 #
 #####################################
 
-myNMDS<-metaMDS(species.data,k=2)
+# remove all rows and cols with sum of 0
+summed_rows <- apply(species.data, 1, sum)
+species.data0 <- species.data[-which(summed_rows==0),]
+summed_cols <- apply(species.data, 1, sum)
+species.data1 <- species.data0[,-which(summed_cols==0)]
+site.data1 <- site.data[-which(summed_rows==0),]
+#-----------------------------------
+myNMDS<-metaMDS(species.data1,k=4)
 myNMDS #most important: is the stress low?
 stressplot(myNMDS) #low stress means that the observed dissimilarity between site pairs matches that on the 2-D plot fairly well (points hug the line)
 
@@ -264,30 +315,36 @@ ordiplot(myNMDS,type="n") #this clears the symbols from the plot
 orditorp(myNMDS,display="species",col="red",air=0.01) #this adds red species names
 orditorp(myNMDS,display="sites",cex=0.75,air=0.01) #this adds black site labels, cex is the font size
 
+png("./figures/NMDS_spp.jpg", width = 856, height = 540)
 # connect sites in the same treatment with a polygon use "ordihull"
 ordiplot(myNMDS,type="n")
-ordihull(myNMDS,groups=site.data$SITE,draw="polygon",col="grey90",label=T)
+ordihull(myNMDS,groups=site.data1$TRTMT,draw="polygon",col="grey90",label=T)
 orditorp(myNMDS,display="species",col="red",air=0.01)
 orditorp(myNMDS,display="sites",cex=0.75,air=0.01)
+dev.off()
 
 # link the sites within a treatment by lines
 ordiplot(myNMDS,type="n")
-ordispider(myNMDS,groups=site.data$SITE.TRTMT,spiders="centroid",col="black",label=F)
+ordispider(myNMDS,groups=site.data1$SITE.TRTMT,spiders="centroid",col="black",label=F)
 orditorp(myNMDS,display="species",col="red",air=0.01)
 orditorp(myNMDS,display="sites",cex=0.75,air=0.01)
 
 #other plots
+png("./figures/NMDS_site.jpg", width = 856, height = 540)
 ordiplot(myNMDS,type="n")
-ordihull(myNMDS,groups=site.data$SITE,draw="polygon",col='blue',label=T)
+ordihull(myNMDS,groups=site.data1$SITE,draw="polygon",col='blue',label=T)
+dev.off()
+
+png("./figures/NMDS_trampling.jpg", width = 856, height = 540)
+ordiplot(myNMDS,type="n")
+ordihull(myNMDS,groups=site.data1$TRTMT,draw="polygon",col='blue',label=T)
+dev.off()
 
 ordiplot(myNMDS,type="n")
-ordihull(myNMDS,groups=site.data$Observer,draw="polygon",col='blue',label=T)
+ordihull(myNMDS,groups=site.data1$Observer,draw="polygon",col='blue',label=T)
 
 ordiplot(myNMDS,type="n")
-ordispider(myNMDS,groups=site.data$SITE,spiders="centroid",col="black",label=T)
-
-ordiplot(myNMDS,type="n")
-ordihull(myNMDS,groups=site.data$SITE,draw="polygon",col='blue',label=T)
+ordispider(myNMDS,groups=site.data1$SITE,spiders="centroid",col="black",label=T)
 
 #####################################
 #
@@ -295,8 +352,8 @@ ordihull(myNMDS,groups=site.data$SITE,draw="polygon",col='blue',label=T)
 #
 #####################################
 
-adonis(species.data ~ SITE*TRTMT, data=site.data, permutations=9999)
-adonis(species.data ~ PLOT*Observer*DATE, data=site.data, permutations=9999)
+adonis(species.data1 ~ SITE*TRTMT, data=site.data1, permutations=9999)
+adonis(species.data1 ~ PLOT*OBSERVER*DATE, data=site.data1, permutations=9999)
 
 #####################################
 #
@@ -307,10 +364,10 @@ adonis(species.data ~ PLOT*Observer*DATE, data=site.data, permutations=9999)
 #
 #####################################
 
+# from point framing
 ####ADDITIONAL GRAPHS, ORDIPLOTS WITHOUT X, OTHER, LITTER, SOIL, ROCK
 
-
-myNMDSrevised<-metaMDS(plantspeciesonly.data,k=2)
+myNMDSrevised<-metaMDS(species.data,k=2)
 myNMDSrevised #most important: is the stress low?
 stressplot(myNMDSrevised) #low stress means that the observed dissimilarity between site pairs matches that on the 2-D plot fairly well (points hug the line)
 
