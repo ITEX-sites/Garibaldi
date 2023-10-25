@@ -14,6 +14,9 @@ library(dplyr)
 df0 = read.csv("./data/raw_data/data_2023 - Species.csv")
 
 df <- df0[,-c(1,3)]
+
+df$transect <- as.factor(df$transect)
+
 #----------------------
 summary_df <- df %>% group_by(transect) %>%
   summarise(across(everything(), sum))
