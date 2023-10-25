@@ -44,8 +44,8 @@ library(ggthemes)
 #setwd("~/GitHub/Garibaldi/Trampling_spp_richness")
 
 # read in spp and site matrices
-write.csv(species.data, file = "./data/garibaldi_trampling_species_matrix.csv")
-write.csv(site.data, file = "./data/garibaldi_trampling_site_matrix.csv")
+write.csv(species.data, file = "./data/processed_data/garibaldi_trampling_species_matrix.csv")
+write.csv(site.data, file = "./data/processed_data/garibaldi_trampling_site_matrix.csv")
 
 #####################################
 #

@@ -1,0 +1,29 @@
+﻿PLOT,SITE,TRTMT,date,samplers,community_type,d_trail_m,slope,aspect,start_gps,tea_bags,transect_notes
+1,TM,trampled,,,cas/vac/phy,NA,2,52,TM-1,"A,A","trampling off trail, close to standing water, nice view of Black Tusk"
+2,TM,untrampled,,,phy/cas/vac,7,4,48,TM-2,"B,B","very green, untrampled, heather meadow"
+3,TM,trampled,,,phy/vac/cas,0,16,222,TM-3,"C,C","Boulder in transect, side trail"
+4,TM,untrampled,,,phy/vac/cas,4,8,220,TM-4,"D,D","mostly undisturbed, grassy, vac-ova fruits restimated for quads 1 thru 4, ABies in transect"
+5,TM,trampled,,,vac/phy/cas,1,11,212,TM-5,NA,"Side trail off boardwalk, sample on trailside to capture trampling"
+6,TM,untrampled,,,phy/vac/cas,7,11,19,TM-6,NA,Salix/dry heather meadow w/ Abies
+7,TM,trampled,,,phy/vac/cas,3,3,110,TM-7,"F,F",Side trail merges into main trail
+8,TM,untrampled,,,phy/vac/cas,5,5,180,TM-8,NA,ending in a group of Abies
+9,BT,trampled,,,vac/phy,0,8,140,BT-9,"E,E",edge of prominent side trail
+10,BT,untrampled,,,vac/phy,6.5,9,121,BT-10,"F,F",lower density vacc/phyllo slope between Abies
+11,BT,trampled,,,phy/vac,0,6,264,BT-11,NA,"side trampling on trail cut, but not measuring trailcut itself, asp/slop diff than undisturbed transect (BT-12)"
+12,BT,untrampled,,,phy/vac,5,17,176,BT-12,NA,transect run btwn two fir trees
+13,BT,trampled,,,cas/vac/car,7,12,206,BT-13,NA,edge of prominent side trail
+14,BT,untrampled,,,cas/phy/vac,12,21,254,BR-14,NA,sloped heather community
+15,BT,trampled,,,car/phy/cas,1,12,60,BT-15,"G,G","scree slope, high elev"
+16,BT,untrampled,,,phy,5,25,184,BT-16,NA,"least disturbed close to trail, permanent stake 30 cm uptrail from transect "
+17,PR,trampled,,,cas ,0,9,70,PR-17,"I, H","wet meadow, close to late season snowpath"
+18,PR,untrampled,,,cas/phy ,4,9,76,PR-18,"J,J","wet meadow, close to late season snowpath"
+19,PR,trampled,,,vac,0,NA,NA,PR-19,NA,mast meadow
+20,PR,untrampled,,,cas/vacc/phy/car,5,2,106,PR-20,NA,dry meadow
+21,PR,trampled,,,car/vac/phy/cas,0,5,252,PR-21,NA,off-trail trampling
+22,PR,untrampled,,,cas/vac/phy,5,4,224,PR-22,NA,"late season patch, carex has no new growth yet (no this year's fruit/flowers)"
+23,PR,trampled,,,phy/cas/vac,5,2,180,PR-24,"L,L","prominent side trail, transect in middle, recently melted cut"
+24,PR,untrampled,,,car/cas,0.5,3,0,PR-23,"K,K","dry meadow, recently melted, some abies"
+25,TM,trampled,,,car/phy/vac/cas,0,2,188,TM-25,"M,M",fsint side trail
+26,TM,untrampled,,,car/phy/vac/cas,6,3,181,TM-26,"N,N",semi-moist meadow
+27,TM,trampled,,,phy/vac/cas,0.5,1,104,TM-27,NA,"prominent side trail, "
+28,TM,untrampled,,,phy/vac/cas,5.5,3,95,TM-28,NA,"between, small firs, dry meadow near many side trails, transect starts 10m offset from start of TM-27"
