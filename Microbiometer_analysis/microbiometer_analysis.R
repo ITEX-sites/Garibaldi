@@ -32,6 +32,7 @@ dat<-group_by(dat, year)%>%
 #dat<-mutate(dat, time=fct_relevel(time, "pre", "post"))
 
 #Mic biomass by treatment 
+# may want to log these? for normal distribution?
             ggplot(dat, aes(x=Site, y=microbial.biomass.C..ug.g., fill=treatment))+
               geom_boxplot(aes(fill=treatment))+
              ylab("Soil Microbial biomass C")+ theme_bw() + xlab("Plant community") +
@@ -118,16 +119,36 @@ ggplot(subset(dat,Site=="Salix"&flood!="no flood"), aes(x=flood, y=F.B, fill=tre
   facet_wrap(~time)
 
 # ANOVAs
-Model1 <- aov(data = dat, formula = microbial.biomass.C..ug.g. ~ treatment*Season*Site)
+# check distribution
+hist(dat$microbial.biomass.C..ug.g.)
+#Check transformation to normal
+hist(log(dat$microbial.biomass.C..ug.g.))
+
+Model1 <- aov(data = dat, formula = log(microbial.biomass.C..ug.g.) ~ treatment*Season*Site)
 summary(Model1)
 TukeyHSD(Model1)
 
 #look at cass only
 Modelcass <- aov(data = subset(dat, Site=="Cassiope"), 
-                 formula = microbial.biomass.C..ug.g. ~ treatment*Season*as.factor(year))
+                 formula = log(microbial.biomass.C..ug.g.) ~ treatment*Season*as.factor(year))
 summary(Modelcass)
 TukeyHSD(Modelcass)
 
 # F:B
-ModelFB <- aov(data = dat, formula = F.B ~ treatment*Season*Site)
-summary(ModelFB)                 
+#check distribution
+hist(dat$F.B)
+# transofrming the data (cube root)
+dat$F.Bcubr <- (dat$F.B^(1/3))
+# running the model
+ModelFB <- aov(data = dat, formula = F.Bcubr ~ treatment*Season*Site)
+summary(ModelFB)   
+
+#Linear model
+Linear1 <- lm(data = dat, formula = log(microbial.biomass.C..ug.g.) ~ doy*Site*treatment)
+summary(Linear1)
+hist(dat$microbial.biomass.C..ug.g.)
+
+
+
+
+
