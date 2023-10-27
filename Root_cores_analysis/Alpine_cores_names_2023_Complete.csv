@@ -1,6 +1,6 @@
 CoreID,Site ,Subsite,Plot,W/C,Soil core weight (g) ,Soil core wet weight post removal (g) ,Date of installment,Depth of core (cm) ,Diameter of core (cm),Vol core (cm3),Date of removal ,Gravel weight (g),Subsample wet weight (g) ,Subsample dry weight (g) ,GWC %,Dry weight core (g) ,Bulk density (g/cm3),Roots wet weight (g) ,Roots dry weight (g) ,Root (g/bulk dens),Core soil source ,moist category (within site),distance to nearest logger (cm) ,TOMST logger ID,Camera ID,Notes
 SAL_1C_P1,Sphinx Bay,Salix,1,C,354.8,523,July 20 2022,20,6,565.48668,June 28 2023,0.8,10.1,1.731,4.834777585,89.6349505,0.159924104,0.253,0.034,0.212600848,,moist,,,,
-SAL_1C_P2,Sphinx Bay,Salix,1,C,349,520.4,July 20 2022,20,6,565.48668,August 1 2023,80.9,NEED TO FILL WITH AVERAGE,NEED TO FILL WITH AVERAGE,,,,0.892,0.204,,,moist,,,,
+SAL_1C_P2,Sphinx Bay,Salix,1,C,349,520.4,July 20 2022,20,6,565.48668,August 1 2023,80.9,10.4,2.0055,3.689852905,110.9629685,0.339288219,0.892,0.204,0.601258719,,moist,,,,
 SAL_1C_P3,Sphinx Bay,Salix,1,C,350.4,415,July 20 2022,20,6,565.48668,September 22 2023,27.6,10.7,2.28,3.692982456,88.42990654,0.205185923,1.05,0.264,1.286637971,,moist,,,,
 SAL_1C_T1,Sphinx Bay,Salix,1,C,325.3,405.3,July 20 2022,20,6,565.48668,August 1 2023,4.8,8.3,2.376,2.493265993,116.0232289,0.213662378,0.173,0.085,0.397823897,,moist,,,,
 SAL_1C_T2,Sphinx Bay,Salix,1,C,317.6,412,July 20 2022,20,6,565.48668,September 22 2023,52.07,10,2.509,2.985651654,103.3708,0.274879684,1.17,0.243,0.884023135,,moist,,,,
