@@ -6,7 +6,7 @@ library(lubridate)
 library(lme4)
 library(lmerTest)
 
-dat<-read.csv("Microbiometer_Data_complete.csv")
+dat<-read.csv("Microbiometer_analysis/Microbiometer_Data_complete.csv")
 dat<-rename(dat, treatment=treatment..W.C.)
 str(dat)
 
