@@ -145,17 +145,20 @@ TukeyHSD(Modelcass)
 # F:B
 #check distribution
 hist(dat$F.B)
-# transofrming the data (cube root)
+# transforming the data (cube root)
 dat$F.Bcubr <- (dat$F.B^(1/3))
 # running the model
 ModelFB <- aov(data = dat, formula = F.Bcubr ~ treatment*Season*Site)
 summary(ModelFB)   
+TukeyHSD(ModelFB)
 
 #Linear model biomass
 Linear1 <- lm(data = dat, formula = log(microbial.biomass.C..ug.g.) ~ doy*Site*treatment)
 summary(Linear1)
 hist(dat$microbial.biomass.C..ug.g.)
 
-
+#Linear model F:B
+Linear2 <- lm(data = dat, formula = F.Bcubr ~ doy*Site*treatment)
+summary(Linear2)
 
 
