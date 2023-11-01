@@ -31,19 +31,24 @@ dat<-group_by(dat, year)%>%
 
 #dat<-mutate(dat, time=fct_relevel(time, "pre", "post"))
 
+#trying to organize the seasons 
+dat$Season_o <- factor(dat$Season, levels=c("Early Summer", "Mid Summer", "Late Summer"))
+
 #Mic biomass by treatment 
 # may want to log these? for normal distribution?
             ggplot(dat, aes(x=Site, y=microbial.biomass.C..ug.g., fill=treatment))+
               geom_boxplot(aes(fill=treatment))+
-             ylab("Soil Microbial biomass C")+ theme_bw() + xlab("Plant community") +
-            scale_fill_manual(values=c( "#89C5DA", "#DA5724")) +
-              facet_wrap(~Season + year)
+             ylab("Soil microbial biomass C (ug/g)")+ theme_bw() + xlab("Plant community") +
+              facet_grid(year~.+ Season_o) +
+              labs(title = "Microbial biomass development", fill= "Treatment") +
+              scale_fill_manual(values=c( "#89C5DA", "#DA5724"),name = "Treatment",  labels = c("Control", "Warming")) 
+              #scale_fill_discrete(name = "Treatment",  labels = c("Control", "Warming") ) 
             
             ggplot(dat, aes(x=doy, y=microbial.biomass.C..ug.g., fill=treatment))+
               geom_point(aes(fill=treatment))+
               geom_smooth(method="lm")+
               facet_wrap(~Site)+
-              ylab("Soil Microbial biomass C")+ theme_bw() + xlab("Day of Year") +
+              ylab("Soil microbial biomass C (ug/g)")+ theme_bw() + xlab("Day of Year") +
               scale_fill_manual(values=c( "#89C5DA", "#DA5724")) #+
               #facet_wrap(~Season + year)
             
@@ -58,8 +63,11 @@ dat<-group_by(dat, year)%>%
             ggplot(dat, aes(x=Site, y=F.B, fill=treatment))+
               geom_boxplot(aes(fill=treatment))+
               ylab("F:B")+ theme_bw() + xlab("Plant community") +
-              scale_fill_manual(values=c( "#89C5DA", "#DA5724")) +
-              facet_wrap(~Season + year)
+              facet_grid(year~.+ Season_o) +
+              labs(title = "Fungal to bacterial ratio", fill= "Treatment") +
+              scale_fill_manual(values=c( "#89C5DA", "#DA5724"),name = "Treatment",labels = c("Control", "Warming"))
+              #scale_color_manual(aesthetics = "#89C5DA", "#DA5724") #+
+              #facet_wrap(~Season + year)
             
             ggplot(dat, aes(x=doy, y=F.B, fill=treatment))+
               geom_point(aes(fill=treatment))+
@@ -107,7 +115,7 @@ ggplot(dat, aes(x=time, y= F.B, fill=treatment))+
 #MBC
 ggplot(subset(dat,Site=="Salix"&flood!="no flood"), aes(x=flood, y=microbial.biomass.C..ug.g., fill=treatment))+
   geom_boxplot(aes(fill=treatment))+
-  ylab("Soil Microbial biomass C")+ theme_bw() + xlab("Plant community")+
+  ylab("Soil microbial biomass C (ug/g)")+ theme_bw() + xlab("Plant community")+
   scale_fill_manual(values=c( "#89C5DA", "#DA5724")) +
   facet_wrap(~time)
 
@@ -143,11 +151,10 @@ dat$F.Bcubr <- (dat$F.B^(1/3))
 ModelFB <- aov(data = dat, formula = F.Bcubr ~ treatment*Season*Site)
 summary(ModelFB)   
 
-#Linear model
+#Linear model biomass
 Linear1 <- lm(data = dat, formula = log(microbial.biomass.C..ug.g.) ~ doy*Site*treatment)
 summary(Linear1)
 hist(dat$microbial.biomass.C..ug.g.)
-
 
 
 

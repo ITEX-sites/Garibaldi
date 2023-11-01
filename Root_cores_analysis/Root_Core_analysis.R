@@ -31,12 +31,16 @@ ggplot(roots, aes(x=Subsite, y=Root..g.bulk.dens., fill=W.C))+
   scale_fill_manual(values=c( "#89C5DA", "#DA5724")) #+
 
 
-ggplot(roots, aes(x=Duration, y=roots$Root..g.bulk.dens., fill=W.C))+
+ggplot(roots, aes(x=Duration, y=Root..g.bulk.dens., fill=W.C))+
   geom_point(aes(fill=W.C))+
   geom_smooth(method="lm")+
   facet_wrap(~Subsite)+
-  ylab("Root g / Bulk Density")+ theme_bw() + xlab("Duration (Days)") +
-  scale_fill_manual(values=c( "#89C5DA", "#DA5724")) #+
+  theme(axis.text = element_text(size = 14), 
+        axis.title = element_text(size = 14)
+        ) +
+  ylab("Root g/bulk density")+ theme_bw() + xlab("Duration in ground (Days)") +
+  labs(title = "Root growth by plot", fill="Treatment")+
+  scale_fill_manual(values=c( "#50DFFF", "#FF7070")) 
 
 ggplot(roots, aes(x=Duration, y=Roots.dry.weight..g., fill=W.C))+
   geom_point(aes(fill=W.C))+
