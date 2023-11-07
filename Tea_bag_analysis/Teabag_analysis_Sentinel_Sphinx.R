@@ -49,7 +49,7 @@ hist(log(tea$k)) #not great
 hist(tea$k^(1/3)) #very bad
 hist(tea$k/(1/tea$k)) #very bad
 
-#trying something else
+#trying something else *** use this one!!!
 install.packages("rcompanion")
 transf_tea <- rcompanion::transformTukey(tea$k)
 hist(transf_tea)
@@ -75,5 +75,5 @@ TukeyHSD(Modelk)
 
 #check
 hist(tea$S)
-ModelS <- anova_test(data = tea, formula = S ~ Treatment*Location)
+ModelS <- aov(data = tea, formula = S ~ Treatment*Location)
 summary(ModelS)
