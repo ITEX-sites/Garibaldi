@@ -1,0 +1,400 @@
+Type	Family	EnglishName	Genus	Species	CE07	CN01	WP58	WP55	WP37	WP29	WP3	WP34	WP33	WP5	WP30	WP67	CE03/WP15	CE04	WP20	WP1	WP4	WP69	WP73	WP40	WP43	WP60	WP31	CE05	CE02	WP59	WP42	WP27	WP7	WP57	WP56	WP39	CE09	CE1	WP10	CE10	WP12	WP65	CE01	CE08
+conifer	Pinaceae	Pacificsilverfir	Abies	amabilis					4m														1m					10m					8m								4m			
+conifer	Pinaceae	AlpineFir	Abies	lasiocarpa		2m	5m	"2,0,0,0"		4m	"0,0,0,1"	"0,0,1,0"	10m				"0,1,1,1"	"1,0,0,0"		1m		10m	"4,0,4,0"	"1,0,0,0"	9m	"1,0,0,0"	7m				4m	"4,4,2,0"	1m	"3,1,0,1"	"3,1,3,2"	"1,0,0,0"	"1,0,0,0"	"2,2,1,0"		7m			3m	"0,1,0,0"
+conifer	Cupressaceae	yellowcedar	Chamaecyparis	nootkatensis																																								
+conifer	Cupressaceae	commonjuniper	Juniperus	communis																																								
+conifer	Pinaceae	"whitespruce,mountainspruce"	Picea	engelmannii																																								
+conifer	Pinaceae	"whitebarkpine,whitepine"	Pinus	albicaulis																			4m		39m																			
+conifer	Pinaceae	Mountainhemlock	Tsuga	mertensiana				7m	2m	20m	5m	"0,0,1,0"					"0,0,0,3"			2m		"0,0,1,0"	"2,1,3,4"	"0,2,2,0"	10m	25m	15m	"0,0,0,1"		19m	7m	6m	"2,0,0,0"	"2,0,0,4"	5m	3m	16m				12m	18m		
+deciduousshrub	Betulaceae	GreenAlder	Alnus	viridis																														4m		6m								
+deciduousshrub	Betulaceae	Blackcottonwood	Populus	trichocarpa		15m		22m	17.5m	25m																						5m		11m	3m							2m		5m
+deciduousshrub	Grossulariaceae	currant	Ribes	spp.																													3m					"4,0,0,0"						
+deciduousshrub	Salicaceae	Arcticwillow	Salix	arctica			10m										21m			20m		"1,0,0,0"			30m			10m				12m		2m						2.5m				
+deciduousshrub	Salicaceae	"undergreenwillow,Barclay'swillow"	Salix	barclayi(commutata)		7m	5m	"1,3,4,4"	"4,4,4,4"	5m	"4,4,4,3"	"3,3,2,0"	5m	"4,4,4,4"	"2,0,4,3"	"4,4,4,4"	"4,2,4,4"		"4,4,3,2"	"0,2,0,0"	"4,2,2,4"			20m	10m	"1,1,1,0"	2m	10m			"4,4,4,4"	"1,4,0,0"	"1,3,4,0"	"0,0,0,1"	"3,2,4,2"	"2,0,1,3"	"1,0,0,0"		"4,4,4,4"		"1,0,1,3"	"2,0,1,2"	10m	"1,1,0,1"
+deciduousshrub	Salicaceae	alpinewillow	Salix	petrophila			9m		"2,4,4,4"	5m											18m																							
+deciduousshrub	Salicaceae	"net-leavedwillow,snowwillow"	Salix	reticulata(nivalis)							35m																															10m		
+deciduousshrub	Rosaceae	SitkaMountainAsh	Sorbus	sitchensis																																20m		8m						
+Fern	FERN	moonworts	Botrychium	spp.																																								
+Fern	FERN	Americanparsleyfern	Cryptogramma	acrostichoides			2m	12m				20m			"0,0,1,0"			10m							"3,2,1,4"	5m	10m	"1,1,1,3"				18m		1m		20m	"1,1,1,3"							
+forb	Asteraceae	alpinepussytoesoralpinecatsfoot	Antennaria	alpina					5m		20m	5m			"0,0,0,0"		"0,0,0,1"										"0,0,2,2"	26m	1.5m	8m	"2,1,2,0"													"1,0,0,1"
+forb	Asteraceae	Rosypussytoes	Antennaria	rosea				11m	4m																30m							6m		3m	"3,2,0,1"		14m							
+forb	Asteraceae	brownpussytoes	Antennaria	umbrinella				3m			"0,1,0,0"										17m											18m		10m										
+forb	Asteraceae	Broadleadarnica	Arnica	latifolia				20m				"1,3,2,1"			"1,0,0,0"		5m						5m	20m		"0,0,2,0"	"4,4,4,4"	"1,0,0,0"			8m													"0,2,0,2"
+forb	Scrophulariaceae	giantredIndianpaintbrush(common)	Castilleja	miniata		12m	15m	5m	5m	6m	15m		20m		"4,3,4,3"		"1,0,0,0"	9m	4m		7m				20m	"1,0,0,0"	"1,1,1,2"	2m		4m	5m	7m		3m	"3,0,0,0"	"2,2,4,3"	"1,0,0,1"		"3,2,2,2"	8m	1.5m	4m		"2,0,1,3"
+forb	Onagraceae	dwarffireweed	Chamaenerion	latifolium	"2,2,2,0"	"1,1,1,0"	"2,0,3,2"		15m	"4,3,0,1"		30m			"4,3,0,0"			"4,4,4,4"	"3,4,4,2"		7m	2m	15m		7m	"4,4,4,4"	"1,0,0,1"	"2,2,2,1"		15m						5m	"4,3,4,4"		3m	"4,3,0,3"				
+forb	Rosaceae	"commonstrawberry,ormountainstrawberry"	Fragaria	virginiana			10m																																					
+forb	Saxifragaceae	leatherleafsaxifrage	Leptarrhena	pyrolifolia					17m						"3,3,4,1"		"4,2,4,1"	4m				17m			30m	"3,4,0,0"	20m	"0,0,1,0"	10m		10m		11m			"4,4,4,4"	"2,0,0,1"		"3,0,1,2"					2m
+forb	Rosaceae	partridgefoot	Luetkea	pectinata		3m		11.5m				"2,4,2,0"			8m					15m		"4,4,4,4"	"3,4,3,4"	"1,2,1,0"				2.5m	"1,2,1,0"								"2,0,0,2"	10m					"4,4,4,2"	"1,2,0,1"
+forb	Fabaceae	Arcticlupineorsubalpinelupine	Lupinus	spp.			"4,4,4,3"	"4,3,2,3"	"4,4,4,3"	5m	"1,1,0,0"	"4,0,0,0"				30m			23m	"4,3,3,4"	8m	"1,0,3,3"	"4,2,1,1"	"1,0,0,1"	10m	"0,4,0,0"	"2,4,4,2"			20m	"3,2,4,4"	"4,2,4,4"		3m	"4,4,4,4"			8m	"1,4,4,4"		"4,3,4,4"	5m	"1,0,4,0"	"0,3,4,2"
+forb	Plantaginaceae	purplebeardtongues	Penstemon	davidsonii								45m								20m				12m			9m		50m						"1,1,0,0"									"0,0,0,1"
+forb	Plantaginaceae	purplebeardtongues	Penstemon	procerus		3m	6m		6m	10m	"1,2,0,0"	10m			"1,0,0,1"										20m		"0,1,3,3,"	4m				5m	15m	"2,0,0,1"	"4,3,1,2"								"3,0,0,0"	"1,0,2,3"
+Forb	Hydro	SilkyPhacella	Phacelia	sericea		"4,1,1,3"																																						
+forb	Polemoniaceae	spreadingphlox	Phlox	diffusa																																								
+forb	Lentibulariaceae	Commonbutterwort	Pinguicula	vulgaris										15m			"4,4,4,4"								0					20m										7m				
+forb	Saxifragaceae	Spottedsaxifrage	SaxifragaMicranthes	bronchialis		"3,2,2,2"	25m	22m	15m																"3,3,3,1"	30m		25m				1m		"1,3,3,3"			10m							"2,0,0,1"
+forb	Crassulaceae	spreadingstonecrop	Sedum	divergens		5m	7m			"1,1,4,0"		45m			10m			"3,2,1,0"				"1,2,0,0"			"2,0,0,2"	25m	"4,0,4,4"	"0,1,0,0"						"4,1,0,1"	"0,3,0,0"	20m	32m							3m
+forb	Rosaceae	creepingsibbaldia	Sibbaldia	procumbens																							"0,3,2,3"																	
+forb	Tofieldiaceae	stickyfalseasphodel	Triantha	glutinosa			25m						35m	"4,4,4,4"		"4,4,4,4"	"2,0,2,1"				"4,3,4,4"					"2,1,0,0"				13m	4m				3m	"3,0,1,2"			6m					
+Fungi	FUNGI	mushroom						"4,4,4,4"	"4,4"						"1,0,0,0"		"2,2,4,3"									"0,0,1,0"													"1,0,0,1"					
+gramminoid	Cyperaceae	Watersedge	Carex	aquatalis				"0,0,1,0"	17m					"2,2,2,2"	"0,0,1,0"	2m	"3,0,2,4"		"3,0,0,0"	"1,0,1,1"						"0,0,3"				25m	"0,0,0,2"					"0,1,3,2"	"4,1,0,4"	10m	"3,0,0,0"				"4,4,2,4"	"1,0,0,0"
+gramminoid	Cyperaceae	goldensedge	Carex	aurea				"2,0,0,0"	"0,4,1,0"										"0,0,0,1"			"0,2,1,2"		"1,2,0,0"		"4,0,1,3"				"1,1,1,4"						"2,1,4,4"								
+gramminoid	Juncaceae	Arcticrush	Juncus	arcticus								20m	"0,0,1,0"		"1,4,4,4"	15m	"0,1,0,0"									"1,2,0,1"			10m							"3,4,4,4"	"3,1,1,3"			1m		9m		
+gramminoid	Poaceae	alpinecat's-tail	Phleum	alpinum			"2,0,4,3"						"1,01,1,0"		"1,0,0,1"				"0,0,0,1"							"0,3,0,2"	20m								"2,2,0,0"				"2,0,1,0"					
+gramminoid		"""2gramminoids"""																													10m													
+horsetail	Equisetaceae	horsetail	Equisetum	arvense																																								
+horsetail	Equisetaceae	horsetail	Equisetum	variegatum					17m							"4,4,4,4"			"4,2,1"		"4,4,4,4"									"4,0,0,0"	11m									5m				
+Lycopodium	Lycopodiaceae	clubmoss	Huperzia	haleakalae					17m								"0,2,1,0"												19m							4m								
+Moss	MOSS	moss			"1,4,4,0"					"4,4,4,4"	"4,4,4,0"	"4,2,1,4"	"3,4,4,4,"	"4,4,4,4"	"4,4,4,4"	"4,4,4,4"	"4,3,3,3"	"4,1,2,4"	"3,4,4,2"	"4,4,4,4"	"4,3,4,4"				"4,4,4,4"	"4,4,4,4"				"4,4,4,4"	"4,1,0,1"	"4,4,3,3"	"4,4,4,4"	"4,3,4,4"	"4,4,4,4"	"4,4,4,4"	"4,3,4,4"	"1,2,2,0"	"4,3,4,4"	5m				
+evergreen	Ericaceae	"Kinnikinnick,bearberry"	Arctostaphylos	uva-ursi		27m	8m																12m						"2,0,3,0"			3m		4m	7m	15m								6m
+evergreen	Ericaceae	whitemountainheather	Cassiope	mertensiana			17m	"4,4,4,4"	4m	20m	8m	"1,1"	35m	"3,2"		20m	"3,3,4,4"			"0,0,0,1"	10m	"3,2,4,1"	"2,4,2,3"	"3,4,4,4"		30m		"1,0,0,0"	30m	"0,0,0,2"	"4,4,4,4"		"3,1,1,4"	3m	12m	4m	14m				"1,0,0,0"			
+evergreen	Ericaceae	crowberry	Empetrum	nigrum													"0,2,0,0"																											2m
+evergreen	Ericaceae	alpine-wintergreen	Gaultheria	humifusa			25m		17m	2m													3m		30m					3m				10m	3m									
+evergreen	Ericaceae	alpinelaurel	Kalmia	microphylla					20m				35m	"4,4,4,4"		"4,4,4,0"														"1,1,0,0"														
+evergreen	Ericaceae	Pinkmountain-heather	Phyllodoce	empetriformis			7m	"4,4,4,4"	"2,1,2,0"	20m	5m		25m	"2,3,2,1"		"1,4,3,4"				"4,3,3,3"	"1,1,0,0"	"3,2,0,1"	"0,0,0,3"	"3,1,4,4"		5m		"2,0,3,2"	6m				"4,4,4,4"	5m	5m		17m		"1,4,3,4"		"3,0,1,1"	"1,0,0,0"	"1,0,0,3"	
+evergreen	Ericaceae	YellowMountain-Heather	Phyllodoce	glanduliflora		3m	6m				20m	5m					"3,4,4,1"			"4,3,3,1"					10m				"0,0,4,2"	"4,4,4,4"	"4,4,4,4"	"0,1,1,0"	9m	6m	"3,0,0,1"		4m				"4,1,4,4"	"4,4,4,4"		"3,3,1,0"
+evergreen	Ericaceae	Blackhuckleberry	Vaccinium	membranaceum																		2m	"0,0,2,1"	3m	30m								2m	8m	7m						15m			
+evergreen	Ericaceae	northernbilberry	Vaccinium	uliginosum																			15m																					
+gramminoid	Juncaceae	rush	Luzula												"1,1,0,1"																													
+forb	Caryophyllaceae	mosscampion	Silene	acaulis			25m																																					
+forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata											"0,1,1,2"																													
+evergreen	Ericaceae	wintergreen	Pyrola	?			5m																																					
+forb	Saxifragaceae	brooksaxifrage	Saxifraga	odontoloma													6m																											
+forb	Asteraceae	stickyleafaster	Arnica	ovata													9m																											
+forb	Plantaginaceae	alpinespeedwell	Veronica	wormskjoldii											"4,4,4,4"																													
+forb	Asteraceae	Yarrow	Achillea	millefolium			7m																																					
+forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca																							"0,1,1,0"																	
+forb	Brassicaceae	Rockcress	Arabis	drummondii																							"1,1,4,2"																	
+forb	Asteraceae	Yarrow	Achillea	millefolium											"1,2,1,1"																													
+forb	Asteraceae	Yarrow	Achillea	millefolium																																	"1,0,0,0"		3m					
+forb	Asteraceae	woollyhawksweed	Hieraceum	triste				8m																																				
+fern	FERN	Maidenhair fern	Adiantum																						30m																			
+forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca									"0,2"																															
+forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca													10m																											
+forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca																					15m																			
+forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca																						"2,0,0,1"																		
+forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca														20m																										
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea		3m																																						
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea			"4,2,2,2,"																																					
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea				4m	5m	25m																																		
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea									"0,0,1"																															
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea											"0,3,2,1"																													
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea															8m																									
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea																					3m	"2,0,0,2"																		
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea																												18m		10m	4m									
+forb	Ranunculaceae	westernanemone	Anemone	occidentalis																																							"2,2,2,0"	
+forb	Asteraceae	woollypussytoes	Antennaria																							30m																		
+gramminoid	Poaceae	Alpinesweetgrass	Anthoxanthum	monticola											"1,0,0,1"																													
+forb	Asteraceae	woollypussytoes	Antennaria	lanata																											5m													
+forb	Brassicaceae	Rockcress	Arabis	drummondii		"1,0,0,0"																																						
+forb	Brassicaceae	Rockcress	Arabis	drummondii																								"1,1,0,2"																
+forb	Brassicaceae	Rockcress	Arabis	kamchatka																			5m																					
+gramminoid	Poaceae		Poa	arctica															"0,0,1,1"																									
+forb	Asteraceae	Aster	Arnica	Darryi																					20m																			
+forb	Asteraceae	stickyleaftaster	Arnica	ovata																													15m											
+forb	Asteraceae	Aster	Arnica	mattis																																"0,1,1,1"	"3,2,0,1"	10m	"0,0,0,1"					
+forb	Asteraceae	Aster	Arnica	spp				9m																																				
+forb	Asteraceae	Aster	Arnica																8m																									
+forb	Asteraceae	wormwood	Artemsia	furcata														3m																										
+forb	Asteraceae		Aster	??															3m																									
+forb	Asteraceae		Aster	fol																																							"0,4,1,1"	
+forb	Asteraceae		Aster	spp1																																								"0,0,1,1"
+forb	Asteraceae		Aster																				6m																					
+fern	FERN	Alpineladyfern	Athyrium	alpestre																																19m								
+fern	FERN	Alpineladyfern	Athyrium	distentifolium		20m																																						
+fern	FERN	Alpineladyfern	Athyrium	distentifolium											4m																													
+fern	FERN	Alpineladyfern	Athyrium	alpestre																						15m																		
+fern	FERN	Alpineladyfern	Athyrium	alpestre																					15m																			
+forb	Brassicaceae	Calder'ssuncress	Boechera	calderi									2m																															
+forb	Brassicaceae	Calder'ssuncress	Boechera	calderi																						3om																		
+gramminoid	Cyperaceae	sedge	Carex	60?																						"0,4,0,0"																		
+gramminoid	Cyperaceae	Brewer'ssedge	Carex	breweri															"0,1,1,0"																									
+gramminoid	Cyperaceae	Hare's-footsedge	Carex	lachenalii									"1,2,"																															
+gramminoid	Cyperaceae	Falklandislandsedge	Carex	macloviana									adjacent4m																															
+gramminoid	Cyperaceae	sedge	Carex	nar																																							"2,3,4,1"	
+gramminoid	Cyperaceae	Showysedge	Carex	spectabilis							"0,3,0,0"	"4,4,32"	5m																															
+gramminoid	Cyperaceae	sedge	Carex	spp.							"0,0,0,2"																																	
+gramminoid	Cyperaceae	sedge	Carex	spp1													"0,1,3,0"																											
+gramminoid	Cyperaceae	sedge	Carex	spp1																					10m																			
+gramminoid	Cyperaceae	sedge	Carex	spp1(hairy)																												4m												
+gramminoid	Cyperaceae	sedge	Carex	spp2		3m																																						
+gramminoid	Cyperaceae	sedge	Carex	spp2				7m																																				
+gramminoid	Cyperaceae	sedge	Carex	spp2																												14m	2m	"4,2,1,1"	"3,2,0,2"									
+gramminoid	Cyperaceae	sedge	Carex	spp3																													8m											
+gramminoid	Cyperaceae	sedge	Carex	WP69-1																		"1,1,0,0"		15m																				
+gramminoid	Cyperaceae	Carexspp3	Carex																				5m																					
+gramminoid	Cyperaceae	CarexWP69-2	Carex																			"0,0,0,1"	5m	"0,2,0,0"																				
+gramminoid	Cyperaceae	sedge	Carex	aurea													"4,3,3,3"																											
+forb	Scrophulariaceae	paintbrush	Castilleja	pervifolia																						25m																		
+forb	Scrophulariaceae	cliffpaintbrush	Castilleja	rupicola																														3m										
+forb	Onagraceae	Fireweed	Chamaenerion	angustifolium			1m																																					
+forb	Onagraceae	Fireweed	Chamoeurionanf	angustifolium									"4,3,4,4"																															
+forb	Asteraceae	ediblethistle	Cirsium	edule																						25m																		
+forb	Asteraceae	ediblethistle	Cirsium	edulevar.macounii									25m																															
+forb	Asteraceae	dwarf alpine hawksbeard	Crepis	nana														5m																										
+crust	CRUST																"4,4,4,4"																											
+fern	Dryopteridaceae	marginalshieldfern	Dryopteris	marginalis																					39m																			
+floweringplant	Lycopodiaceae	alpineclubmoss	Diaphasiastrum	alpinum																		6m																						
+floweringplant	Lycopodiaceae	alpineclubmoss	Diphasiastrum	spp																					30m																			
+forb	Rosaceae	whitemountain-avens	Dryas	drummondii		27m																																						
+gramminoid	Poaceae	slenderwheatgrass	Elymus	trachycaulus															"1,0,0,1"	8m																								
+forb	Onagraceae	alpinewillowherb	Epilobium	anagallidifolium													5m	"1,2,0,1"																										
+forb	Onagraceae	alpinewillowherb	Epilobium	anagallidifolium																						"2,0,4,4"																		
+forb	Onagraceae	alpinewillowherb	Epilobium	anagallidifolium																																18m	"0,1,0,1"		8m					
+forb	Onagraceae	alpinewillowherb	Epilobium	anagallidifolium											"2,2,1,1"																													
+forb	Onagraceae	alpinewillowherb	Epilobium	anagallidifolium									25m																															
+forb	Onagraceae	alpinewillowherb	Epilobium	anagallidifolium																								"4,2,2,4"																
+forb	Asteraceae	BitterFleabane	Erigeron	acris																										18m														
+forb	Asteraceae	subalpinefleabane	Erigeron	glacialis											"0,0,0,1"																													
+forb	Asteraceae	subalpinefleabane	Erigeron	glacialis																					20m																			
+forb	Asteraceae	subalpinefleabane	Erigeron	glacialis																											"0,2,0,0"													
+forb	Asteraceae	subalpinefleabane	Erigeron	glacialis																													19m											
+forb	Asteraceae	subalpinefleabane	Erigeron	glacialis																																"4,0,1,1"		9m	"2,1,2,2"					
+forb	Asteraceae	Snowfleabanedaisy	Erigeron	nivalis				5m	23m																																			
+forb	Asteraceae	Snowfleabanedaisy	Erigeron	nivalis																						30m																		
+forb	Asteraceae	subalpinefleabane	Erigeron	glacialis																			4m																					
+forb	Phrymaceae	commonyellowmonkeyflower	Erythranthe	guttata											"4,4,4,4"																													
+forb	Phrymaceae	greatpurplemonkeyflower	Erythranthe	lewisii	10m																																							
+forb	Phrymaceae	greatpurplemonkeyflower	Erythranthe	lewisii											1.5m																													
+fern	Aspleniaceae	greenspleenwortfern	Asplenium	viride													5m																											
+gramminoid	Poaceae	alpinefescue	Festuca	brachyphylla																					10m																			
+gramminoid	Poaceae	rockymountainfescue	Festuca	saximontana																					10m																			
+gramminoid	Juncaceae	juncus1-flowersized	Juncus																"2,0,0,0"																									
+gramminoid	Juncaceae	juncus2-flowertopdrumondii	Juncus																"1,1,1,0"	"3,5,2,0"																								
+forb	Ericaceae	alpine-wintergreen	Gaultheria	humifusa													15m																											
+forb	Asteaceae	Buterbun	Hetaciles	Frigidus																																"4,4,4,4"								
+forb	Asteraceae	woollyhawksweed	Hieracium	triste																																							"1,2,1,2"	
+forb	Asteraceae	White-floweredhawkweed	Hieracium	albiflorum			1m																																					
+forb	Asteraceae	Dwarfhawkweed	Hieracium	humile			1m																																					
+forb	Asteraceae	woollyhawksweed	Hieracium	triste			"1,0,0,0"																																					
+forb	Asteraceae		Hieracium																17m																									
+forb	Asteraceae		Hieracium																								32m																	
+forb	Asteraceae	woollyhawksweed	Hieracium	triste														5m																										
+gramminoid	Juncaceae	rush	Juncus	arcticus																																								"0,0,3,1"
+gramminoid	Juncaceae	rush	Juncus	drummondii														"2,2,2,2"																										
+gramminoid	Juncaceae	rush	Juncus	drummondii																																							2m	
+gramminoid	Juncaceae	rush	Juncus	drummondii																												3m		12m	"0,2,4,0"									
+gramminoid	Juncaceae	rush	Juncus	mertensianus											"2,2,0,0"																													
+gramminoid	Juncaceae	rush	Juncus	mertensianus																																	"0,1,0,2"		3m					
+gramminoid	Juncaceae	rush	Juncus	mertensianus																	3m																							
+gramminoid	Juncaceae	rush	Juncus	spp1	1m																																							
+gramminoid	Juncaceae	rush	Juncus	spp1				7m																																				
+gramminoid	Juncaceae	rush	Juncus	spp2																												5m		"3,0,0,1"	"0,1,0,0"									
+gramminoid	Juncaceae	rush	Juncus	triglumus																	"0,0,0,2"																							
+gramminoid	Juncaceae	Hedgehogrush	Juncus																																					10m				
+gramminoid	Juncaceae	rush spp2 WP58	Juncus				7m																																					
+floweringplant	Ericaceae	alpinelaurel	Kalmia	microphylla													"4,0,0,4"																											
+		Lichen	Lichen														"1,2,0,1"																											
+		Lichen	Lichen																			"4,4,4,4"	"3,4,4,2"	"4,3,2,2"																				
+		Lichen	Lichen																																								"3,2,2,1"	
+forb	Fabaceae	lupine	Lupinus	spp2(nohair)																													1.5m											
+forb	Fabaceae	lupine	Lupinus	furry							"0,2,2,1"	"4,4,3,4"	"1,0,1"	5m																														
+gramminoid	Juncaceae	rush	Luzula																																		10m							
+gramminoid	Juncaceae	rush	Luzula	parviflora																													4m											
+gramminoid	Juncaceae	rush spp1	Luzula															"1,0,0,0"																										
+gramminoid	Juncaceae	rush spp1	Luzula																								32m																	
+gramminoid	Juncaceae	Piper'swood-rush	Luzula	piperi																		"0,4,4,3"	6m	"1,1,0,0"																				
+gramminoid	Juncaceae	Piper'swood-rush	Luzula	piperi																"1,1,0,0"																								
+floweringplant	Lycopodiaceae	alpineclubmoss	Diphasiastrum	spp																													19m											
+liverwort	liverwort	liverwort	Marchantia												"1,3,3,1"																													
+liverwort	liverwort	liverwort	Marchantia																																				"4,1,0,2"					
+forb	Saxifragaceae		Micranthes	ferruginea																				7m																				
+forb	Saxifragaceae	Snowsaxifrage	Micranthes	nivalis																					2m																			
+forb	Saxifragaceae	Snowsaxifrage	Micranthes	nivalis																														12m										
+forb	Phrymaceae	greatpurplemonkeyflower	Mimulus	lewisii															25m																									
+forb	Phrymaceae	Tiling'smonkeyflower	Mimulus	tilingii															6m																									
+forb	Phrymaceae	Tiling'smonkeyflower	Mimulus	tilingii																																				12m				
+forb	Caryophyllaceae	Arcticsandwort	Minuartia	rubella															7m																									
+forb	Caryophyllaceae	Arcticsandwort	Minuartia	rubella																						"0,0,2,3"																		
+liverwort	liverwort	liverwort	Marchantia																							"1,3,4,4"																		
+evergreen	Ericaceae	one-sided-wintergreen	Orthilia	secunda					"0,0,0,1"																																			
+Lichen	Lichen	Lichen									"3,2,1,3"	5m	"0,2,2,1"	"4,4,4,4"																														
+forb	Polygonaceae	Alpinesorrel	Oxyria	digyna														30m																										
+forb	Polygonaceae	Alpinesorrel	Oxyria	digyna																								8m																
+forb	Polygonaceae	Alpinesorrel	Oxyria	digyna																																	2m							
+forb	Asteraceae	Goldengroundsel	Packera	aurea			11m																																					
+forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata													2m																											
+forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata																						"1,4,3,2"																		
+forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata																																"1,2,2,2"	"3,1,0,1"		"1,0,1,2"					
+forb	Orobanchaceae	Bractedlousewort	Pedicularis	bracteosa																												"0,1,1,0"		3m										
+forb	Orobanchaceae	Leafylousewort	Pedicularis	racemosa																														6m										
+forb	Plantaginaceae	beardtongues	Penstemon	?			"0,5,0,0"																																					
+forb	Plantaginaceae	beardtongues	Penstemon	procerus																																	"0,0,0,1"							
+forb	Asteraceae	coltsfoot	Petasites	frigidus																					30m																			
+forb	Asteraceae	coltsfoot	Petasites	frigidus																						"4,4,4,4"																		
+forb	Asteraceae	coltsfoot	Petasites	frigidus													"0,1,0,0"	5m																										
+forb	Boraginaceae	silky phacelia	Phacelia	sericea											12m																													
+forb	Boraginaceae	silky phacelia	Phacelia	sericea																																	"1,0,0,0"							
+forb	Boraginaceae	silky phacelia	Phacelia	sericea														3m																										
+gramminoid	Poaceae	alpinecat's-tail	Phleum	alpinum																															10m									
+forb	Polemoniaceae	spreadingphlox	Phlox	diffusa																																								"2,1,1,2"
+forb	Asteraceae	woollyhawksweed	Hieracium	triste																																	16m							
+forb	Asteraceae	woollyhawksweed	Hieracium	triste																						25m																		
+monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata																						"0,2,4,0"																		
+monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata																											10m													
+monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata																																"4,4,4,4"			"0,2,1,1"					
+monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata													4m																											
+monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata												3m																												
+gramminoid	Poaceae	Alpinebluegrass	Poa	alpina									"0,0,0,2"																															
+gramminoid	Poaceae	Alpinebluegrass	Poa	alpina											"1,0,0,0"																													
+gramminoid	Poaceae	spp	Poa																							"1,3,1,3"																		
+gramminoid	Poaceae	spp60	Poa																							20m																		
+gramminoid	Poaceae	spp.	Poa								5m	"0,0,2"	1																															
+gramminoid	Poaceae	spp.33	Poa										"4,4,4,4"																															
+gramminoid	Poaceae	spp1	Poa																						15m																			
+gramminoid	Poaceae	spp1	Poa																																								"0,0,0,2"	
+gramminoid	Poaceae	spp1(hairy)	poa																													"1,0,0,0"	11m											
+gramminoid	Poaceae	spp2	Poa																													3m	2m											
+gramminoid	Poaceae	spp3	Poa																													4m			15m									
+gramminoid	Poaceae	spp4(tall)	Poa																																2m									
+gramminoid	Poaceae	PoasppWP40tall	Poa																					3m																				
+gramminoid	Poaceae	PoaSppWP-69tall	Poa																			5m	15m	3m																				
+fern	Dryopteridaceae	hollyfern	Polystichium															20m																										
+fern	Dryopteridaceae	Braun'shollyfern	Polystichum	braunii											6m																													
+fern	Dryopteridaceae	northernhollyfern	Polystichum	lonchitis																					2m	5m																		
+fern	Dryopteridaceae	hollyfern	Polystichum																				16m																					
+forb	Rosaceae	Blue-leaved Cinquefoil 	Potentilla	glaucophylla																							7m																	
+forb	Rosaceae	Blue-leaved Cinquefoil 	Potentilla	glaucophylla																																							"1,0,2,0"	
+evergreen	Ericaceae	Pinkwintergreen	Pyrola	asarifolia					"4,0,0,0"																																			
+evergreen	Ericaceae	Pinkwintergreen	Pyrola	asarifolia							"0,0,2,3"																																	
+forb	Ranunculaceae	Eschscholtz'sbuttercup	Ranunculus	eschscholtzii																								3m																
+forb	Ranunculaceae	Eschscholtz'sbuttercup	Ranunculus	eschscholtzii																							11m																	
+forb	Ranunculaceae	Eschscholtz'sbuttercup	Ranunculus	eschscholtzii																			15m																					
+evergreen	Ericaceae	white-floweredrhododendron	Rhododendron	albiflorum																										15m														
+evergreen	Ericaceae	white-floweredrhododendron	Rhododendron	albiflorum																													9m											
+evergreen	Ericaceae	white-floweredrhododendron	Rhododendron	albiflorum																			"0,1,1,1"	6m																				
+deciduousshrub	Grossulariaceae	currant	Ribes																				5m																					
+forb	Caryophyllaceae		Sagina	saginoides														"2,0,0,0"																										
+deciduousshrub	Salicaceae	Arcticwillow	Salix	arctica														5m																										
+deciduousshrub	Salicaceae		Salix	barclayi							"1,2,3,2"	"4,3,3,4"	5m																															
+deciduousshrub	Salicaceae	Sitkawillow	Salix	sitchensis		5m																																						
+deciduousshrub	Salicaceae		Salix	spp1																														14m										
+forb	Asteraceae	Dwarfmountainragwort	Senecio	fremontii																																				10m				
+forb	Asteraceae	Dwarfmountainragwort	Senecio	fremontii	11m	"1,0,1,1"																																						
+forb	Asteraceae	Dwarfmountainragwort	Senecio	fremontii			"0,1,0,0"																																					
+forb	Rosaceae	creepingsibbaldia	Sibbaldia	procumbens																																								"4,0,0,4"
+forb	Caryophyllaceae	mosscampion	Silene	acaulis														15m																										
+forb	Caryophyllaceae	mosscampion	Silene	acaulis																														20m										
+forb	Asteraceae	northerngoldenrod	Solidago	multiradiata											1.5m																													
+forb	Asteraceae	northerngoldenrod	Solidago	multiradiata																					15m																			
+forb	Asteraceae	northerngoldenrod	Solidago	multiradiata																						"0,0,1,0"																		
+forb	Asteraceae	northerngoldenrod	Solidago	multiradiata																											10m													
+forb	Asteraceae	northerngoldenrod	Solidago	multiradiata			4m																																					
+gramminoid		sp10																									"1,0,0,0"																	
+gramminoid		sp11																									"2,2,0,0"																	
+gramminoid	Cyperaceae	spp1	Carex					3m																																				
+gramminoid	Cyperaceae	spp1	Carex																								"1,0,0,0"																	
+forb	Caryophyllaceae	longstalkstarwort	Stellaria	longipes																							32m																	
+forb	Asteraceae	stickyleaftaster	Arnica	ovata									25m																															
+forb	Asteraceae	stickyleaftaster	Arnica	ovata																					15m																			
+forb	Asteraceae	stickyleaftaster	Arnica	ovata																						"1,2,0,1"																		
+forb	Tofieldiaceae	stickyfalseasphodel	Triantha	glutinosa									35m	"2,2,2,2"																														
+evergreen	Ericaceae	spp1	Vaccinium				4m																																					
+evergreen	Ericaceae	Oval-leaved blueberry	Vaccinium	ovalifolium																													"0,0,0,1"											
+evergreen	Ericaceae	spp	Vaccinium																20m																									
+evergreen	Ericaceae	redhuckleberry	Vaccinium	parvifolium																													9m											
+forb	Caprifoliaceae	Sitka-valerian	Valeriana	sitchensis																			"0,1,1,0"																					
+forb	Caprifoliaceae	Sitka-valerian	Valeriana	sitchensis																																							"1,4,2,4"	"1,0,0,0"
+forb	Caprifoliaceae	Sitka-valerian	Valeriana	sitchensis																						35m																		
+forb	Caprifoliaceae	Sitka-valerian	Valeriana	sitchensis																													19m											
+forb	Plantaginaceae	Americanalpinespeedwell	Veronica	wormskjoldii																			5m																					
+forb	Plantaginaceae	Americanalpinespeedwell	Veronica	wormskjoldii																							1																	
+forb	Plantaginaceae	Americanalpinespeedwell	Veronica	wormskjoldii																								"1,0,1,4"																
+forb	Plantaginaceae	Americanalpinespeedwell	Veronica	wormskjoldii																						"2,3,1,2"																		
+forb	Plantaginaceae	Americanalpinespeedwell	Veronica	wormskjoldii																																"2,2,0,3"	"4,2,1,4"		"0,0,0,2"					
+forb	Asteraceae	snow-fleabane-daisy	Erigeron	nivalis			"4,2,2,2"																																					
+forb	Asteraceae	Yarrow	Achillea	millefolium																																								"0,0,0,1"
+forb	Phrymaceae	common yellow monkeyflower	Erythranthe	guttata																						15m																		
+forb	Rosaceae	creepingsibbaldia	Sibbaldia	procumbens																																								
+frob		Aster spp.3					"0,0,3,1"																																					
+fern		Fern spp1																										5m																
+gramminoid		Grass spp1																																										
+		spp1				"1,4,2,2"																																						
+gramminoid		Gramminoid spp2																																										
+forb		Aster spp4																										8m																
+gramminoid		Gramminoidspp5and6					25m																																					
+evergreen	Ericaceae	one-sided-wintergreen	Orthilia	secunda																													3m	15m										
+conifer	Pinaceae	AlpineFir	Abies	lasiocarpa																																					"1,0,0,0"			
+gramminoid	Poaceae	Alpinebentgrass	Agrostis	humilis																																		6m	"4,0,0,3"					
+fern	FERN	Alpineladyfern	Athyrium	alpestre														5m																										
+fern	FERN	Alpineladyfern	Athyrium	alpestre																																				2m				
+fern	FERN	Alpineladyfern	Athyrium	alpestre																																								5m
+fern	FERN	Alpineladyfern	Athyrium	alpestre																								3m																
+conifer	Pinaceae	AlpineFir	Abies	lasiocarpa					"4,4,4,1"																																			
+Fern	FERN	Americanparsleyfern	Cryptogramma	acrostichoides																																								"0,0,0,1"
+forb	Asteraceae	pearlyeverlasting	Anaphalis	margaritacea														5m																										
+gramminoid	Poaceae	Alpinebluegrass	Poa	alpina																																"0,0,2,1"	"3,2,1,4"							
+forb	Caryophyllaceae	Arcticsandwort	Minuartia	rubella																																				2.5m				
+forb	Asteraceae	Aster																5m																										
+gramminoid	Cyperaceae	sedge	Carex	aurea																	"3,13,0"																							
+gramminoid	Cyperaceae	Carexspp.2	Carex				2m																																					
+gramminoid	Cyperaceae	carexwet	Carex																		"4,4,4,4"																							
+forb	Scrophulariaceae	cliffpaintbrush	Castilleja	rupicola													4m																											
+forb	Asteraceae	coltsfoot	Petasites	frigidus																								18m																
+deciduousshrub	Betulaceae	Blackcottonwood	Populus	trichocarpa																								20m																
+crust	crust	crust																							"4,4,4,4"																			
+forb	Rosaceae	whitemountain-avens	Dryas	drummondii																																						25m		
+forb	Asteraceae	dwarf alpine hawksbeard	Crepis	nana																																				"3,3,4,4"				
+forb	Asteraceae	dwarf alpine hawksbeard	Crepis	nana																								"1,2,1,1"																
+forb	Asteraceae	ediblethistle	Cirsium	edule																							5m																	
+fern	FERN	Fernspp																				2m																						
+gramminoid	Poaceae	Festucaspp1																"1,3,0,0"																										
+forb	Onagraceae	Fireweed	Chamaenerion	angustifolium																																		"3,1,0,2"						
+forb		Floweringplant1																										3m																
+forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata																							11m																	
+monocot	Liliaceae	Glacierlily	Erythronium	grandiflorum																																		12m						
+gramminoid		GraminoidWP73																					"2,2,1,1"																					
+gramminoid		gramminoid3																										"4,4,1,4"	"1,0,0,0"															
+gramminoid		Gramminoid4					"0,0,0,2"																																					
+gramminoid		gramminoid4																										"1,0,0,0"																
+gramminoid		gramminoid7																										?																
+gramminoid		gramminoid9																											"0,0,1,4"															
+gramminoid		grammoid8																											"2,3,1,0"															
+forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata																																								2m
+fern	Aspleniaceae	greenspleenwortfern	Asplenium	viride																							9m																	
+fern	Aspleniaceae	greenspleenwortfern	Asplenium	viride																																								5m
+gramminoid	Juncaceae	Juncusspp1	Juncus														4m	"1,0,0,0"																										
+forb	Phrymaceae	greatpurplemonkeyflower	Erythranthe	lewisii																								"1,0,1,0"																
+		Lichen													"0,0,1,0"																													
+		Lichen																							"4,4,4,4"	"1,2,1,4"																		
+		Lichen																														"4,1,4,4"	"4,4,4,4"	"4,4,4,3"	"1,2,0,2"									
+		Lichen																																			"1,3,1,0"	"0,0,0,2"						
+gramminoid	Juncaceae		Luzula	parviflora																																						18m		
+forb	Caryophyllaceae	mosscampion	Silene	acaulis																								9m																
+forb	Asteraceae	northerngoldenrod	Solidago	multiradiata																																								5m
+forb	Asteraceae	northerngoldenrod	Solidago	multiradiata														15m																										
+forb	Asteraceae	northerngoldenrod	Solidago	multiradiata																																		18m						
+evergreen	Ericaceae	one-sided-wintergreen	Orthilia	secunda																																								7m
+forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca																								3.5m																
+forb	Ranunculaceae	westernanemone	Anemone	occidentalis																																18m		35m						
+forb	Asteraceae	pearlyeverlasting	Anaphalis	margaritacea																		10m																						
+forb	Asteraceae	pearlyeverlasting	Anaphalis	margaritacea																							1.5m																	
+forb	Asteraceae	pearlyeverlasting	Anaphalis	margaritacea																								"0,0,0,2"																
+forb	Asteraceae	pearlyeverlasting	Anaphalis	margaritacea																																20m	"1,0,0,0"		1.5m					
+forb	Asteraceae	pearlyeverlasting	Anaphalis	margaritacea																																				12m		18m		
+forb	Asteraceae	pearlyeverlasting	Anaphalis	margaritacea																																								4m
+forb	Brassicaceae	Physaria/lesquerella	Lesquerella 	alpina														"0,1,0,0"																										
+forb	Phrymaceae	pinkmimulus	Erythranthe	lewisii																																	1.5m							
+gramminoid	Poaceae	Poa																	10m																									
+gramminoid	Poaceae	Poaspp1																3m																										
+fern	Dryopteridaceae	northern hollyfern	Polystichum	lonchitis																																	"0,0,0,1"							
+forb	Rosaceae	Potentillamabirens?	Potentilla																																			15m						
+forb	Brassicaceae	Rockcress	Arabis	drummondii																																						17m		
+forb	Saxifragaceae	RustySaxifrage	Micranthes	ferruginea																																	"1,0,1,3"							
+forb	Saxifragaceae	RustySaxifrage	Micranthes	ferruginea																																						17m		
+forb	Asteraceae		Senecio	fremontii														3m																										
+forb	Rosaceae	shrubbycinquefoil	Dasiphora	fruticosa																									"2,2,1,3"															
+forb	Caprifoliaceae	Sitkavalerian	Valeriana	sitchensis																																		9m						
+evergreen	Ericaceae	smallredhuckleberry	Vaccinium	parvifolium																			15m																					
+forb	Saxifragaceae	SmoothAlumroot	Heuchera	glabra																								15m																
+forb	Saxifragaceae	Spottedsaxifrage	Saxifraga	bronchialis																							2m																	
+forb	Rosaceae	wildstrawberry	Fragaria	vesca																			13m																					
+forb	Asteraceae	ediblethistle	Cirsium	edule																																		12m	25m					
+forb	Saxifragaceae	Tolmie'ssaxifrage	Saxifraga	tolmiei																									17m															
+conifer	Pinaceae	AlpineFir	Abies	lasiocarpa																																				2m				
+forb	Brassicaceae	unknownrosette1(chelseaphoto)																					15m																					
+forb	Brassicaceae	unknownrosette2(chelseaphoto)																						7m																				
+evergreen	Ericaceae		Vaccinium	spp.																								22m																
+forb	Asteraceae	woollyhawksweed	Hieracium	triste																																						19m		
+forb	Asteraceae	Yarrow	Achillea	millefolium														20m																										
+forb	Asteraceae	Yarrow	Achillea	millefolium																							"1,2,3,3"																	
+forb	Phrymaceae	common yellow monkeyflower	Erythranthe	guttata																																			15m					

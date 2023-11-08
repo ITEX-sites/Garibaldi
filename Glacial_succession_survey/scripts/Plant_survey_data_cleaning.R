@@ -4,5 +4,8 @@
 # Nov 2023
 ###############################
 
-# load data
+# set working directory
+setwd("~/GitHub/Garibaldi/Glacial_succession_survey")
 
+
+plant_data <- read.table("./data/Plant_survey_DATA_combined_cleaning.txt", header=TRUE, sep ="\t", dec = ".")
