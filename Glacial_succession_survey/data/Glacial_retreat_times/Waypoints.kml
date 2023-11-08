@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Waypoint_meta_data.txt</name>
+	<Schema name="Waypoint_meta_data" id="S_Waypoint_meta_data_SDDSISI">
+		<SimpleField type="string" name="Waypoint_ID"><displayName>&lt;b&gt;Waypoint_ID&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Lat"><displayName>&lt;b&gt;Lat&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Long"><displayName>&lt;b&gt;Long&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Glacial_time"><displayName>&lt;b&gt;Glacial time&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Samplers"><displayName>&lt;b&gt;Samplers&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Sheet__"><displayName>&lt;b&gt;Sheet_#&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="Notes"><displayName>&lt;b&gt;Notes&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Waypoint_ID</b></td><td>$[Waypoint_meta_data/Waypoint_ID]</td></tr>
+  <tr><td><b>Lat</b></td><td>$[Waypoint_meta_data/Lat]</td></tr>
+  <tr><td><b>Long</b></td><td>$[Waypoint_meta_data/Long]</td></tr>
+  <tr><td><b>Glacial time</b></td><td>$[Waypoint_meta_data/Glacial_time]</td></tr>
+  <tr><td><b>Samplers</b></td><td>$[Waypoint_meta_data/Samplers]</td></tr>
+  <tr><td><b>Sheet_#</b></td><td>$[Waypoint_meta_data/Sheet__]</td></tr>
+  <tr><td><b>Notes</b></td><td>$[Waypoint_meta_data/Notes]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Waypoint_ID</b></td><td>$[Waypoint_meta_data/Waypoint_ID]</td></tr>
+  <tr><td><b>Lat</b></td><td>$[Waypoint_meta_data/Lat]</td></tr>
+  <tr><td><b>Long</b></td><td>$[Waypoint_meta_data/Long]</td></tr>
+  <tr><td><b>Glacial time</b></td><td>$[Waypoint_meta_data/Glacial_time]</td></tr>
+  <tr><td><b>Samplers</b></td><td>$[Waypoint_meta_data/Samplers]</td></tr>
+  <tr><td><b>Sheet_#</b></td><td>$[Waypoint_meta_data/Sheet__]</td></tr>
+  <tr><td><b>Notes</b></td><td>$[Waypoint_meta_data/Notes]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>Waypoint_meta_data</name>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">CE07</SimpleData>
+					<SimpleData name="Lat">49.8932</SimpleData>
+					<SimpleData name="Long">-122.977</SimpleData>
+					<SimpleData name="Glacial_time">CN, JG</SimpleData>
+					<SimpleData name="Samplers">1</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.977467,49.89318299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">CN01</SimpleData>
+					<SimpleData name="Lat">49.901</SimpleData>
+					<SimpleData name="Long">-122.996</SimpleData>
+					<SimpleData name="Glacial_time">CN, JG</SimpleData>
+					<SimpleData name="Samplers">1</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.995733,49.90104999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP58a</SimpleData>
+					<SimpleData name="Lat">49.9289</SimpleData>
+					<SimpleData name="Long">-122.991</SimpleData>
+					<SimpleData name="Glacial_time">JG, CN</SimpleData>
+					<SimpleData name="Samplers">2</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9913,49.92893300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP55</SimpleData>
+					<SimpleData name="Lat">49.9287</SimpleData>
+					<SimpleData name="Long">-122.992</SimpleData>
+					<SimpleData name="Glacial_time">JG, CN</SimpleData>
+					<SimpleData name="Samplers">3</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.992367,49.92866699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP37</SimpleData>
+					<SimpleData name="Lat">49.9278</SimpleData>
+					<SimpleData name="Long">-122.99</SimpleData>
+					<SimpleData name="Glacial_time">JG, CN</SimpleData>
+					<SimpleData name="Samplers">3</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.990467,49.92779999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP29</SimpleData>
+					<SimpleData name="Lat">49.9285</SimpleData>
+					<SimpleData name="Long">-122.989</SimpleData>
+					<SimpleData name="Glacial_time">JG, CN</SimpleData>
+					<SimpleData name="Samplers">3</SimpleData>
+					<SimpleData name="Sheet__">Gaia</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.98906,49.92851000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP3</SimpleData>
+					<SimpleData name="Lat">49.9061</SimpleData>
+					<SimpleData name="Long">-129.008</SimpleData>
+					<SimpleData name="Glacial_time">TM, NH</SimpleData>
+					<SimpleData name="Samplers">4</SimpleData>
+					<SimpleData name="Sheet__">UTM zone10 converted</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-129.007867,49.90605002000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP34</SimpleData>
+					<SimpleData name="Lat">49.8893</SimpleData>
+					<SimpleData name="Long">-122.999</SimpleData>
+					<SimpleData name="Glacial_time">TM, NH</SimpleData>
+					<SimpleData name="Samplers">4</SimpleData>
+					<SimpleData name="Sheet__">UTM zone10 converted</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9994571,49.88934777000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP33</SimpleData>
+					<SimpleData name="Lat">49.9059</SimpleData>
+					<SimpleData name="Long">-123.002</SimpleData>
+					<SimpleData name="Glacial_time">TM, NH</SimpleData>
+					<SimpleData name="Samplers">4</SimpleData>
+					<SimpleData name="Sheet__">UTM zone10 converted</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.0021446,49.90588811000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP5</SimpleData>
+					<SimpleData name="Lat">49.9052</SimpleData>
+					<SimpleData name="Long">-123.002</SimpleData>
+					<SimpleData name="Glacial_time">TM, NH</SimpleData>
+					<SimpleData name="Samplers">4</SimpleData>
+					<SimpleData name="Sheet__">UTM zone10 converted</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.0017825,49.90515958000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP30</SimpleData>
+					<SimpleData name="Lat">49.8951</SimpleData>
+					<SimpleData name="Long">-122.982</SimpleData>
+					<SimpleData name="Glacial_time">PS, AK</SimpleData>
+					<SimpleData name="Samplers">5</SimpleData>
+					<SimpleData name="Sheet__">Gaia</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.98193,49.89510000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP67</SimpleData>
+					<SimpleData name="Lat">49.9051</SimpleData>
+					<SimpleData name="Long">-123.002</SimpleData>
+					<SimpleData name="Glacial_time">NH</SimpleData>
+					<SimpleData name="Samplers">6</SimpleData>
+					<SimpleData name="Sheet__">UTM zone10 converted</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.0023674,49.90507862999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">CE03/WP15</SimpleData>
+					<SimpleData name="Lat">49.9202</SimpleData>
+					<SimpleData name="Long">-122.982</SimpleData>
+					<SimpleData name="Glacial_time">CE, CN</SimpleData>
+					<SimpleData name="Samplers">7</SimpleData>
+					<SimpleData name="Sheet__">Gaia</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.982033,49.92019999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">CE04</SimpleData>
+					<SimpleData name="Lat">49.9137</SimpleData>
+					<SimpleData name="Long">-122.977</SimpleData>
+					<SimpleData name="Glacial_time">CE, CN</SimpleData>
+					<SimpleData name="Samplers">7</SimpleData>
+					<SimpleData name="Sheet__">UTM zone10</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.97674,49.91365999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP20</SimpleData>
+					<SimpleData name="Lat">49.9037</SimpleData>
+					<SimpleData name="Long">-122.999</SimpleData>
+					<SimpleData name="Glacial_time">CC, MF</SimpleData>
+					<SimpleData name="Samplers">8</SimpleData>
+					<SimpleData name="Sheet__">long given without -</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.999127,49.90369200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP1</SimpleData>
+					<SimpleData name="Lat">49.9044</SimpleData>
+					<SimpleData name="Long">-123.001</SimpleData>
+					<SimpleData name="Glacial_time">CC, MF</SimpleData>
+					<SimpleData name="Samplers">8</SimpleData>
+					<SimpleData name="Sheet__">long given without -</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.000865,49.904357,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP4</SimpleData>
+					<SimpleData name="Lat">49.9305</SimpleData>
+					<SimpleData name="Long">-122.993</SimpleData>
+					<SimpleData name="Glacial_time">CL, NBL</SimpleData>
+					<SimpleData name="Samplers">9</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.99297,49.93053000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP69</SimpleData>
+					<SimpleData name="Lat">49.9021</SimpleData>
+					<SimpleData name="Long">-123.004</SimpleData>
+					<SimpleData name="Glacial_time">CL, NBL</SimpleData>
+					<SimpleData name="Samplers">9</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.00402,49.90208999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP73</SimpleData>
+					<SimpleData name="Lat">49.903</SimpleData>
+					<SimpleData name="Long">-123.005</SimpleData>
+					<SimpleData name="Glacial_time">CL, NBL</SimpleData>
+					<SimpleData name="Samplers">9</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.00497,49.90298000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP40</SimpleData>
+					<SimpleData name="Lat">49.9039</SimpleData>
+					<SimpleData name="Long">-123.005</SimpleData>
+					<SimpleData name="Glacial_time">CL, NBL</SimpleData>
+					<SimpleData name="Samplers">9</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.005,49.90394000000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP43</SimpleData>
+					<SimpleData name="Lat">49.9164</SimpleData>
+					<SimpleData name="Long">-122.976</SimpleData>
+					<SimpleData name="Glacial_time">NH, PS, TM, MS, AK</SimpleData>
+					<SimpleData name="Samplers">10</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.976,49.91636700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP60</SimpleData>
+					<SimpleData name="Lat">49.9228</SimpleData>
+					<SimpleData name="Long">-122.981</SimpleData>
+					<SimpleData name="Glacial_time">NH, PS, TM, MS, AK</SimpleData>
+					<SimpleData name="Samplers">10</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.98145,49.92283300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP31</SimpleData>
+					<SimpleData name="Lat">49.8974</SimpleData>
+					<SimpleData name="Long">-122.99</SimpleData>
+					<SimpleData name="Glacial_time">JG, MS</SimpleData>
+					<SimpleData name="Samplers">11</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.98978,49.89738000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">CE05</SimpleData>
+					<SimpleData name="Lat">49.9176</SimpleData>
+					<SimpleData name="Long">-122.98</SimpleData>
+					<SimpleData name="Glacial_time">JG, MS</SimpleData>
+					<SimpleData name="Samplers">12</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.97969,49.91762000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">CE02</SimpleData>
+					<SimpleData name="Lat">49.9037</SimpleData>
+					<SimpleData name="Long">-122.98</SimpleData>
+					<SimpleData name="Glacial_time">JG, MS</SimpleData>
+					<SimpleData name="Samplers">12</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.97991,49.90370999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP59</SimpleData>
+					<SimpleData name="Lat">49.926</SimpleData>
+					<SimpleData name="Long">-122.988</SimpleData>
+					<SimpleData name="Glacial_time">CC, MF</SimpleData>
+					<SimpleData name="Samplers">13</SimpleData>
+					<SimpleData name="Sheet__">long given without -</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.988428,49.92599000000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP42</SimpleData>
+					<SimpleData name="Lat">49.927</SimpleData>
+					<SimpleData name="Long">-122.992</SimpleData>
+					<SimpleData name="Glacial_time">CC, MF</SimpleData>
+					<SimpleData name="Samplers">13</SimpleData>
+					<SimpleData name="Sheet__">same as above</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.992102,49.92701000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP27</SimpleData>
+					<SimpleData name="Lat">49.9309</SimpleData>
+					<SimpleData name="Long">-122.992</SimpleData>
+					<SimpleData name="Glacial_time">CL, NBL, CE</SimpleData>
+					<SimpleData name="Samplers">14</SimpleData>
+					<SimpleData name="Sheet__">same as above</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.99162,49.93092000000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP7</SimpleData>
+					<SimpleData name="Lat">49.9319</SimpleData>
+					<SimpleData name="Long">-122.993</SimpleData>
+					<SimpleData name="Glacial_time">CL, NBL, CE</SimpleData>
+					<SimpleData name="Samplers">14</SimpleData>
+					<SimpleData name="Sheet__">same as above</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.99318,49.93191,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP57</SimpleData>
+					<SimpleData name="Lat">49.9312</SimpleData>
+					<SimpleData name="Long">-122.99</SimpleData>
+					<SimpleData name="Glacial_time">CL, NBL, CE</SimpleData>
+					<SimpleData name="Samplers">14</SimpleData>
+					<SimpleData name="Sheet__">same as above</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.98957,49.93121,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP56</SimpleData>
+					<SimpleData name="Lat">49.9302</SimpleData>
+					<SimpleData name="Long">-122.99</SimpleData>
+					<SimpleData name="Glacial_time">CL, NBL, CE</SimpleData>
+					<SimpleData name="Samplers">14</SimpleData>
+					<SimpleData name="Sheet__">same as above</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.99015,49.93024,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP39</SimpleData>
+					<SimpleData name="Lat">49.9032</SimpleData>
+					<SimpleData name="Long">-122.996</SimpleData>
+					<SimpleData name="Glacial_time">PS, AK</SimpleData>
+					<SimpleData name="Samplers">15</SimpleData>
+					<SimpleData name="Sheet__">Gaia</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.99605,49.90321000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">CE09</SimpleData>
+					<SimpleData name="Lat">49.9022</SimpleData>
+					<SimpleData name="Long">-122.995</SimpleData>
+					<SimpleData name="Glacial_time">PS, AK</SimpleData>
+					<SimpleData name="Samplers">15</SimpleData>
+					<SimpleData name="Sheet__">Gaia</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.99535,49.90216000000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">CE1</SimpleData>
+					<SimpleData name="Lat">49.8989</SimpleData>
+					<SimpleData name="Long">-122.984</SimpleData>
+					<SimpleData name="Glacial_time">PS, AK</SimpleData>
+					<SimpleData name="Samplers">15</SimpleData>
+					<SimpleData name="Sheet__">Gaia</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.98353,49.89893000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP10</SimpleData>
+					<SimpleData name="Lat">49.897</SimpleData>
+					<SimpleData name="Long">-122.984</SimpleData>
+					<SimpleData name="Glacial_time">PS, AK</SimpleData>
+					<SimpleData name="Samplers">15</SimpleData>
+					<SimpleData name="Sheet__">Gaia</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.98431,49.89699999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">CE10</SimpleData>
+					<SimpleData name="Lat">49.5525</SimpleData>
+					<SimpleData name="Long">-122.579</SimpleData>
+					<SimpleData name="Glacial_time">JG, MS, CN</SimpleData>
+					<SimpleData name="Samplers">16</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.5791,49.55246000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP12</SimpleData>
+					<SimpleData name="Lat">49.5533</SimpleData>
+					<SimpleData name="Long">-122.581</SimpleData>
+					<SimpleData name="Glacial_time">JG, MS, CN</SimpleData>
+					<SimpleData name="Samplers">16</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.58137,49.55328999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">WP65</SimpleData>
+					<SimpleData name="Lat">49.5528</SimpleData>
+					<SimpleData name="Long">-122.58</SimpleData>
+					<SimpleData name="Glacial_time">JG, MS, CN</SimpleData>
+					<SimpleData name="Samplers">16</SimpleData>
+					<SimpleData name="Sheet__"></SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.58032,49.55283000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">CE01</SimpleData>
+					<SimpleData name="Lat">49.8996</SimpleData>
+					<SimpleData name="Long">-122.984</SimpleData>
+					<SimpleData name="Glacial_time">CE, CN</SimpleData>
+					<SimpleData name="Samplers">17</SimpleData>
+					<SimpleData name="Sheet__">Gaia</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.98441,49.89956000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Waypoint_meta_data_SDDSISI">
+					<SimpleData name="Waypoint_ID">CE08</SimpleData>
+					<SimpleData name="Lat">49.8998</SimpleData>
+					<SimpleData name="Long">-122.992</SimpleData>
+					<SimpleData name="Glacial_time">CE, CN</SimpleData>
+					<SimpleData name="Samplers">17</SimpleData>
+					<SimpleData name="Sheet__">Gaia</SimpleData>
+					<SimpleData name="Notes">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.99163,49.89983000000001,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
