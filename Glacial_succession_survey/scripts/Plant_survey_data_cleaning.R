@@ -34,19 +34,28 @@ for (i in 1:nrow(plant_data)){
   }
 }
 
+plant_data_cleaned <- plant_data_cleaned[,-c(46:85)]
 ##############################
 # check and merge duplicate species
 
 # make a Genus_spp column
-
 plant_data_cleaned$Genus_spp <- paste0(plant_data_cleaned$Genus, "_", plant_data_cleaned$Species)
 unique(plant_data_cleaned$Genus_spp)
 
-plant_data_cleaned %>%
+plant_data_cleaned$Type <- as.factor(plant_data_cleaned$Type)
+plant_data_cleaned$Family <- as.factor(plant_data_cleaned$Family)
+plant_data_cleaned$EnglishName <- as.factor(plant_data_cleaned$EnglishName)
+plant_data_cleaned$Genus <- as.factor(plant_data_cleaned$Genus)
+plant_data_cleaned$Species <- as.factor(plant_data_cleaned$Species)
+plant_data_cleaned$Genus_spp <- as.factor(plant_data_cleaned$Genus_spp)
+plant_data_cleaned <- plant_data_cleaned %>% mutate_if(is.character, as.numeric)
+
+plant_data_summarized <- plant_data_cleaned %>%
   group_by(Genus_spp) %>%
   summarise(across(c(6:45), sum))
 
+plant_data_summarized <- plant_data_summarized[-1,]
 
-
-
-
+plant_data_summarized$sum <- rowSums( plant_data_summarized[,2:41] )
+ # view and sort by sum
+# top 60 appear with reasonable abundance
