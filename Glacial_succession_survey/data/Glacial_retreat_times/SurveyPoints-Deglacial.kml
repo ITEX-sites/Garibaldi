@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="pointsdates" id="pointsdates">
+	<SimpleField name="Long" type="float"></SimpleField>
+	<SimpleField name="Lat" type="float"></SimpleField>
+	<SimpleField name="Date" type="string"></SimpleField>
+</Schema>
+<Folder><name>pointsdates</name>
+  <Placemark>
+	<name>WP37 erigeron nivalis</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9904144</SimpleData>
+		<SimpleData name="Lat">49.92802242</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9904144,49.92802242</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP-55</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9923651</SimpleData>
+		<SimpleData name="Lat">49.92871493</SimpleData>
+		<SimpleData name="Date">Sphinx1700</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9923651,49.92871493</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CE4</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9779974</SimpleData>
+		<SimpleData name="Lat">49.91343756</SimpleData>
+		<SimpleData name="Date">Sphinx1700</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9779974,49.91343756</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CE9</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9953469</SimpleData>
+		<SimpleData name="Lat">49.90216225</SimpleData>
+		<SimpleData name="Date">Sentinel1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9953469,49.90216225</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CE3</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.981446</SimpleData>
+		<SimpleData name="Lat">49.92038533</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.981446,49.92038533</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CE7</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9776401</SimpleData>
+		<SimpleData name="Lat">49.89448948</SimpleData>
+		<SimpleData name="Date">Sentinel1977</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9776401,49.89448948</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CE10</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.964924</SimpleData>
+		<SimpleData name="Lat">49.92065371</SimpleData>
+		<SimpleData name="Date">Sphinx2003</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.964924,49.92065371</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CE5</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.979681</SimpleData>
+		<SimpleData name="Lat">49.91766528</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.979681,49.91766528</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CE6</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9863675</SimpleData>
+		<SimpleData name="Lat">49.89251228</SimpleData>
+		<SimpleData name="Date">Sentinel1969</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9863675,49.89251228</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CE8</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9924511</SimpleData>
+		<SimpleData name="Lat">49.89966469</SimpleData>
+		<SimpleData name="Date">Sentinel1949</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9924511,49.89966469</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CE1</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9844099</SimpleData>
+		<SimpleData name="Lat">49.89956171</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9844099,49.89956171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CE2</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.980867</SimpleData>
+		<SimpleData name="Lat">49.90380529</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.980867,49.90380529</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP57</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9896892</SimpleData>
+		<SimpleData name="Lat">49.93113433</SimpleData>
+		<SimpleData name="Date">Sphinx1700</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9896892,49.93113433</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP38</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9922253</SimpleData>
+		<SimpleData name="Lat">49.92960552</SimpleData>
+		<SimpleData name="Date">Sphinx1700</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9922253,49.92960552</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP19</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0010304</SimpleData>
+		<SimpleData name="Lat">49.90076143</SimpleData>
+		<SimpleData name="Date">Sentinel1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0010304,49.90076143</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP33</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0021307</SimpleData>
+		<SimpleData name="Lat">49.9059061</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0021307,49.9059061</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP29</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9890628</SimpleData>
+		<SimpleData name="Lat">49.92850798</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9890628,49.92850798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP11</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9754522</SimpleData>
+		<SimpleData name="Lat">49.92503415</SimpleData>
+		<SimpleData name="Date">Sphinx1949</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9754522,49.92503415</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP52</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9773206</SimpleData>
+		<SimpleData name="Lat">49.92173367</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9773206,49.92173367</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP75</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9898574</SimpleData>
+		<SimpleData name="Lat">49.92649336</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9898574,49.92649336</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP10</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.984308</SimpleData>
+		<SimpleData name="Lat">49.89700079</SimpleData>
+		<SimpleData name="Date">Sentinel1949</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.984308,49.89700079</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP20</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9988581</SimpleData>
+		<SimpleData name="Lat">49.90368454</SimpleData>
+		<SimpleData name="Date">Sentinel1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9988581,49.90368454</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP44</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9944583</SimpleData>
+		<SimpleData name="Lat">49.89774824</SimpleData>
+		<SimpleData name="Date">Sentinel1949</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9944583,49.89774824</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP25</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9890486</SimpleData>
+		<SimpleData name="Lat">49.92965923</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9890486,49.92965923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP71</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0008773</SimpleData>
+		<SimpleData name="Lat">49.90300998</SimpleData>
+		<SimpleData name="Date">Sentinel1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0008773,49.90300998</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP24</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9795751</SimpleData>
+		<SimpleData name="Lat">49.92733746</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9795751,49.92733746</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP4</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9929637</SimpleData>
+		<SimpleData name="Lat">49.93056795</SimpleData>
+		<SimpleData name="Date">Sphinx1700</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9929637,49.93056795</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP64</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9868203</SimpleData>
+		<SimpleData name="Lat">49.92582749</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9868203,49.92582749</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP8</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9848686</SimpleData>
+		<SimpleData name="Lat">49.92995557</SimpleData>
+		<SimpleData name="Date">Sphinx1700</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9848686,49.92995557</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP12</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9674432</SimpleData>
+		<SimpleData name="Lat">49.9225318</SimpleData>
+		<SimpleData name="Date">Sphinx1977</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9674432,49.9225318</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP22</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9984544</SimpleData>
+		<SimpleData name="Lat">49.90033869</SimpleData>
+		<SimpleData name="Date">Sentinel1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9984544,49.90033869</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP32</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9678183</SimpleData>
+		<SimpleData name="Lat">49.92411488</SimpleData>
+		<SimpleData name="Date">Sphinx1949</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9678183,49.92411488</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP39</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9960452</SimpleData>
+		<SimpleData name="Lat">49.90320779</SimpleData>
+		<SimpleData name="Date">Sentinel1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9960452,49.90320779</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP69</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0037876</SimpleData>
+		<SimpleData name="Lat">49.9019576</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0037876,49.9019576</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP51</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.989822</SimpleData>
+		<SimpleData name="Lat">49.89602103</SimpleData>
+		<SimpleData name="Date">Sentinel1969</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.989822,49.89602103</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP72</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0047627</SimpleData>
+		<SimpleData name="Lat">49.90477275</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0047627,49.90477275</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP49</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9996936</SimpleData>
+		<SimpleData name="Lat">49.90234441</SimpleData>
+		<SimpleData name="Date">Sentinel1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9996936,49.90234441</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP45</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9883604</SimpleData>
+		<SimpleData name="Lat">49.89464478</SimpleData>
+		<SimpleData name="Date">Sentinel1969</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9883604,49.89464478</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP27</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9915981</SimpleData>
+		<SimpleData name="Lat">49.93088265</SimpleData>
+		<SimpleData name="Date">Sphinx1700</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9915981,49.93088265</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP13</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9845345</SimpleData>
+		<SimpleData name="Lat">49.92903812</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9845345,49.92903812</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP63</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9822503</SimpleData>
+		<SimpleData name="Lat">49.92680724</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9822503,49.92680724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP23</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9739759</SimpleData>
+		<SimpleData name="Lat">49.92433228</SimpleData>
+		<SimpleData name="Date">Sphinx1949</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9739759,49.92433228</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP17</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9705233</SimpleData>
+		<SimpleData name="Lat">49.92020313</SimpleData>
+		<SimpleData name="Date">Sphinx1977</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9705233,49.92020313</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP16</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9733234</SimpleData>
+		<SimpleData name="Lat">49.92016783</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9733234,49.92016783</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP21</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9889027</SimpleData>
+		<SimpleData name="Lat">49.897496</SimpleData>
+		<SimpleData name="Date">Sentinel1949</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9889027,49.897496</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP5</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0017686</SimpleData>
+		<SimpleData name="Lat">49.90514159</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0017686,49.90514159</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP48</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9865917</SimpleData>
+		<SimpleData name="Lat">49.89629053</SimpleData>
+		<SimpleData name="Date">Sentinel1969</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9865917,49.89629053</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP2</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9977023</SimpleData>
+		<SimpleData name="Lat">49.90381944</SimpleData>
+		<SimpleData name="Date">Sentinel1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9977023,49.90381944</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP43</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9840347</SimpleData>
+		<SimpleData name="Lat">49.92345267</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9840347,49.92345267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP26</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9848832</SimpleData>
+		<SimpleData name="Lat">49.92768005</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9848832,49.92768005</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP50</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.988374</SimpleData>
+		<SimpleData name="Lat">49.89594894</SimpleData>
+		<SimpleData name="Date">Sentinel1969</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.988374,49.89594894</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP35</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0018242</SimpleData>
+		<SimpleData name="Lat">49.90250629</SimpleData>
+		<SimpleData name="Date">Sentinel1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0018242,49.90250629</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP37</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9904283</SimpleData>
+		<SimpleData name="Lat">49.92784253</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9904283,49.92784253</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP42</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9920168</SimpleData>
+		<SimpleData name="Lat">49.92704217</SimpleData>
+		<SimpleData name="Date">Sphinx1700</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9920168,49.92704217</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP1</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0008913</SimpleData>
+		<SimpleData name="Lat">49.90435012</SimpleData>
+		<SimpleData name="Date">Sentinel1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0008913,49.90435012</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP55</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9926714</SimpleData>
+		<SimpleData name="Lat">49.92855324</SimpleData>
+		<SimpleData name="Date">Sphinx1700</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9926714,49.92855324</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP40</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0049575</SimpleData>
+		<SimpleData name="Lat">49.90395427</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0049575,49.90395427</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP15</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9813166</SimpleData>
+		<SimpleData name="Lat">49.91967108</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9813166,49.91967108</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP61</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9834082</SimpleData>
+		<SimpleData name="Lat">49.92223837</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9834082,49.92223837</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP3</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9993037</SimpleData>
+		<SimpleData name="Lat">49.90605901</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9993037,49.90605901</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP74</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0060994</SimpleData>
+		<SimpleData name="Lat">49.9038193</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0060994,49.9038193</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP73</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0050131</SimpleData>
+		<SimpleData name="Lat">49.90237129</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0050131,49.90237129</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP31</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9896825</SimpleData>
+		<SimpleData name="Lat">49.8972982</SimpleData>
+		<SimpleData name="Date">Sentinel1949</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9896825,49.8972982</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP65</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9701737</SimpleData>
+		<SimpleData name="Lat">49.92241561</SimpleData>
+		<SimpleData name="Date">Sphinx1949</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9701737,49.92241561</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP18</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9849264</SimpleData>
+		<SimpleData name="Lat">49.92312001</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9849264,49.92312001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP30</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9819278</SimpleData>
+		<SimpleData name="Lat">49.89510266</SimpleData>
+		<SimpleData name="Date">Sentinel1977</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9819278,49.89510266</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP28</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9844516</SimpleData>
+		<SimpleData name="Lat">49.92682555</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9844516,49.92682555</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP47</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9720259</SimpleData>
+		<SimpleData name="Lat">49.92347738</SimpleData>
+		<SimpleData name="Date">Sphinx1949</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9720259,49.92347738</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP54</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9864989</SimpleData>
+		<SimpleData name="Lat">49.9294431</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9864989,49.9294431</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP59</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9885339</SimpleData>
+		<SimpleData name="Lat">49.92601655</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9885339,49.92601655</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP36</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9851485</SimpleData>
+		<SimpleData name="Lat">49.92597119</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9851485,49.92597119</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP46</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9870933</SimpleData>
+		<SimpleData name="Lat">49.89501341</SimpleData>
+		<SimpleData name="Date">Sentinel1977</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9870933,49.89501341</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP56</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9902328</SimpleData>
+		<SimpleData name="Lat">49.93021698</SimpleData>
+		<SimpleData name="Date">Sphinx1700</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9902328,49.93021698</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP58</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9911247</SimpleData>
+		<SimpleData name="Lat">49.92909278</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9911247,49.92909278</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP60</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9815134</SimpleData>
+		<SimpleData name="Lat">49.9228407</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9815134,49.9228407</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP41</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9922864</SimpleData>
+		<SimpleData name="Lat">49.89635401</SimpleData>
+		<SimpleData name="Date">Sentinel1949</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9922864,49.89635401</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP67</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0029802</SimpleData>
+		<SimpleData name="Lat">49.90546536</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0029802,49.90546536</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP6</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0029662</SimpleData>
+		<SimpleData name="Lat">49.90409824</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0029662,49.90409824</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP34</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9994569</SimpleData>
+		<SimpleData name="Lat">49.90733619</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9994569,49.90733619</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP66</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0008913</SimpleData>
+		<SimpleData name="Lat">49.90612197</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0008913,49.90612197</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP9</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0035929</SimpleData>
+		<SimpleData name="Lat">49.90479078</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0035929,49.90479078</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP68</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.00525</SimpleData>
+		<SimpleData name="Lat">49.90412514</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.00525,49.90412514</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP70</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-123.0039827</SimpleData>
+		<SimpleData name="Lat">49.90300991</SimpleData>
+		<SimpleData name="Date">Sentinel1720</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-123.0039827,49.90300991</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP7</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9931725</SimpleData>
+		<SimpleData name="Lat">49.93197105</SimpleData>
+		<SimpleData name="Date">Sphinx1700</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9931725,49.93197105</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CN01</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9957</SimpleData>
+		<SimpleData name="Lat">49.90105</SimpleData>
+		<SimpleData name="Date">Sentinel1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9957,49.90105</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WP58a</name>
+	<ExtendedData><SchemaData schemaUrl="#pointsdates">
+		<SimpleData name="Long">-122.9913</SimpleData>
+		<SimpleData name="Lat">49.92893</SimpleData>
+		<SimpleData name="Date">Sphinx1928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-122.9913,49.92893</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
