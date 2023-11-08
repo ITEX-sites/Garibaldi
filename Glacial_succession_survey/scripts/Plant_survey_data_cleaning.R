@@ -57,5 +57,16 @@ plant_data_summarized <- plant_data_cleaned %>%
 plant_data_summarized <- plant_data_summarized[-1,]
 
 plant_data_summarized$sum <- rowSums( plant_data_summarized[,2:41] )
- # view and sort by sum
+
+#-----------------------------------
+# view and sort by sum
 # top 60 appear with reasonable abundance
+write.csv(plant_data_summarized, file = "./data/cleaned_Garibaldi_point_frame_data.csv")
+
+#---------------------------------------------
+# join other species information
+plant_data_species_info <- plant_data_cleaned[,c(1:5, 46)]
+
+plant_data_summarized1 <- merge(plant_data_summarized,plant_data_species_info,  by="Genus_spp")
+
+
