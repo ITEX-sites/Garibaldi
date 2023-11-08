@@ -1,78 +1,95 @@
 Type	Family	EnglishName	Genus	Species	CE07	CN01	WP58	WP55	WP37	WP29	WP3	WP34	WP33	WP5	WP30	WP67	CE03/WP15	CE04	WP20	WP1	WP4	WP69	WP73	WP40	WP43	WP60	WP31	CE05	CE02	WP59	WP42	WP27	WP7	WP57	WP56	WP39	CE09	CE1	WP10	CE10	WP12	WP65	CE01	CE08																																								
 conifer	Pinaceae	Pacificsilverfir	Abies	amabilis	0	0	0	0	4m	0	0	0	0	0	0	0	0	0	0	0	0	0	1m	0	0	0	0	10m	0	0	0	0	8m	0	0	0	0	0	0	0	4m	0	0	0																																								
 conifer	Pinaceae	AlpineFir	Abies	lasiocarpa	0	2m	5m	"2,0,0,0"	0	4m	"0,0,0,1"	"0,0,1,0"	10m	0	0	0	"0,1,1,1"	"1,0,0,0"	0	1m	0	10m	"4,0,4,0"	"1,0,0,0"	9m	"1,0,0,0"	7m	0	0	0	4m	"4,4,2,0"	1m	"3,1,0,1"	"3,1,3,2"	"1,0,0,0"	"1,0,0,0"	"2,2,1,0"	0	7m	0	0	3m	"0,1,0,0"																																								
+conifer	Pinaceae	AlpineFir	Abies	lasiocarpa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	0	0																																								
+conifer	Pinaceae	AlpineFir	Abies	lasiocarpa	0	0	0	0	"4,4,4,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+conifer	Pinaceae	AlpineFir	Abies	lasiocarpa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	0	0	0	0																																								
 conifer	Cupressaceae	yellowcedar	Chamaecyparis	nootkatensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 conifer	Cupressaceae	commonjuniper	Juniperus	communis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 conifer	Pinaceae	"whitespruce,mountainspruce"	Picea	engelmannii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 conifer	Pinaceae	"whitebarkpine,whitepine"	Pinus	albicaulis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4m	0	39m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 conifer	Pinaceae	Mountainhemlock	Tsuga	mertensiana	0	0	0	7m	2m	20m	5m	"0,0,1,0"	0	0	0	0	"0,0,0,3"	0	0	2m	0	"0,0,1,0"	"2,1,3,4"	"0,2,2,0"	10m	25m	15m	"0,0,0,1"	0	19m	7m	6m	"2,0,0,0"	"2,0,0,4"	5m	3m	16m	0	0	0	12m	18m	0	0																																								
+crust	crust	crust	Crust		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+crust	crust	crust	Crust		0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 deciduousshrub	Betulaceae	GreenAlder	Alnus	viridis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4m	0	6m	0	0	0	0	0	0	0	0																																								
 deciduousshrub	Betulaceae	Blackcottonwood	Populus	trichocarpa	0	15m	0	22m	17.5m	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	11m	3m	0	0	0	0	0	0	2m	0	5m																																								
+deciduousshrub	Betulaceae	Blackcottonwood	Populus	trichocarpa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 deciduousshrub	Grossulariaceae	currant	Ribes	spp.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	"4,0,0,0"	0	0	0	0	0	0																																								
+deciduousshrub	Grossulariaceae	currant	Ribes	spp.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 deciduousshrub	Salicaceae	Arcticwillow	Salix	arctica	0	0	10m	0	0	0	0	0	0	0	0	0	21m	0	0	20m	0	"1,0,0,0"	0	0	30m	0	0	10m	0	0	0	12m	0	2m	0	0	0	0	0	2.5m	0	0	0	0																																								
-deciduousshrub	Salicaceae	"undergreenwillow,Barclay'swillow"	Salix	barclayi(commutata)	0	7m	5m	"1,3,4,4"	"4,4,4,4"	5m	"4,4,4,3"	"3,3,2,0"	5m	"4,4,4,4"	"2,0,4,3"	"4,4,4,4"	"4,2,4,4"	0	"4,4,3,2"	"0,2,0,0"	"4,2,2,4"	0	0	20m	10m	"1,1,1,0"	2m	10m	0	0	"4,4,4,4"	"1,4,0,0"	"1,3,4,0"	"0,0,0,1"	"3,2,4,2"	"2,0,1,3"	"1,0,0,0"	0	"4,4,4,4"	0	"1,0,1,3"	"2,0,1,2"	10m	"1,1,0,1"																																								
+deciduousshrub	Salicaceae	Arcticwillow	Salix	arctica	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+deciduousshrub	Salicaceae		Salix	barclayi	0	0	0	0	0	0	"1,2,3,2"	"4,3,3,4"	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+deciduousshrub	Salicaceae		Salix	barclayi	0	7m	5m	"1,3,4,4"	"4,4,4,4"	5m	"4,4,4,3"	"3,3,2,0"	5m	"4,4,4,4"	"2,0,4,3"	"4,4,4,4"	"4,2,4,4"	0	"4,4,3,2"	"0,2,0,0"	"4,2,2,4"	0	0	20m	10m	"1,1,1,0"	2m	10m	0	0	"4,4,4,4"	"1,4,0,0"	"1,3,4,0"	"0,0,0,1"	"3,2,4,2"	"2,0,1,3"	"1,0,0,0"	0	"4,4,4,4"	0	"1,0,1,3"	"2,0,1,2"	10m	"1,1,0,1"																																								
 deciduousshrub	Salicaceae	alpinewillow	Salix	petrophila	0	0	9m	0	"2,4,4,4"	5m	0	0	0	0	0	0	0	0	0	0	18m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 deciduousshrub	Salicaceae	"net-leavedwillow,snowwillow"	Salix	reticulata(nivalis)	0	0	0	0	0	0	35m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0																																								
+deciduousshrub	Salicaceae	Sitkawillow	Salix	sitchensis	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+deciduousshrub	Salicaceae	spp1	Salix		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14m	0	0	0	0	0	0	0	0	0	0																																								
 deciduousshrub	Rosaceae	SitkaMountainAsh	Sorbus	sitchensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	8m	0	0	0	0	0	0																																								
-Fern	FERN	moonworts	Botrychium	spp.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-Fern	FERN	Americanparsleyfern	Cryptogramma	acrostichoides	0	0	2m	12m	0	0	0	20m	0	0	"0,0,1,0"	0	0	10m	0	0	0	0	0	0	"3,2,1,4"	5m	10m	"1,1,1,3"	0	0	0	18m	0	1m	0	20m	"1,1,1,3"	0	0	0	0	0	0	0																																								
-forb	Asteraceae	alpinepussytoesoralpinecatsfoot	Antennaria	alpina	0	0	0	0	5m	0	20m	5m	0	0	"0,0,0,0"	0	"0,0,0,1"	0	0	0	0	0	0	0	0	0	"0,0,2,2"	26m	1.5m	8m	"2,1,2,0"	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,1"																																								
-forb	Asteraceae	Rosypussytoes	Antennaria	rosea	0	0	0	11m	4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30m	0	0	0	0	0	0	6m	0	3m	"3,2,0,1"	0	14m	0	0	0	0	0	0	0																																								
-forb	Asteraceae	brownpussytoes	Antennaria	umbrinella	0	0	0	3m	0	0	"0,1,0,0"	0	0	0	0	0	0	0	0	0	17m	0	0	0	0	0	0	0	0	0	0	18m	0	10m	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	Broadleadarnica	Arnica	latifolia	0	0	0	20m	0	0	0	"1,3,2,1"	0	0	"1,0,0,0"	0	5m	0	0	0	0	0	5m	20m	0	"0,0,2,0"	"4,4,4,4"	"1,0,0,0"	0	0	8m	0	0	0	0	0	0	0	0	0	0	0	0	"0,2,0,2"																																								
-forb	Scrophulariaceae	giantredIndianpaintbrush(common)	Castilleja	miniata	0	12m	15m	5m	5m	6m	15m	0	20m	0	"4,3,4,3"	0	"1,0,0,0"	9m	4m	0	7m	0	0	0	20m	"1,0,0,0"	"1,1,1,2"	2m	0	4m	5m	7m	0	3m	"3,0,0,0"	"2,2,4,3"	"1,0,0,1"	0	"3,2,2,2"	8m	1.5m	4m	0	"2,0,1,3"																																								
-forb	Onagraceae	dwarffireweed	Chamaenerion	latifolium	"2,2,2,0"	"1,1,1,0"	"2,0,3,2"	0	15m	"4,3,0,1"	0	30m	0	0	"4,3,0,0"	0	0	"4,4,4,4"	"3,4,4,2"	0	7m	2m	15m	0	7m	"4,4,4,4"	"1,0,0,1"	"2,2,2,1"	0	15m	0	0	0	0	0	5m	"4,3,4,4"	0	3m	"4,3,0,3"	0	0	0	0																																								
-forb	Rosaceae	"commonstrawberry,ormountainstrawberry"	Fragaria	virginiana	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Saxifragaceae	leatherleafsaxifrage	Leptarrhena	pyrolifolia	0	0	0	0	17m	0	0	0	0	0	"3,3,4,1"	0	"4,2,4,1"	4m	0	0	0	17m	0	0	30m	"3,4,0,0"	20m	"0,0,1,0"	10m	0	10m	0	11m	0	0	"4,4,4,4"	"2,0,0,1"	0	"3,0,1,2"	0	0	0	0	2m																																								
-forb	Rosaceae	partridgefoot	Luetkea	pectinata	0	3m	0	11.5m	0	0	0	"2,4,2,0"	0	0	8m	0	0	0	0	15m	0	"4,4,4,4"	"3,4,3,4"	"1,2,1,0"	0	0	0	2.5m	"1,2,1,0"	0	0	0	0	0	0	0	"2,0,0,2"	10m	0	0	0	0	"4,4,4,2"	"1,2,0,1"																																								
-forb	Fabaceae	Arcticlupineorsubalpinelupine	Lupinus	spp.	0	0	"4,4,4,3"	"4,3,2,3"	"4,4,4,3"	5m	"1,1,0,0"	"4,0,0,0"	0	0	0	30m	0	0	23m	"4,3,3,4"	8m	"1,0,3,3"	"4,2,1,1"	"1,0,0,1"	10m	"0,4,0,0"	"2,4,4,2"	0	0	20m	"3,2,4,4"	"4,2,4,4"	0	3m	"4,4,4,4"	0	0	8m	"1,4,4,4"	0	"4,3,4,4"	5m	"1,0,4,0"	"0,3,4,2"																																								
-forb	Plantaginaceae	purplebeardtongues	Penstemon	davidsonii	0	0	0	0	0	0	0	45m	0	0	0	0	0	0	0	20m	0	0	0	12m	0	0	9m	0	50m	0	0	0	0	0	"1,1,0,0"	0	0	0	0	0	0	0	0	"0,0,0,1"																																								
-forb	Plantaginaceae	purplebeardtongues	Penstemon	procerus	0	3m	6m	0	6m	10m	"1,2,0,0"	10m	0	0	"1,0,0,1"	0	0	0	0	0	0	0	0	0	20m	0	"0,1,3,3,"	4m	0	0	0	5m	15m	"2,0,0,1"	"4,3,1,2"	0	0	0	0	0	0	0	"3,0,0,0"	"1,0,2,3"																																								
-Forb	Hydro	SilkyPhacella	Phacelia	sericea	0	"4,1,1,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Polemoniaceae	spreadingphlox	Phlox	diffusa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Lentibulariaceae	Commonbutterwort	Pinguicula	vulgaris	0	0	0	0	0	0	0	0	0	15m	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	7m	0	0	0	0																																								
-forb	Saxifragaceae	Spottedsaxifrage	SaxifragaMicranthes	bronchialis	0	"3,2,2,2"	25m	22m	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"3,3,3,1"	30m	0	25m	0	0	0	1m	0	"1,3,3,3"	0	0	10m	0	0	0	0	0	0	"2,0,0,1"																																								
-forb	Crassulaceae	spreadingstonecrop	Sedum	divergens	0	5m	7m	0	0	"1,1,4,0"	0	45m	0	0	10m	0	0	"3,2,1,0"	0	0	0	"1,2,0,0"	0	0	"2,0,0,2"	25m	"4,0,4,4"	"0,1,0,0"	0	0	0	0	0	"4,1,0,1"	"0,3,0,0"	20m	32m	0	0	0	0	0	0	3m																																								
-forb	Rosaceae	creepingsibbaldia	Sibbaldia	procumbens	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,3,2,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Tofieldiaceae	stickyfalseasphodel	Triantha	glutinosa	0	0	25m	0	0	0	0	0	35m	"4,4,4,4"	0	"4,4,4,4"	"2,0,2,1"	0	0	0	"4,3,4,4"	0	0	0	0	"2,1,0,0"	0	0	0	13m	4m	0	0	0	3m	"3,0,1,2"	0	0	6m	0	0	0	0	0																																								
-Fungi	FUNGI	mushroom			0	0	0	"4,4,4,4"	"4,4"	0	0	0	0	0	"1,0,0,0"	0	"2,2,4,3"	0	0	0	0	0	0	0	0	"0,0,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,1"	0	0	0	0	0																																								
-gramminoid	Cyperaceae	Watersedge	Carex	aquatalis	0	0	0	"0,0,1,0"	17m	0	0	0	0	"2,2,2,2"	"0,0,1,0"	2m	"3,0,2,4"	0	"3,0,0,0"	"1,0,1,1"	0	0	0	0	0	"0,0,3"	0	0	0	25m	"0,0,0,2"	0	0	0	0	"0,1,3,2"	"4,1,0,4"	10m	"3,0,0,0"	0	0	0	"4,4,2,4"	"1,0,0,0"																																								
-gramminoid	Cyperaceae	goldensedge	Carex	aurea	0	0	0	"2,0,0,0"	"0,4,1,0"	0	0	0	0	0	0	0	0	0	"0,0,0,1"	0	0	"0,2,1,2"	0	"1,2,0,0"	0	"4,0,1,3"	0	0	0	"1,1,1,4"	0	0	0	0	0	"2,1,4,4"	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	Arcticrush	Juncus	arcticus	0	0	0	0	0	0	0	20m	"0,0,1,0"	0	"1,4,4,4"	15m	"0,1,0,0"	0	0	0	0	0	0	0	0	"1,2,0,1"	0	0	10m	0	0	0	0	0	0	"3,4,4,4"	"3,1,1,3"	0	0	1m	0	9m	0	0																																								
-gramminoid	Poaceae	alpinecat's-tail	Phleum	alpinum	0	0	"2,0,4,3"	0	0	0	0	0	"1,01,1,0"	0	"1,0,0,1"	0	0	0	"0,0,0,1"	0	0	0	0	0	0	"0,3,0,2"	20m	0	0	0	0	0	0	0	"2,2,0,0"	0	0	0	"2,0,1,0"	0	0	0	0	0																																								
-gramminoid		"""2gramminoids"""			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-horsetail	Equisetaceae	horsetail	Equisetum	arvense	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-horsetail	Equisetaceae	horsetail	Equisetum	variegatum	0	0	0	0	17m	0	0	0	0	0	0	"4,4,4,4"	0	0	"4,2,1"	0	"4,4,4,4"	0	0	0	0	0	0	0	0	"4,0,0,0"	11m	0	0	0	0	0	0	0	0	5m	0	0	0	0																																								
-Lycopodium	Lycopodiaceae	clubmoss	Huperzia	haleakalae	0	0	0	0	17m	0	0	0	0	0	0	0	"0,2,1,0"	0	0	0	0	0	0	0	0	0	0	0	19m	0	0	0	0	0	0	4m	0	0	0	0	0	0	0	0																																								
-Moss	MOSS	moss			"1,4,4,0"	0	0	0	0	"4,4,4,4"	"4,4,4,0"	"4,2,1,4"	"3,4,4,4,"	"4,4,4,4"	"4,4,4,4"	"4,4,4,4"	"4,3,3,3"	"4,1,2,4"	"3,4,4,2"	"4,4,4,4"	"4,3,4,4"	0	0	0	"4,4,4,4"	"4,4,4,4"	0	0	0	"4,4,4,4"	"4,1,0,1"	"4,4,3,3"	"4,4,4,4"	"4,3,4,4"	"4,4,4,4"	"4,4,4,4"	"4,3,4,4"	"1,2,2,0"	"4,3,4,4"	5m	0	0	0	0																																								
 evergreen	Ericaceae	"Kinnikinnick,bearberry"	Arctostaphylos	uva-ursi	0	27m	8m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12m	0	0	0	0	0	"2,0,3,0"	0	0	3m	0	4m	7m	15m	0	0	0	0	0	0	0	6m																																								
 evergreen	Ericaceae	whitemountainheather	Cassiope	mertensiana	0	0	17m	"4,4,4,4"	4m	20m	8m	"1,1"	35m	"3,2"	0	20m	"3,3,4,4"	0	0	"0,0,0,1"	10m	"3,2,4,1"	"2,4,2,3"	"3,4,4,4"	0	30m	0	"1,0,0,0"	30m	"0,0,0,2"	"4,4,4,4"	0	"3,1,1,4"	3m	12m	4m	14m	0	0	0	"1,0,0,0"	0	0	0																																								
 evergreen	Ericaceae	crowberry	Empetrum	nigrum	0	0	0	0	0	0	0	0	0	0	0	0	"0,2,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m																																								
 evergreen	Ericaceae	alpine-wintergreen	Gaultheria	humifusa	0	0	25m	0	17m	2m	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	30m	0	0	0	0	3m	0	0	0	10m	3m	0	0	0	0	0	0	0	0	0																																								
 evergreen	Ericaceae	alpinelaurel	Kalmia	microphylla	0	0	0	0	20m	0	0	0	35m	"4,4,4,4"	0	"4,4,4,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,1,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+evergreen	Ericaceae	one-sided-wintergreen	Orthilia	secunda	0	0	0	0	"0,0,0,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+evergreen	Ericaceae	one-sided-wintergreen	Orthilia	secunda	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	15m	0	0	0	0	0	0	0	0	0	0																																								
+evergreen	Ericaceae	one-sided-wintergreen	Orthilia	secunda	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7m																																								
 evergreen	Ericaceae	Pinkmountain-heather	Phyllodoce	empetriformis	0	0	7m	"4,4,4,4"	"2,1,2,0"	20m	5m	0	25m	"2,3,2,1"	0	"1,4,3,4"	0	0	0	"4,3,3,3"	"1,1,0,0"	"3,2,0,1"	"0,0,0,3"	"3,1,4,4"	0	5m	0	"2,0,3,2"	6m	0	0	0	"4,4,4,4"	5m	5m	0	17m	0	"1,4,3,4"	0	"3,0,1,1"	"1,0,0,0"	"1,0,0,3"	0																																								
 evergreen	Ericaceae	YellowMountain-Heather	Phyllodoce	glanduliflora	0	3m	6m	0	0	0	20m	5m	0	0	0	0	"3,4,4,1"	0	0	"4,3,3,1"	0	0	0	0	10m	0	0	0	"0,0,4,2"	"4,4,4,4"	"4,4,4,4"	"0,1,1,0"	9m	6m	"3,0,0,1"	0	4m	0	0	0	"4,1,4,4"	"4,4,4,4"	0	"3,3,1,0"																																								
+evergreen	Ericaceae	Pinkwintergreen	Pyrola	asarifolia	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+evergreen	Ericaceae	Pinkwintergreen	Pyrola	asarifolia	0	0	0	0	"4,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+evergreen	Ericaceae	Pinkwintergreen	Pyrola	asarifolia	0	0	0	0	0	0	"0,0,2,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+evergreen	Ericaceae	white-floweredrhododendron	Rhododendron	albiflorum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+evergreen	Ericaceae	white-floweredrhododendron	Rhododendron	albiflorum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9m	0	0	0	0	0	0	0	0	0	0	0																																								
+evergreen	Ericaceae	white-floweredrhododendron	Rhododendron	albiflorum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,1,1"	6m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 evergreen	Ericaceae	Blackhuckleberry	Vaccinium	membranaceum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	"0,0,2,1"	3m	30m	0	0	0	0	0	0	0	2m	8m	7m	0	0	0	0	0	15m	0	0	0																																								
+evergreen	Ericaceae	Oval-leavedblueberry	Vaccinium	ovalifolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,1"	0	0	0	0	0	0	0	0	0	0	0																																								
+evergreen	Ericaceae	redhuckleberry	Vaccinium	parvifolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9m	0	0	0	0	0	0	0	0	0	0	0																																								
+evergreen	Ericaceae	redhuckleberry	Vaccinium	parvifolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+evergreen	Ericaceae	spp	Vaccinium		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	22m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 evergreen	Ericaceae	northernbilberry	Vaccinium	uliginosum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	rush	Luzula		0	0	0	0	0	0	0	0	0	0	"1,1,0,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Caryophyllaceae	mosscampion	Silene	acaulis	0	0	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata	0	0	0	0	0	0	0	0	0	0	"0,1,1,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-evergreen	Ericaceae	wintergreen	Pyrola	?	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Saxifragaceae	brooksaxifrage	Saxifraga	odontoloma	0	0	0	0	0	0	0	0	0	0	0	0	6m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	stickyleafaster	Arnica	ovata	0	0	0	0	0	0	0	0	0	0	0	0	9m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Plantaginaceae	alpinespeedwell	Veronica	wormskjoldii	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+evergreen	Ericaceae	spp	Vaccinium		0	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+evergreen	Ericaceae	spp1	Vaccinium		0	0	4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Pteridaceae	Maidenhairfern	Adiantum		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Aspleniaceae	greenspleenwortfern	Asplenium	viride	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Aspleniaceae	greenspleenwortfern	Asplenium	viride	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Aspleniaceae	greenspleenwortfern	Asplenium	viride	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m																																								
+fern	Athyriaceae	Alpineladyfern	Athyrium	alpestre	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19m	0	0	0	0	0	0	0	0																																								
+fern	Athyriaceae	Alpineladyfern	Athyrium	alpestre	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Athyriaceae	Alpineladyfern	Athyrium	alpestre	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Athyriaceae	Alpineladyfern	Athyrium	alpestre	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Athyriaceae	Alpineladyfern	Athyrium	alpestre	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	0	0	0	0																																								
+fern	Athyriaceae	Alpineladyfern	Athyrium	alpestre	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m																																								
+fern	Athyriaceae	Alpineladyfern	Athyrium	alpestre	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Athyriaceae	Alpineladyfern	Athyrium	distentifolium	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Athyriaceae	Alpineladyfern	Athyrium	distentifolium	0	0	0	0	0	0	0	0	0	0	4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Ophioglossaceae	moonworts	Botrychium	spp.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Pteridaceae	Americanparsleyfern	Cryptogramma	acrostichoides	0	0	2m	12m	0	0	0	20m	0	0	"0,0,1,0"	0	0	10m	0	0	0	0	0	0	"3,2,1,4"	5m	10m	"1,1,1,3"	0	0	0	18m	0	1m	0	20m	"1,1,1,3"	0	0	0	0	0	0	0																																								
+fern	Pteridaceae	Americanparsleyfern	Cryptogramma	acrostichoides	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,1"																																								
+fern	Dryopteridaceae	marginalshieldfern	Dryopteris	marginalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	39m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Dryopteridaceae	hollyfern	Polystichium		0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Dryopteridaceae	Braunshollyfern	Polystichum	braunii	0	0	0	0	0	0	0	0	0	0	6m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Dryopteridaceae	northernhollyfern	Polystichum	lonchitis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	Dryopteridaceae	northernhollyfern	Polystichum	lonchitis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,1"	0	0	0	0	0	0	0																																								
+fern	Dryopteridaceae	hollyfern	Polystichum		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	FERN	Fernspp	Fern		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+fern	FERN	Fernspp	Fern		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+floweringplant	Lycopodiaceae	alpineclubmoss	Diaphasiastrum	alpinum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+floweringplant	Lycopodiaceae	alpineclubmoss	Diaphasiastrum	alpinum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+floweringplant	Lycopodiaceae	alpineclubmoss	Diaphasiastrum	alpinum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19m	0	0	0	0	0	0	0	0	0	0	0																																								
+floweringplant	Ericaceae	alpinelaurel	Kalmia	microphylla	0	0	0	0	0	0	0	0	0	0	0	0	"4,0,0,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Yarrow	Achillea	millefolium	0	0	7m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Brassicaceae	Rockcress	Arabis	drummondii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,1,4,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Yarrow	Achillea	millefolium	0	0	0	0	0	0	0	0	0	0	"1,2,1,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Yarrow	Achillea	millefolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	3m	0	0	0	0	0																																								
-forb	Asteraceae	woollyhawksweed	Hieraceum	triste	0	0	0	8m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	FERN	Maidenhair fern	Adiantum		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	Yarrow	Achillea	millefolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,1"																																								
+forb	Asteraceae	Yarrow	Achillea	millefolium	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	Yarrow	Achillea	millefolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,2,3,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca	0	0	0	0	0	0	0	0	"0,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,0,0,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3.5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea	0	0	"4,2,2,2,"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea	0	0	0	4m	5m	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
@@ -81,62 +98,60 @@ forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	"0,
 forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	"2,0,0,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18m	0	10m	4m	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	"1,0,0,0"	0	1.5m	0	0	0	0	0																																								
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12m	0	18m	0	0																																								
+forb	Asteraceae	Pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4m																																								
 forb	Ranunculaceae	westernanemone	Anemone	occidentalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,2,2,0"	0																																								
-forb	Asteraceae	woollypussytoes	Antennaria		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	Alpinesweetgrass	Anthoxanthum	monticola	0	0	0	0	0	0	0	0	0	0	"1,0,0,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Ranunculaceae	westernanemone	Anemone	occidentalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18m	0	35m	0	0	0	0	0	0																																								
+forb	Asteraceae	alpinepussytoesoralpinecatsfoot	Antennaria	alpina	0	0	0	0	5m	0	20m	5m	0	0	"0,0,0,0"	0	"0,0,0,1"	0	0	0	0	0	0	0	0	0	"0,0,2,2"	26m	1.5m	8m	"2,1,2,0"	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,1"																																								
 forb	Asteraceae	woollypussytoes	Antennaria	lanata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	Rosypussytoes	Antennaria	rosea	0	0	0	11m	4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30m	0	0	0	0	0	0	6m	0	3m	"3,2,0,1"	0	14m	0	0	0	0	0	0	0																																								
+forb	Asteraceae	brownpussytoes	Antennaria	umbrinella	0	0	0	3m	0	0	"0,1,0,0"	0	0	0	0	0	0	0	0	0	17m	0	0	0	0	0	0	0	0	0	0	18m	0	10m	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	woollypussytoes	Antennaria		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Brassicaceae	Rockcress	Arabis	drummondii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,1,4,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Brassicaceae	Rockcress	Arabis	drummondii	0	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Brassicaceae	Rockcress	Arabis	drummondii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,1,0,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Brassicaceae	Rockcress	Arabis	kamchatka	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae		Poa	arctica	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,1,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	Aster	Arnica	Darryi	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	stickyleaftaster	Arnica	ovata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Brassicaceae	Rockcress	Arabis	drummondii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17m	0	0																																								
+forb	Brassicaceae	Rockcress	Arabis	drummondii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	Parrysarnica	Arnica	parryi	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	Broadleadarnica	Arnica	latifolia	0	0	0	20m	0	0	0	"1,3,2,1"	0	0	"1,0,0,0"	0	5m	0	0	0	0	0	5m	20m	0	"0,0,2,0"	"4,4,4,4"	"1,0,0,0"	0	0	8m	0	0	0	0	0	0	0	0	0	0	0	0	"0,2,0,2"																																								
 forb	Asteraceae	Aster	Arnica	mattis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,1,1"	"3,2,0,1"	10m	"0,0,0,1"	0	0	0	0	0																																								
+forb	Asteraceae	stickyleafaster	Arnica	ovata	0	0	0	0	0	0	0	0	0	0	0	0	9m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	stickyleaftaster	Arnica	ovata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	stickyleaftaster	Arnica	ovata	0	0	0	0	0	0	0	0	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	stickyleaftaster	Arnica	ovata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	stickyleaftaster	Arnica	ovata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,2,0,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Aster	Arnica	spp	0	0	0	9m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Aster	Arnica		0	0	0	0	0	0	0	0	0	0	0	0	0	0	8m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	wormwood	Artemsia	furcata	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae		Aster	??	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae		Aster	fol	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,4,1,1"	0																																								
-forb	Asteraceae		Aster	spp1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,1,1"																																								
-forb	Asteraceae		Aster		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	FERN	Alpineladyfern	Athyrium	alpestre	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19m	0	0	0	0	0	0	0	0																																								
-fern	FERN	Alpineladyfern	Athyrium	distentifolium	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	FERN	Alpineladyfern	Athyrium	distentifolium	0	0	0	0	0	0	0	0	0	0	4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	FERN	Alpineladyfern	Athyrium	alpestre	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	FERN	Alpineladyfern	Athyrium	alpestre	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	leafy aster 	Symphyotrichum	foliaceum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	leafy aster 	Symphyotrichum	foliaceum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,4,1,1"	0																																								
+forb	Asteraceae	leafy aster 	Symphyotrichum	foliaceum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,1,1"																																								
+forb	Asteraceae	leafy aster 	Symphyotrichum	foliaceum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Brassicaceae	Calder'ssuncress	Boechera	calderi	0	0	0	0	0	0	0	0	2m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Brassicaceae	Calder'ssuncress	Boechera	calderi	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3om	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	sedge	Carex	60?	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,4,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	Brewer'ssedge	Carex	breweri	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	Hare's-footsedge	Carex	lachenalii	0	0	0	0	0	0	0	0	"1,2,"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	Falklandislandsedge	Carex	macloviana	0	0	0	0	0	0	0	0	adjacent4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	sedge	Carex	nar	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,3,4,1"	0																																								
-gramminoid	Cyperaceae	Showysedge	Carex	spectabilis	0	0	0	0	0	0	"0,3,0,0"	"4,4,32"	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	sedge	Carex	spp.	0	0	0	0	0	0	"0,0,0,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	sedge	Carex	spp1	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,3,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	sedge	Carex	spp1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	sedge	Carex	spp1(hairy)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4m	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	sedge	Carex	spp2	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	sedge	Carex	spp2	0	0	0	7m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	sedge	Carex	spp2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14m	2m	"4,2,1,1"	"3,2,0,2"	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	sedge	Carex	spp3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8m	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	sedge	Carex	WP69-1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,1,0,0"	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	Carexspp3	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	CarexWP69-2	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,1"	5m	"0,2,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	sedge	Carex	aurea	0	0	0	0	0	0	0	0	0	0	0	0	"4,3,3,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Scrophulariaceae	giantredIndianpaintbrush(common)	Castilleja	miniata	0	12m	15m	5m	5m	6m	15m	0	20m	0	"4,3,4,3"	0	"1,0,0,0"	9m	4m	0	7m	0	0	0	20m	"1,0,0,0"	"1,1,1,2"	2m	0	4m	5m	7m	0	3m	"3,0,0,0"	"2,2,4,3"	"1,0,0,1"	0	"3,2,2,2"	8m	1.5m	4m	0	"2,0,1,3"																																								
 forb	Scrophulariaceae	paintbrush	Castilleja	pervifolia	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Scrophulariaceae	cliffpaintbrush	Castilleja	rupicola	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0																																								
+forb	Scrophulariaceae	cliffpaintbrush	Castilleja	rupicola	0	0	0	0	0	0	0	0	0	0	0	0	4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Onagraceae	Fireweed	Chamaenerion	angustifolium	0	0	1m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Onagraceae	Fireweed	Chamoeurionanf	angustifolium	0	0	0	0	0	0	0	0	"4,3,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Onagraceae	Fireweed	Chamaenerion	angustifolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"3,1,0,2"	0	0	0	0	0	0																																								
+forb	Onagraceae	dwarffireweed	Chamaenerion	latifolium	"2,2,2,0"	"1,1,1,0"	"2,0,3,2"	0	15m	"4,3,0,1"	0	30m	0	0	"4,3,0,0"	0	0	"4,4,4,4"	"3,4,4,2"	0	7m	2m	15m	0	7m	"4,4,4,4"	"1,0,0,1"	"2,2,2,1"	0	15m	0	0	0	0	0	5m	"4,3,4,4"	0	3m	"4,3,0,3"	0	0	0	0																																								
+forb	Onagraceae	Fireweed	Chamaenerion	angustifolium	0	0	0	0	0	0	0	0	"4,3,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	ediblethistle	Cirsium	edule	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	ediblethistle	Cirsium	edulevar.macounii	0	0	0	0	0	0	0	0	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	dwarf alpine hawksbeard	Crepis	nana	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-crust	CRUST				0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	Dryopteridaceae	marginalshieldfern	Dryopteris	marginalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	39m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-floweringplant	Lycopodiaceae	alpineclubmoss	Diaphasiastrum	alpinum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-floweringplant	Lycopodiaceae	alpineclubmoss	Diphasiastrum	spp	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	ediblethistle	Cirsium	edule	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	ediblethistle	Cirsium	edule	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12m	25m	0	0	0	0	0																																								
+forb	Asteraceae	ediblethistle	Cirsium	edule	0	0	0	0	0	0	0	0	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	dwarfalpinehawksbeard	Crepis	nana	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	dwarfalpinehawksbeard	Crepis	nana	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"3,3,4,4"	0	0	0	0																																								
+forb	Asteraceae	dwarfalpinehawksbeard	Crepis	nana	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,2,1,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Rosaceae	shrubbycinquefoil	Dasiphora	fruticosa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,2,1,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Rosaceae	whitemountain-avens	Dryas	drummondii	0	27m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	slenderwheatgrass	Elymus	trachycaulus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,1"	8m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Rosaceae	whitemountain-avens	Dryas	drummondii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25m	0	0																																								
 forb	Onagraceae	alpinewillowherb	Epilobium	anagallidifolium	0	0	0	0	0	0	0	0	0	0	0	0	5m	"1,2,0,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Onagraceae	alpinewillowherb	Epilobium	anagallidifolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,0,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Onagraceae	alpinewillowherb	Epilobium	anagallidifolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18m	"0,1,0,1"	0	8m	0	0	0	0	0																																								
@@ -149,55 +164,42 @@ forb	Asteraceae	subalpinefleabane	Erigeron	glacialis	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 forb	Asteraceae	subalpinefleabane	Erigeron	glacialis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,2,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	subalpinefleabane	Erigeron	glacialis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19m	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	subalpinefleabane	Erigeron	glacialis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,0,1,1"	0	9m	"2,1,2,2"	0	0	0	0	0																																								
+forb	Asteraceae	subalpinefleabane	Erigeron	glacialis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Snowfleabanedaisy	Erigeron	nivalis	0	0	0	5m	23m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Snowfleabanedaisy	Erigeron	nivalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	subalpinefleabane	Erigeron	glacialis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	snow-fleabane-daisy	Erigeron	nivalis	0	0	"4,2,2,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Phrymaceae	commonyellowmonkeyflower	Erythranthe	guttata	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Phrymaceae	commonyellowmonkeyflower	Erythranthe	guttata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Phrymaceae	commonyellowmonkeyflower	Erythranthe	guttata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0																																								
 forb	Phrymaceae	greatpurplemonkeyflower	Erythranthe	lewisii	10m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Phrymaceae	greatpurplemonkeyflower	Erythranthe	lewisii	0	0	0	0	0	0	0	0	0	0	1.5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	Aspleniaceae	greenspleenwortfern	Asplenium	viride	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	alpinefescue	Festuca	brachyphylla	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	rockymountainfescue	Festuca	saximontana	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	juncus1-flowersized	Juncus		0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	juncus2-flowertopdrumondii	Juncus		0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,1,1,0"	"3,5,2,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Phrymaceae	greatpurplemonkeyflower	Erythranthe	lewisii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Phrymaceae	greatpurplemonkeyflower	Erythranthe	lewisii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.5m	0	0	0	0	0	0	0																																								
+forb	Rosaceae	mountainstrawberry	Fragaria	virginiana	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Rosaceae	mountainstrawberry	Fragaria	virginiana	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Ericaceae	alpine-wintergreen	Gaultheria	humifusa	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteaceae	Buterbun	Hetaciles	Frigidus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	woollyhawksweed	Hieracium	triste	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,2,1,2"	0																																								
-forb	Asteraceae	White-floweredhawkweed	Hieracium	albiflorum	0	0	1m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	coltsfoot	Petasites	frigidus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0																																								
+forb	Saxifragaceae	SmoothAlumroot	Heuchera	glabra	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	woollyhawksweed	Hieracium	triste	0	0	0	8m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	Whitefloweredhawkweed	Hieracium	albiflorum	0	0	1m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Dwarfhawkweed	Hieracium	humile	0	0	1m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	woollyhawksweed	Hieracium	triste	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,2,1,2"	0																																								
 forb	Asteraceae	woollyhawksweed	Hieracium	triste	0	0	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	woollyhawksweed	Hieracium	triste	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	woollyhawksweed	Hieracium	triste	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16m	0	0	0	0	0	0	0																																								
+forb	Asteraceae	woollyhawksweed	Hieracium	triste	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	woollyhawksweed	Hieracium	triste	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19m	0	0																																								
 forb	Asteraceae		Hieracium		0	0	0	0	0	0	0	0	0	0	0	0	0	0	17m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae		Hieracium		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	32m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	woollyhawksweed	Hieracium	triste	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	rush	Juncus	arcticus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,3,1"																																								
-gramminoid	Juncaceae	rush	Juncus	drummondii	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,2,2,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	rush	Juncus	drummondii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	0																																								
-gramminoid	Juncaceae	rush	Juncus	drummondii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	12m	"0,2,4,0"	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	rush	Juncus	mertensianus	0	0	0	0	0	0	0	0	0	0	"2,2,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	rush	Juncus	mertensianus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,0,2"	0	3m	0	0	0	0	0																																								
-gramminoid	Juncaceae	rush	Juncus	mertensianus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	rush	Juncus	spp1	1m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	rush	Juncus	spp1	0	0	0	7m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	rush	Juncus	spp2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	"3,0,0,1"	"0,1,0,0"	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	rush	Juncus	triglumus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	Hedgehogrush	Juncus		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0																																								
-gramminoid	Juncaceae	rush spp2 WP58	Juncus		0	0	7m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-floweringplant	Ericaceae	alpinelaurel	Kalmia	microphylla	0	0	0	0	0	0	0	0	0	0	0	0	"4,0,0,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-		Lichen	Lichen		0	0	0	0	0	0	0	0	0	0	0	0	"1,2,0,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-		Lichen	Lichen		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	"3,4,4,2"	"4,3,2,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-		Lichen	Lichen		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"3,2,2,1"	0																																								
-forb	Fabaceae	lupine	Lupinus	spp2(nohair)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.5m	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Fabaceae	lupine	Lupinus	furry	0	0	0	0	0	0	"0,2,2,1"	"4,4,3,4"	"1,0,1"	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	rush	Luzula		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	rush	Luzula	parviflora	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4m	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	rush spp1	Luzula		0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	rush spp1	Luzula		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	32m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	Piper'swood-rush	Luzula	piperi	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,4,4,3"	6m	"1,1,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Juncaceae	Piper'swood-rush	Luzula	piperi	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,1,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-floweringplant	Lycopodiaceae	alpineclubmoss	Diphasiastrum	spp	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19m	0	0	0	0	0	0	0	0	0	0	0																																								
-liverwort	liverwort	liverwort	Marchantia		0	0	0	0	0	0	0	0	0	0	"1,3,3,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-liverwort	liverwort	liverwort	Marchantia		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,1,0,2"	0	0	0	0	0																																								
-forb	Saxifragaceae		Micranthes	ferruginea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Saxifragaceae	leatherleafsaxifrage	Leptarrhena	pyrolifolia	0	0	0	0	17m	0	0	0	0	0	"3,3,4,1"	0	"4,2,4,1"	4m	0	0	0	17m	0	0	30m	"3,4,0,0"	20m	"0,0,1,0"	10m	0	10m	0	11m	0	0	"4,4,4,4"	"2,0,0,1"	0	"3,0,1,2"	0	0	0	0	2m																																								
+forb	Brassicaceae	Physaria/lesquerella	Lesquerella	alpina	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Rosaceae	partridgefoot	Luetkea	pectinata	0	3m	0	11.5m	0	0	0	"2,4,2,0"	0	0	8m	0	0	0	0	15m	0	"4,4,4,4"	"3,4,3,4"	"1,2,1,0"	0	0	0	2.5m	"1,2,1,0"	0	0	0	0	0	0	0	"2,0,0,2"	10m	0	0	0	0	"4,4,4,2"	"1,2,0,1"																																								
+forb	Fabaceae	lupine	Lupinus	spp.	0	0	0	0	0	0	"0,2,2,1"	"4,4,3,4"	"1,0,1"	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Fabaceae	lupine	Lupinus	spp.	0	0	"4,4,4,3"	"4,3,2,3"	"4,4,4,3"	5m	"1,1,0,0"	"4,0,0,0"	0	0	0	30m	0	0	23m	"4,3,3,4"	8m	"1,0,3,3"	"4,2,1,1"	"1,0,0,1"	10m	"0,4,0,0"	"2,4,4,2"	0	0	20m	"3,2,4,4"	"4,2,4,4"	0	3m	"4,4,4,4"	0	0	8m	"1,4,4,4"	0	"4,3,4,4"	5m	"1,0,4,0"	"0,3,4,2"																																								
+forb	Fabaceae	lupine	Lupinus	spp.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.5m	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Saxifragaceae	RustySaxifrage	Micranthes	ferruginea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,1,3"	0	0	0	0	0	0	0																																								
+forb	Saxifragaceae	RustySaxifrage	Micranthes	ferruginea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17m	0	0																																								
+forb	Saxifragaceae	RustySaxifrage	Micranthes	ferruginea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Saxifragaceae	Snowsaxifrage	Micranthes	nivalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Saxifragaceae	Snowsaxifrage	Micranthes	nivalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12m	0	0	0	0	0	0	0	0	0	0																																								
 forb	Phrymaceae	greatpurplemonkeyflower	Mimulus	lewisii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
@@ -205,196 +207,194 @@ forb	Phrymaceae	Tiling'smonkeyflower	Mimulus	tilingii	0	0	0	0	0	0	0	0	0	0	0	0	0	
 forb	Phrymaceae	Tiling'smonkeyflower	Mimulus	tilingii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12m	0	0	0	0																																								
 forb	Caryophyllaceae	Arcticsandwort	Minuartia	rubella	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Caryophyllaceae	Arcticsandwort	Minuartia	rubella	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,2,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-liverwort	liverwort	liverwort	Marchantia		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,3,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-evergreen	Ericaceae	one-sided-wintergreen	Orthilia	secunda	0	0	0	0	"0,0,0,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-Lichen	Lichen	Lichen			0	0	0	0	0	0	"3,2,1,3"	5m	"0,2,2,1"	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Caryophyllaceae	Arcticsandwort	Minuartia	rubella	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2.5m	0	0	0	0																																								
 forb	Polygonaceae	Alpinesorrel	Oxyria	digyna	0	0	0	0	0	0	0	0	0	0	0	0	0	30m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Polygonaceae	Alpinesorrel	Oxyria	digyna	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Polygonaceae	Alpinesorrel	Oxyria	digyna	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Goldengroundsel	Packera	aurea	0	0	11m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata	0	0	0	0	0	0	0	0	0	0	"0,1,1,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata	0	0	0	0	0	0	0	0	0	0	0	0	2m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,4,3,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,2,2,2"	"3,1,0,1"	0	"1,0,1,2"	0	0	0	0	0																																								
+forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m																																								
 forb	Orobanchaceae	Bractedlousewort	Pedicularis	bracteosa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,1,0"	0	3m	0	0	0	0	0	0	0	0	0	0																																								
 forb	Orobanchaceae	Leafylousewort	Pedicularis	racemosa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6m	0	0	0	0	0	0	0	0	0	0																																								
-forb	Plantaginaceae	beardtongues	Penstemon	?	0	0	"0,5,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Plantaginaceae	beardtongues	Penstemon		0	0	"0,5,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Plantaginaceae	purplebeardtongues	Penstemon	davidsonii	0	0	0	0	0	0	0	45m	0	0	0	0	0	0	0	20m	0	0	0	12m	0	0	9m	0	50m	0	0	0	0	0	"1,1,0,0"	0	0	0	0	0	0	0	0	"0,0,0,1"																																								
 forb	Plantaginaceae	beardtongues	Penstemon	procerus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,1"	0	0	0	0	0	0	0																																								
+forb	Plantaginaceae	purplebeardtongues	Penstemon	procerus	0	3m	6m	0	6m	10m	"1,2,0,0"	10m	0	0	"1,0,0,1"	0	0	0	0	0	0	0	0	0	20m	0	"0,1,3,3,"	4m	0	0	0	5m	15m	"2,0,0,1"	"4,3,1,2"	0	0	0	0	0	0	0	"3,0,0,0"	"1,0,2,3"																																								
 forb	Asteraceae	coltsfoot	Petasites	frigidus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	coltsfoot	Petasites	frigidus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	coltsfoot	Petasites	frigidus	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,0,0"	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Boraginaceae	silky phacelia	Phacelia	sericea	0	0	0	0	0	0	0	0	0	0	12m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Boraginaceae	silky phacelia	Phacelia	sericea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	0	0	0	0	0	0																																								
-forb	Boraginaceae	silky phacelia	Phacelia	sericea	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	alpinecat's-tail	Phleum	alpinum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	coltsfoot	Petasites	frigidus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Boraginaceae	silkyphacelia	Phacelia	sericea	0	0	0	0	0	0	0	0	0	0	12m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Boraginaceae	silkyphacelia	Phacelia	sericea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	0	0	0	0	0	0																																								
+forb	Boraginaceae	silkyphacelia	Phacelia	sericea	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Boraginaceae	silkyphacelia	Phacelia	sericea	0	"4,1,1,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Polemoniaceae	spreadingphlox	Phlox	diffusa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Polemoniaceae	spreadingphlox	Phlox	diffusa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,1,1,2"																																								
-forb	Asteraceae	woollyhawksweed	Hieracium	triste	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16m	0	0	0	0	0	0	0																																								
-forb	Asteraceae	woollyhawksweed	Hieracium	triste	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,2,4,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	"0,2,1,1"	0	0	0	0	0																																								
-monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata	0	0	0	0	0	0	0	0	0	0	0	0	4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	Alpinebluegrass	Poa	alpina	0	0	0	0	0	0	0	0	"0,0,0,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	Alpinebluegrass	Poa	alpina	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	spp	Poa		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,3,1,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	spp60	Poa		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	spp.	Poa		0	0	0	0	0	0	5m	"0,0,2"	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	spp.33	Poa		0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	spp1	Poa		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	spp1	Poa		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,2"	0																																								
-gramminoid	Poaceae	spp1(hairy)	poa		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	11m	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	spp2	Poa		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	2m	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	spp3	Poa		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4m	0	0	15m	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	spp4(tall)	Poa		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	PoasppWP40tall	Poa		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	PoaSppWP-69tall	Poa		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	15m	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	Dryopteridaceae	hollyfern	Polystichium		0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	Dryopteridaceae	Braun'shollyfern	Polystichum	braunii	0	0	0	0	0	0	0	0	0	0	6m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	Dryopteridaceae	northernhollyfern	Polystichum	lonchitis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	Dryopteridaceae	hollyfern	Polystichum		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	16m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Rosaceae	Blue-leaved Cinquefoil 	Potentilla	glaucophylla	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Rosaceae	Blue-leaved Cinquefoil 	Potentilla	glaucophylla	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,2,0"	0																																								
-evergreen	Ericaceae	Pinkwintergreen	Pyrola	asarifolia	0	0	0	0	"4,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-evergreen	Ericaceae	Pinkwintergreen	Pyrola	asarifolia	0	0	0	0	0	0	"0,0,2,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Lentibulariaceae	Commonbutterwort	Pinguicula	vulgaris	0	0	0	0	0	0	0	0	0	15m	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	7m	0	0	0	0																																								
+forb	Rosaceae	Blue-leavedCinquefoil	Potentilla	glaucophylla	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Rosaceae	Blue-leavedCinquefoil	Potentilla	glaucophylla	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,2,0"	0																																								
+forb	Rosaceae	Blue-leavedCinquefoil	Potentilla	glaucophylla	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0																																								
 forb	Ranunculaceae	Eschscholtz'sbuttercup	Ranunculus	eschscholtzii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Ranunculaceae	Eschscholtz'sbuttercup	Ranunculus	eschscholtzii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Ranunculaceae	Eschscholtz'sbuttercup	Ranunculus	eschscholtzii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-evergreen	Ericaceae	white-floweredrhododendron	Rhododendron	albiflorum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-evergreen	Ericaceae	white-floweredrhododendron	Rhododendron	albiflorum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9m	0	0	0	0	0	0	0	0	0	0	0																																								
-evergreen	Ericaceae	white-floweredrhododendron	Rhododendron	albiflorum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,1,1"	6m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-deciduousshrub	Grossulariaceae	currant	Ribes		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Caryophyllaceae		Sagina	saginoides	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-deciduousshrub	Salicaceae	Arcticwillow	Salix	arctica	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-deciduousshrub	Salicaceae		Salix	barclayi	0	0	0	0	0	0	"1,2,3,2"	"4,3,3,4"	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-deciduousshrub	Salicaceae	Sitkawillow	Salix	sitchensis	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-deciduousshrub	Salicaceae		Salix	spp1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14m	0	0	0	0	0	0	0	0	0	0																																								
+forb	Saxifragaceae	Spottedsaxifrage	Saxifraga	bronchialis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Saxifragaceae	brooksaxifrage	Saxifraga	odontoloma	0	0	0	0	0	0	0	0	0	0	0	0	6m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Saxifragaceae	Tolmie'ssaxifrage	Saxifraga	tolmiei	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Saxifragaceae	Spottedsaxifrage	Saxifraga	bronchialis	0	"3,2,2,2"	25m	22m	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"3,3,3,1"	30m	0	25m	0	0	0	1m	0	"1,3,3,3"	0	0	10m	0	0	0	0	0	0	"2,0,0,1"																																								
+forb	Crassulaceae	spreadingstonecrop	Sedum	divergens	0	5m	7m	0	0	"1,1,4,0"	0	45m	0	0	10m	0	0	"3,2,1,0"	0	0	0	"1,2,0,0"	0	0	"2,0,0,2"	25m	"4,0,4,4"	"0,1,0,0"	0	0	0	0	0	"4,1,0,1"	"0,3,0,0"	20m	32m	0	0	0	0	0	0	3m																																								
 forb	Asteraceae	Dwarfmountainragwort	Senecio	fremontii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0																																								
 forb	Asteraceae	Dwarfmountainragwort	Senecio	fremontii	11m	"1,0,1,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	Dwarfmountainragwort	Senecio	fremontii	0	0	"0,1,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Asteraceae	Dwarfmountainragwort	Senecio	fremontii	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Rosaceae	creepingsibbaldia	Sibbaldia	procumbens	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,3,2,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Rosaceae	creepingsibbaldia	Sibbaldia	procumbens	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,0,0,4"																																								
+forb	Rosaceae	creepingsibbaldia	Sibbaldia	procumbens	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Caryophyllaceae	mosscampion	Silene	acaulis	0	0	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Caryophyllaceae	mosscampion	Silene	acaulis	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Caryophyllaceae	mosscampion	Silene	acaulis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	0																																								
+forb	Caryophyllaceae	mosscampion	Silene	acaulis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	northerngoldenrod	Solidago	multiradiata	0	0	0	0	0	0	0	0	0	0	1.5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	northerngoldenrod	Solidago	multiradiata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	northerngoldenrod	Solidago	multiradiata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	northerngoldenrod	Solidago	multiradiata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	northerngoldenrod	Solidago	multiradiata	0	0	4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid		sp10			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid		sp11			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,2,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	spp1	Carex		0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	spp1	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Caryophyllaceae	longstalkstarwort	Stellaria	longipes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	32m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	stickyleaftaster	Arnica	ovata	0	0	0	0	0	0	0	0	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	stickyleaftaster	Arnica	ovata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	stickyleaftaster	Arnica	ovata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,2,0,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Tofieldiaceae	stickyfalseasphodel	Triantha	glutinosa	0	0	0	0	0	0	0	0	35m	"2,2,2,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-evergreen	Ericaceae	spp1	Vaccinium		0	0	4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-evergreen	Ericaceae	Oval-leaved blueberry	Vaccinium	ovalifolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,1"	0	0	0	0	0	0	0	0	0	0	0																																								
-evergreen	Ericaceae	spp	Vaccinium		0	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-evergreen	Ericaceae	redhuckleberry	Vaccinium	parvifolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9m	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Caprifoliaceae	Sitka-valerian	Valeriana	sitchensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Caprifoliaceae	Sitka-valerian	Valeriana	sitchensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,4,2,4"	"1,0,0,0"																																								
-forb	Caprifoliaceae	Sitka-valerian	Valeriana	sitchensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	35m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Caprifoliaceae	Sitka-valerian	Valeriana	sitchensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19m	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Plantaginaceae	Americanalpinespeedwell	Veronica	wormskjoldii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Plantaginaceae	Americanalpinespeedwell	Veronica	wormskjoldii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Plantaginaceae	Americanalpinespeedwell	Veronica	wormskjoldii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,1,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Plantaginaceae	Americanalpinespeedwell	Veronica	wormskjoldii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,3,1,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Plantaginaceae	Americanalpinespeedwell	Veronica	wormskjoldii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,2,0,3"	"4,2,1,4"	0	"0,0,0,2"	0	0	0	0	0																																								
-forb	Asteraceae	snow-fleabane-daisy	Erigeron	nivalis	0	0	"4,2,2,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	Yarrow	Achillea	millefolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,1"																																								
-forb	Phrymaceae	common yellow monkeyflower	Erythranthe	guttata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Rosaceae	creepingsibbaldia	Sibbaldia	procumbens	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-frob		Aster spp.3			0	0	"0,0,3,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern		Fern spp1			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid		Grass spp1			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-		spp1			0	"1,4,2,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid		Gramminoid spp2			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb		Aster spp4			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid		Gramminoidspp5and6			0	0	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-evergreen	Ericaceae	one-sided-wintergreen	Orthilia	secunda	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	15m	0	0	0	0	0	0	0	0	0	0																																								
-conifer	Pinaceae	AlpineFir	Abies	lasiocarpa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	0	0																																								
-gramminoid	Poaceae	Alpinebentgrass	Agrostis	humilis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6m	"4,0,0,3"	0	0	0	0	0																																								
-fern	FERN	Alpineladyfern	Athyrium	alpestre	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	FERN	Alpineladyfern	Athyrium	alpestre	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	0	0	0	0																																								
-fern	FERN	Alpineladyfern	Athyrium	alpestre	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m																																								
-fern	FERN	Alpineladyfern	Athyrium	alpestre	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-conifer	Pinaceae	AlpineFir	Abies	lasiocarpa	0	0	0	0	"4,4,4,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-Fern	FERN	Americanparsleyfern	Cryptogramma	acrostichoides	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,1"																																								
-forb	Asteraceae	pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	Alpinebluegrass	Poa	alpina	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,2,1"	"3,2,1,4"	0	0	0	0	0	0	0																																								
-forb	Caryophyllaceae	Arcticsandwort	Minuartia	rubella	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2.5m	0	0	0	0																																								
-forb	Asteraceae	Aster			0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	sedge	Carex	aurea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"3,13,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	Carexspp.2	Carex		0	0	2m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Cyperaceae	carexwet	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Scrophulariaceae	cliffpaintbrush	Castilleja	rupicola	0	0	0	0	0	0	0	0	0	0	0	0	4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	coltsfoot	Petasites	frigidus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-deciduousshrub	Betulaceae	Blackcottonwood	Populus	trichocarpa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-crust	crust	crust			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Rosaceae	whitemountain-avens	Dryas	drummondii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25m	0	0																																								
-forb	Asteraceae	dwarf alpine hawksbeard	Crepis	nana	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"3,3,4,4"	0	0	0	0																																								
-forb	Asteraceae	dwarf alpine hawksbeard	Crepis	nana	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,2,1,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	ediblethistle	Cirsium	edule	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	FERN	Fernspp			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	Festucaspp1			0	0	0	0	0	0	0	0	0	0	0	0	0	"1,3,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Onagraceae	Fireweed	Chamaenerion	angustifolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"3,1,0,2"	0	0	0	0	0	0																																								
-forb		Floweringplant1			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-monocot	Liliaceae	Glacierlily	Erythronium	grandiflorum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12m	0	0	0	0	0	0																																								
-gramminoid		GraminoidWP73			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,2,1,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid		gramminoid3			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,1,4"	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid		Gramminoid4			0	0	"0,0,0,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid		gramminoid4			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid		gramminoid7			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	?	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid		gramminoid9			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,1,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid		grammoid8			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,3,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Celastraceae	fringedgrassofParnassus	Parnassia	fimbriata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m																																								
-fern	Aspleniaceae	greenspleenwortfern	Asplenium	viride	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	Aspleniaceae	greenspleenwortfern	Asplenium	viride	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m																																								
-gramminoid	Juncaceae	Juncusspp1	Juncus		0	0	0	0	0	0	0	0	0	0	0	0	4m	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Phrymaceae	greatpurplemonkeyflower	Erythranthe	lewisii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-		Lichen			0	0	0	0	0	0	0	0	0	0	"0,0,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-		Lichen			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	"1,2,1,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-		Lichen			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,1,4,4"	"4,4,4,4"	"4,4,4,3"	"1,2,0,2"	0	0	0	0	0	0	0	0	0																																								
-		Lichen			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,3,1,0"	"0,0,0,2"	0	0	0	0	0	0																																								
-gramminoid	Juncaceae		Luzula	parviflora	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18m	0	0																																								
-forb	Caryophyllaceae	mosscampion	Silene	acaulis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	northerngoldenrod	Solidago	multiradiata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m																																								
 forb	Asteraceae	northerngoldenrod	Solidago	multiradiata	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Asteraceae	northerngoldenrod	Solidago	multiradiata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18m	0	0	0	0	0	0																																								
-evergreen	Ericaceae	one-sided-wintergreen	Orthilia	secunda	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7m																																								
-forb	Asteraceae	orangemountaindandylion	Agoseris	aurantiaca	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3.5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Ranunculaceae	westernanemone	Anemone	occidentalis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18m	0	35m	0	0	0	0	0	0																																								
-forb	Asteraceae	pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	"1,0,0,0"	0	1.5m	0	0	0	0	0																																								
-forb	Asteraceae	pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12m	0	18m	0	0																																								
-forb	Asteraceae	pearlyeverlasting	Anaphalis	margaritacea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4m																																								
-forb	Brassicaceae	Physaria/lesquerella	Lesquerella 	alpina	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Phrymaceae	pinkmimulus	Erythranthe	lewisii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.5m	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	Poa			0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-gramminoid	Poaceae	Poaspp1			0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-fern	Dryopteridaceae	northern hollyfern	Polystichum	lonchitis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,1"	0	0	0	0	0	0	0																																								
-forb	Rosaceae	Potentillamabirens?	Potentilla		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0																																								
-forb	Brassicaceae	Rockcress	Arabis	drummondii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17m	0	0																																								
-forb	Saxifragaceae	RustySaxifrage	Micranthes	ferruginea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,1,3"	0	0	0	0	0	0	0																																								
-forb	Saxifragaceae	RustySaxifrage	Micranthes	ferruginea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17m	0	0																																								
-forb	Asteraceae		Senecio	fremontii	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Rosaceae	shrubbycinquefoil	Dasiphora	fruticosa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,2,1,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Caryophyllaceae	longstalkstarwort	Stellaria	longipes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	32m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Tofieldiaceae	stickyfalseasphodel	Triantha	glutinosa	0	0	25m	0	0	0	0	0	35m	"4,4,4,4"	0	"4,4,4,4"	"2,0,2,1"	0	0	0	"4,3,4,4"	0	0	0	0	"2,1,0,0"	0	0	0	13m	4m	0	0	0	3m	"3,0,1,2"	0	0	6m	0	0	0	0	0																																								
+forb	Tofieldiaceae	stickyfalseasphodel	Triantha	glutinosa	0	0	0	0	0	0	0	0	35m	"2,2,2,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
 forb	Caprifoliaceae	Sitkavalerian	Valeriana	sitchensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9m	0	0	0	0	0	0																																								
-evergreen	Ericaceae	smallredhuckleberry	Vaccinium	parvifolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Saxifragaceae	SmoothAlumroot	Heuchera	glabra	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Saxifragaceae	Spottedsaxifrage	Saxifraga	bronchialis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Rosaceae	wildstrawberry	Fragaria	vesca	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	ediblethistle	Cirsium	edule	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12m	25m	0	0	0	0	0																																								
-forb	Saxifragaceae	Tolmie'ssaxifrage	Saxifraga	tolmiei	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-conifer	Pinaceae	AlpineFir	Abies	lasiocarpa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	0	0	0	0																																								
-forb	Brassicaceae	unknownrosette1(chelseaphoto)			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Brassicaceae	unknownrosette2(chelseaphoto)			0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-evergreen	Ericaceae		Vaccinium	spp.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	22m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	woollyhawksweed	Hieracium	triste	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19m	0	0																																								
-forb	Asteraceae	Yarrow	Achillea	millefolium	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Asteraceae	Yarrow	Achillea	millefolium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,2,3,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
-forb	Phrymaceae	common yellow monkeyflower	Erythranthe	guttata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0																																								
+forb	Caprifoliaceae	Sitkavalerian	Valeriana	sitchensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Caprifoliaceae	Sitkavalerian	Valeriana	sitchensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,4,2,4"	"1,0,0,0"																																								
+forb	Caprifoliaceae	Sitkavalerian	Valeriana	sitchensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	35m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Caprifoliaceae	Sitkavalerian	Valeriana	sitchensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19m	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Plantaginaceae	alpinespeedwell	Veronica	wormskjoldii	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Plantaginaceae	alpinespeedwell	Veronica	wormskjoldii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Plantaginaceae	alpinespeedwell	Veronica	wormskjoldii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Plantaginaceae	alpinespeedwell	Veronica	wormskjoldii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,1,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Plantaginaceae	alpinespeedwell	Veronica	wormskjoldii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,3,1,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Plantaginaceae	alpinespeedwell	Veronica	wormskjoldii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,2,0,3"	"4,2,1,4"	0	"0,0,0,2"	0	0	0	0	0																																								
+forb	Asteraceae	Aster	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb		Asterspp4	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb		Floweringplant1	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Brassicaceae	unknownrosette1(chelseaphoto)	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+forb	Brassicaceae	unknownrosette2(chelseaphoto)	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+frob		Asterspp.3	Unknown		0	0	"0,0,3,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+Fungi	FUNGI	mushroom	FUNGI		0	0	0	"4,4,4,4"	"4,4"	0	0	0	0	0	"1,0,0,0"	0	"2,2,4,3"	0	0	0	0	0	0	0	0	"0,0,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,1"	0	0	0	0	0																																								
+gramminoid	Poaceae	Alpinebentgrass	Agrostis	humilis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6m	"4,0,0,3"	0	0	0	0	0																																								
+gramminoid	Poaceae	Alpinesweetgrass	Anthoxanthum	monticola	0	0	0	0	0	0	0	0	0	0	"1,0,0,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	sedge	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,4,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	Watersedge	Carex	aquatalis	0	0	0	"0,0,1,0"	17m	0	0	0	0	"2,2,2,2"	"0,0,1,0"	2m	"3,0,2,4"	0	"3,0,0,0"	"1,0,1,1"	0	0	0	0	0	"0,0,3"	0	0	0	25m	"0,0,0,2"	0	0	0	0	"0,1,3,2"	"4,1,0,4"	10m	"3,0,0,0"	0	0	0	"4,4,2,4"	"1,0,0,0"																																								
+gramminoid	Cyperaceae	goldensedge	Carex	aurea	0	0	0	"2,0,0,0"	"0,4,1,0"	0	0	0	0	0	0	0	0	0	"0,0,0,1"	0	0	"0,2,1,2"	0	"1,2,0,0"	0	"4,0,1,3"	0	0	0	"1,1,1,4"	0	0	0	0	0	"2,1,4,4"	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	goldensedge	Carex	aurea	0	0	0	0	0	0	0	0	0	0	0	0	"4,3,3,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	goldensedge	Carex	aurea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"3,13,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	Brewer'ssedge	Carex	breweri	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	Hare's-footsedge	Carex	lachenalii	0	0	0	0	0	0	0	0	"1,2,"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	Falklandislandsedge	Carex	macloviana	0	0	0	0	0	0	0	0	adjacent4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	sedge	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,3,4,1"	0																																								
+gramminoid	Cyperaceae	Showysedge	Carex	spectabilis	0	0	0	0	0	0	"0,3,0,0"	"4,4,32"	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	spp.	Carex		0	0	0	0	0	0	"0,0,0,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	spp1	Carex		0	0	0	0	0	0	0	0	0	0	0	0	"0,1,3,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	spp1	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	spp1(hairy)	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4m	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	spp2	Carex		0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	spp2	Carex		0	0	0	7m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	spp2	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14m	2m	"4,2,1,1"	"3,2,0,2"	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	spp3	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8m	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	WP69-1	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,1,0,0"	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	Carexspp.2	Carex		0	0	2m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	Carexspp3	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	carexwet	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	CarexWP69-2	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,1"	5m	"0,2,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	spp1	Carex		0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Cyperaceae	spp1	Carex		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	slenderwheatgrass	Elymus	trachycaulus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,1"	8m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	alpinefescue	Festuca	brachyphylla	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	rockymountainfescue	Festuca	saximontana	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	Arcticrush	Juncus	arcticus	0	0	0	0	0	0	0	20m	"0,0,1,0"	0	"1,4,4,4"	15m	"0,1,0,0"	0	0	0	0	0	0	0	0	"1,2,0,1"	0	0	10m	0	0	0	0	0	0	"3,4,4,4"	"3,1,1,3"	0	0	1m	0	9m	0	0																																								
+gramminoid	Juncaceae	rush	Juncus	arcticus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,3,1"																																								
+gramminoid	Juncaceae	rush	Juncus	drummondii	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,2,2,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	rush	Juncus	drummondii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	0																																								
+gramminoid	Juncaceae	rush	Juncus	drummondii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	12m	"0,2,4,0"	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	rush	Juncus	mertensianus	0	0	0	0	0	0	0	0	0	0	"2,2,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	rush	Juncus	mertensianus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,1,0,2"	0	3m	0	0	0	0	0																																								
+gramminoid	Juncaceae	rush	Juncus	mertensianus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	spp1	Juncus		1m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	spp1	Juncus		0	0	0	7m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	spp2	Juncus		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	0	"3,0,0,1"	"0,1,0,0"	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	rush	Juncus	triglumus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	Hedgehogrush	Juncus		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0																																								
+gramminoid	Juncaceae	juncus1-flowersized	Juncus		0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	juncus2-flowertopdrumondii	Juncus		0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,1,1,0"	"3,5,2,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	Juncusspp1	Juncus		0	0	0	0	0	0	0	0	0	0	0	0	4m	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	rushspp2WP58	Juncus		0	0	7m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	rush	Luzula	parviflora	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4m	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae		Luzula	parviflora	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18m	0	0																																								
+gramminoid	Juncaceae	Piper'swood-rush	Luzula	piperi	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,4,4,3"	6m	"1,1,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	Piper'swood-rush	Luzula	piperi	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,1,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	rush	Luzula		0	0	0	0	0	0	0	0	0	0	"1,1,0,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	rush	Luzula		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	rushspp1	Luzula		0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Juncaceae	rushspp1	Luzula		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	32m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	alpinecat's-tail	Phleum	alpinum	0	0	"2,0,4,3"	0	0	0	0	0	"1,01,1,0"	0	"1,0,0,1"	0	0	0	"0,0,0,1"	0	0	0	0	0	0	"0,3,0,2"	20m	0	0	0	0	0	0	0	"2,2,0,0"	0	0	0	"2,0,1,0"	0	0	0	0	0																																								
+gramminoid	Poaceae	alpinecat's-tail	Phleum	alpinum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	Alpinebluegrass	Poa	alpina	0	0	0	0	0	0	0	0	"0,0,0,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	Alpinebluegrass	Poa	alpina	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	Alpinebluegrass	Poa	alpina	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,2,1"	"3,2,1,4"	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	Alpinebluegrass	Poa	alpina	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,1,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	PoasppWP40tall	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	PoaSppWP-69tall	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5m	15m	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	spp	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,3,1,3"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	spp.	Unknown		0	0	0	0	0	0	5m	"0,0,2"	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	spp.33	Unknown		0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	spp1	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	spp1	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,0,2"	0																																								
+gramminoid	Poaceae	spp1(hairy)	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	11m	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	spp2	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3m	2m	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	spp3	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4m	0	0	15m	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	spp4(tall)	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2m	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	spp60	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid		"""2gramminoids"""	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	Festucaspp1	Festuca		0	0	0	0	0	0	0	0	0	0	0	0	0	"1,3,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid		GraminoidWP73	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,2,1,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid		gramminoid3	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,1,4"	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid		Gramminoid4	Unknown		0	0	"0,0,0,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid		gramminoid4	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid		gramminoid7	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	?	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid		gramminoid9	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,0,1,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid		Gramminoidspp2	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid		Gramminoidspp5and6	Unknown		0	0	25m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid		grammoid8	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,3,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid		Grassspp1	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	Poa	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid	Poaceae	Poaspp1	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid		sp10	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,0,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+gramminoid		sp11	Unknown		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"2,2,0,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+horsetail	Equisetaceae	horsetail	Equisetum	arvense	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+horsetail	Equisetaceae	horsetail	Equisetum	variegatum	0	0	0	0	17m	0	0	0	0	0	0	"4,4,4,4"	0	0	"4,2,1"	0	"4,4,4,4"	0	0	0	0	0	0	0	0	"4,0,0,0"	11m	0	0	0	0	0	0	0	0	5m	0	0	0	0																																								
+Lichen	Lichen	Lichen	Lichen		0	0	0	0	0	0	"3,2,1,3"	5m	"0,2,2,1"	"4,4,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+liverwort	liverwort	liverwort	Marchantia	spp.	0	0	0	0	0	0	0	0	0	0	"1,3,3,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+liverwort	liverwort	liverwort	Marchantia	spp.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,1,0,2"	0	0	0	0	0																																								
+liverwort	liverwort	liverwort	Marchantia	spp.	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,3,4,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+Lycopodium	Lycopodiaceae	clubmoss	Huperzia	haleakalae	0	0	0	0	17m	0	0	0	0	0	0	0	"0,2,1,0"	0	0	0	0	0	0	0	0	0	0	0	19m	0	0	0	0	0	0	4m	0	0	0	0	0	0	0	0																																								
+monocot	Liliaceae	Glacierlily	Erythronium	grandiflorum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12m	0	0	0	0	0	0																																								
+monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"0,2,4,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10m	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	0	0	"0,2,1,1"	0	0	0	0	0																																								
+monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata	0	0	0	0	0	0	0	0	0	0	0	0	4m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+monocot	Orchidaceae	WhiteBogOrchid	Platanthera	dilatata	0	0	0	0	0	0	0	0	0	0	0	3m	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+Moss	MOSS	moss	Moss		"1,4,4,0"	0	0	0	0	"4,4,4,4"	"4,4,4,0"	"4,2,1,4"	"3,4,4,4,"	"4,4,4,4"	"4,4,4,4"	"4,4,4,4"	"4,3,3,3"	"4,1,2,4"	"3,4,4,2"	"4,4,4,4"	"4,3,4,4"	0	0	0	"4,4,4,4"	"4,4,4,4"	0	0	0	"4,4,4,4"	"4,1,0,1"	"4,4,3,3"	"4,4,4,4"	"4,3,4,4"	"4,4,4,4"	"4,4,4,4"	"4,3,4,4"	"1,2,2,0"	"4,3,4,4"	5m	0	0	0	0																																								
+Lichen	Lichen	Lichen	Lichen		0	0	0	0	0	0	0	0	0	0	0	0	"1,2,0,1"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+Lichen	Lichen	Lichen	Lichen		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	"3,4,4,2"	"4,3,2,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+Lichen	Lichen	Lichen	Lichen		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"3,2,2,1"	0																																								
+Lichen	Lichen	Lichen	Lichen		0	0	0	0	0	0	0	0	0	0	"0,0,1,0"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+Lichen	Lichen	Lichen	Lichen		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,4,4,4"	"1,2,1,4"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								
+Lichen	Lichen	Lichen	Lichen		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"4,1,4,4"	"4,4,4,4"	"4,4,4,3"	"1,2,0,2"	0	0	0	0	0	0	0	0	0																																								
+Lichen	Lichen	Lichen	Lichen		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	"1,3,1,0"	"0,0,0,2"	0	0	0	0	0	0																																								
+		spp1	Unknown		0	"1,4,2,2"	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0																																								

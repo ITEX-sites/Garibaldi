@@ -53,20 +53,29 @@ plant_data_cleaned <- plant_data_cleaned %>% mutate_if(is.character, as.numeric)
 plant_data_summarized <- plant_data_cleaned %>%
   group_by(Genus_spp) %>%
   summarise(across(c(6:45), sum))
+plant_data_summarized$sum <- rowSums(plant_data_summarized[,2:ncol(plant_data_summarized)])
+write.csv(plant_data_summarized, file = "./data/Garibaldi_plant_data_Genus_spp.csv")
 
-plant_data_summarized <- plant_data_summarized[-1,]
+plant_data_summarized <- plant_data_cleaned %>%
+  group_by(Genus) %>%
+  summarise(across(c(5:44), sum))
+plant_data_summarized$sum <- rowSums( plant_data_summarized[,2:ncol(plant_data_summarized)] )
+write.csv(plant_data_summarized, file = "./data/Garibaldi_plant_data_Genus.csv")
 
-plant_data_summarized$sum <- rowSums( plant_data_summarized[,2:41] )
-
-#-----------------------------------
-# view and sort by sum
-# top 60 appear with reasonable abundance
-write.csv(plant_data_summarized, file = "./data/cleaned_Garibaldi_point_frame_data.csv")
+plant_data_summarized <- plant_data_cleaned %>%
+  group_by(Family) %>%
+  summarise(across(c(5:44), sum))
+plant_data_summarized$sum <- rowSums( plant_data_summarized[,2:ncol(plant_data_summarized)] )
+write.csv(plant_data_summarized, file = "./data/Garibaldi_plant_data_Family.csv")
 
 #---------------------------------------------
 # join other species information
 plant_data_species_info <- plant_data_cleaned[,c(1:5, 46)]
-
+plant_data_species_info <- distinct(plant_data_species_info)
 plant_data_summarized1 <- merge(plant_data_summarized,plant_data_species_info,  by="Genus_spp")
+
+#-----------------------------------
+# view and sort by sum
+# top 60 appear with reasonable abundance
 
 
