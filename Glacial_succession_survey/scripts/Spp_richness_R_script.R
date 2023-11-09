@@ -130,6 +130,7 @@ ggplot(data=site.data, aes(x=GlacialDate, y=shannon, colour=Bay)) + geom_point(s
   stat_smooth(method = "lm")#add the line
 dev.off()
 
+
 #####################################
 #
 # Evenness index {vegan}
@@ -150,6 +151,10 @@ dev.off()
 
 png("./figures/Shannon_GlacialDate_boxplot.jpg", width = 856, height = 540)
 boxplot(shannon~GlacialDate, data=site.data, las=2, col="light blue", xlab="GlacialDate", ylab="Shannon Diversity Index", main="Shannon Diversity")
+dev.off()
+
+png("./figures/Shannon_GlacialDate_Bay_boxplot.jpg", width = 856, height = 540)
+boxplot(shannon~Date, data=site.data, las=2, col="light blue", xlab="GlacialDate_Bay", ylab="Shannon Diversity Index", main="Shannon Diversity")
 dev.off()
 
 png("./figures/Pielou_GlacialDate_boxplot.jpg", width = 856, height = 540)
