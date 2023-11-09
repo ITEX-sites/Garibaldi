@@ -41,15 +41,27 @@ library(ggplot2)
 library(ggthemes)
 
 # first change path to where you want the figures output to
-#setwd("~/GitHub/Garibaldi/Trampling_spp_richness")
+#setwd("~/GitHub/Garibaldi/Glacial_succession_survey")
 
 # read in spp and site matrices
-species.data0 <- read.csv(file = "./data/processed_data/garibaldi_trampling_species_matrix.csv")
-site.data <- read.csv(file = "./data/processed_data/garibaldi_trampling_site_matrix.csv")
+species.data0 <- read.csv(file = "./data/Garibaldi_plant_data_Genus_spp.csv")
+site.data <- read.csv(file = "./data/waypoints_used.csv")
 
+#---------------------------
+# edit the site data
+Bay_date <- str_split_fixed(site.data$Date,  "_", 2)
+
+site.data$GlacialDate <- Bay_date[,2]
+site.data$Bay <- Bay_date[,1]
+
+#----------------------
+# Edit the species data
 # remove transect column
-transect <- species.data0$transect
-species.data <- species.data0[,-c(1:2)]
+Genus_spp <- species.data0$Genus_spp
+species.data <- species.data0[,-c(1:2,43)]
+
+species.data <- t(species.data)
+
 #####################################
 #
 # Diversity indices
@@ -62,69 +74,61 @@ df<- cbind(site.data, species.data)
 # calculate species diversity
 diversity(species.data, index = "shannon")#this is the Shannon-Wiener index
 diversity(species.data, index = "simpson")#this is the Simpson index
-fisher.alpha(species.data) #this is Fisher's alpha from the log-series distribution, fairly independent of sample size
+#fisher.alpha(species.data) #this is Fisher's alpha from the log-series distribution, fairly independent of sample size
 
 site.data$shannon<-(diversity(species.data, index = "shannon"))#makes a new column in site data with the shannon values
 site.data$simpson<-(diversity(species.data, index = "simpson"))
-site.data$fisher<-fisher.alpha(species.data)
+#site.data$fisher<-fisher.alpha(species.data)
 
-# effects of OBSERVER on shannon diversity
-model1<-lm(shannon~OBSERVER, data =site.data)
-#summary(lm(shannon~OBSERVER, data =site.data))
+# effects of Bay on shannon diversity
+model1<-lm(shannon~Bay, data =site.data)
+#summary(lm(shannon~Bay, data =site.data))
 anova(model1)
 
-# effects of Site on shannon diversity
-model2<-lm(shannon~SITE, data =site.data)
-#summary(lm(shannon~SITE, data =site.data))
+# effects of Date on shannon diversity
+model2<-lm(shannon~GlacialDate, data =site.data)
+#summary(lm(shannon~GlacialDate, data =site.data))
 anova(model2)
 
-# effects of TRTMT on shannon diversity
-model3<-lm(shannon~TRTMT, data =site.data)
-#summary(lm(shannon~TRTMT, data =site.data))
-anova(model3)
+# effects of Date on simpson diversity
+model5<-lm(shannon~Date, data =site.data)
+#summary(lm(simpson~Date, data =site.data))
+anova(model5)
 
-# effects of aspect on shannon diversity
-model3<-lm(shannon~aspect, data =site.data)
-#summary(lm(shannon~aspect, data =site.data))
-anova(model3)
+#------
+# effects of Bay on simpson diversity
+model1<-lm(simpson~Bay, data =site.data)
+#summary(lm(simpson~Bay, data =site.data))
+anova(model1)
 
-# effects of slope on shannon diversity
-model3<-lm(shannon~slope, data =site.data)
-#summary(lm(shannon~slope, data =site.data))
-anova(model3)
+# effects of Date on simpson diversity
+model2<-lm(simpson~GlacialDate, data =site.data)
+#summary(lm(simpson~GlacialDate, data =site.data))
+anova(model2)
 
-# effects of TRTMT on fisher alpha
-model4<-lm(fisher~TRTMT, data =site.data)
-#summary(lm(fisher~TRTMT, data =site.data))
-anova(model4)
-
-# effects of TRTMT on simpson diversity
-model5<-lm(simpson~TRTMT, data =site.data)
-#summary(lm(simpson~TRTMT, data =site.data))
+# effects of Date on simpson diversity
+model5<-lm(simpson~Date, data =site.data)
+#summary(lm(simpson~Date, data =site.data))
 anova(model5)
 
 #---------------------------------------------
 # create graph of species diversity separated by X1 and coloured by X2
-#plot(site.data$shannon ~ site.data$TRTMT,  main= "Shannon Diversity Index changes with TRTMT", xlab="TRTMT", ylab="Shannon Diversity", pch=20)
+#plot(site.data$shannon ~ site.data$GlacialDate,  main= "Shannon Diversity Index changes with GlacialDate", xlab="GlacialDate", ylab="Shannon Diversity", pch=20)
 #abline(model1) #adds the trend line
 
-# ggplot(data=site.data, aes(x=SITE, y=shannon, colour=TRTMT)) + geom_point(size=3)+
+# ggplot(data=site.data, aes(x=Bay, y=shannon, colour=GlacialDate)) + geom_point(size=3)+
 #   stat_smooth(method = "lm")#add the line
 
-ggplot(data=site.data, aes(x=SITE, y=shannon, colour=TRTMT)) + geom_point(size=3)+
-  stat_smooth(method = "lm")#add the line
-
-ggplot(data=site.data, aes(x=SITE, y=shannon, colour=Observer)) + geom_point(size=3)+
-  stat_smooth(method = "lm")#add the line
-
-ggplot(data=site.data, aes(x=TRTMT, y=shannon, colour=SITE)) + geom_point(size=3)+
-  stat_smooth(method = "lm")#add the line
-
 # example of how to save a png image in R
-png("./figures/Shannon_trampling_site_dotplot.jpg", width = 856, height = 540)
-ggplot(data=site.data, aes(x=TRTMT, y=shannon, colour=SITE)) + geom_point(size=3)
+png("./figures/Shannon_bay.jpg", width = 856, height = 540)
+ggplot(data=site.data, aes(x=Bay, y=shannon, colour=GlacialDate)) + geom_point(size=3)+
+  stat_smooth(method = "lm")#add the line
 dev.off()
 
+png("./figures/Shannon_Date.jpg", width = 856, height = 540)
+ggplot(data=site.data, aes(x=GlacialDate, y=shannon, colour=Bay)) + geom_point(size=3)+
+  stat_smooth(method = "lm")#add the line
+dev.off()
 
 #####################################
 #
@@ -135,50 +139,48 @@ dev.off()
 PielouJ <- diversity(species.data, index = "shannon")/log(specnumber(species.data)) # Pielou's J
 site.data <- cbind(site.data, PielouJ)
 
-model5<-lm(PielouJ~SITE, data =site.data)
+model5<-lm(PielouJ~Bay, data =site.data)
 anova(model5)
-model5<-lm(PielouJ~TRTMT, data =site.data)
+model5<-lm(PielouJ~GlacialDate, data =site.data)
 anova(model5)
 
-boxplot(shannon~SITE, data=site.data, col="light blue", xlab="SITE", ylab="Shannon Diversity Index", main="Shannon Diversity")
+boxplot(shannon~Bay, data=site.data, col="light blue", xlab="Bay", ylab="Shannon Diversity Index", main="Shannon Diversity")
 
-#Revised Shannon vs TRTMT graph
-ggplot(site.data, aes(x=TRTMT, y= shannon)) +
+#Revised Shannon vs GlacialDate graph
+ggplot(site.data, aes(x=GlacialDate, y= shannon)) +
   geom_boxplot(color = "black", fill = "light blue") +
   theme_solarized_2() +
-  labs(x = 'TRTMT', y = 'Shannon Diversity Index', title = 'Shannon Diversity') +
+  labs(x = 'GlacialDate', y = 'Shannon Diversity Index', title = 'Shannon Diversity') +
   theme(axis.text.x = element_text(angle=90, vjust=0.5)) +
   theme(plot.title = element_text(hjust = 0.5))
 
-boxplot(shannon~TRTMT, data=site.data, las=2, col="light blue", xlab="TRTMT", ylab="Shannon Diversity Index", main="Shannon Diversity")
+boxplot(shannon~GlacialDate, data=site.data, las=2, col="light blue", xlab="GlacialDate", ylab="Shannon Diversity Index", main="Shannon Diversity")
 
 #------------------------------------
-# make SITE_TRMT combined character and plot
+# make Date combined Bay and Glacial Date
 
-site.data$SITE.TRTMT <- paste0(site.data$TRTMT, "_", site.data$SITE)
-
-png("./figures/Shannon_trampling_site_boxplot.jpg", width = 856, height = 540)
-#Revised Shannon vs Site.TRTMT graph
-ggplot(site.data, aes(x=SITE.TRTMT, y= shannon)) +
+png("./figures/Shannon_glacial_site_boxplot.jpg", width = 856, height = 540)
+#Revised Shannon vs Site.GlacialDate graph
+ggplot(site.data, aes(x=Date, y= shannon)) +
   geom_boxplot(color = "black", fill = "light blue") +
   theme_solarized_2() +
-  labs(x = 'Site/TRTMT', y = 'Shannon Diversity Index', title = 'Shannon Diversity') +
+  labs(x = 'GlacialDate', y = 'Shannon Diversity Index', title = 'Shannon Diversity') +
   theme(axis.text.x = element_text(angle=90, vjust=0.5)) +
   theme(plot.title = element_text(hjust = 0.5))
 
-boxplot(shannon~SITE.TRTMT, data=site.data, las=2, col="light blue", xlab="Site/TRTMT", ylab="Shannon Diversity Index", main="Shannon Diversity")
+boxplot(shannon~Date, data=site.data, las=2, col="light blue", xlab="Site/GlacialDate", ylab="Shannon Diversity Index", main="Shannon Diversity")
 dev.off()
 
-#Revised PielouJ vs Site/TRTMT graph
-ggplot(site.data, aes(x=SITE.TRTMT, y=PielouJ)) +
+#Revised PielouJ vs Site/GlacialDate graph
+ggplot(site.data, aes(x=Date, y=PielouJ)) +
   geom_boxplot(color = "black", fill = "light blue") +
   theme_solarized_2() +
-  labs(x = 'Site/TRTMT', y = 'PielouJ', title = "Pielou's J evenness") +
+  labs(x = 'Site/GlacialDate', y = 'PielouJ', title = "Pielou's J evenness") +
   theme(axis.text.x = element_text(angle=90, vjust=0.5)) +
   theme(plot.title = element_text(hjust = 0.5))
 
 # add png code here to export plots (see above for Shannon)
-boxplot(PielouJ~SITE.TRTMT, data=site.data, col="light blue", xlab="TRTMT", ylab="Pielou's J Evenness", main="Pielou's J evenness")
+boxplot(PielouJ~Date, data=site.data, col="light blue", xlab="GlacialDate", ylab="Pielou's J Evenness", main="Pielou's J evenness")
 
 #####################################
 #
@@ -223,29 +225,29 @@ png("./figures/Rank_abundance_total.jpg", width = 856, height = 540)
 rankabunplot(RankAbun.1,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,650)) #rank abundance plot, labelling the most common 3 species
 dev.off()
 
-site.data$TRTMT <- as.factor(site.data$TRTMT)
-site.data$SITE <- as.factor(site.data$SITE)
+site.data$GlacialDate <- as.factor(site.data$GlacialDate)
+site.data$Bay <- as.factor(site.data$Bay)
 site.data$Observer <- as.factor(site.data$OBSERVER)
-site.data$SITE.TRTMT <- as.factor(site.data$SITE.TRTMT)
+site.data$Date <- as.factor(site.data$Date)
 
-rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
+rankabuncomp(species.data, y=site.data, factor=c('GlacialDate'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
 
 png("./figures/Rank_abundance_treatment.jpg", width = 856, height = 540)
-rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='proportion', legend=FALSE) #click on where on plot you want to have the legend
+rankabuncomp(species.data, y=site.data, factor=c('GlacialDate'),scale='proportion', legend=FALSE) #click on where on plot you want to have the legend
 dev.off()
 
-rankabuncomp(species.data, y=site.data, factor=c('SITE'),scale='proportion', legend=TRUE, specnames=c(1:3)) #click on where on plot you want to have the legend
-rankabuncomp(species.data, y=site.data, factor=c('SITE.TRTMT'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
+rankabuncomp(species.data, y=site.data, factor=c('Bay'),scale='proportion', legend=TRUE, specnames=c(1:3)) #click on where on plot you want to have the legend
+rankabuncomp(species.data, y=site.data, factor=c('Date'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
 
 #------------------------------------
-RankAbun.trampled <- rankabundance(species.data[which(site.data$TRTMT=="trampled"),])
+RankAbun.trampled <- rankabundance(species.data[which(site.data$GlacialDate=="trampled"),])
 RankAbun.trampled # a dataframe of the rank of each species
 
 png("./figures/Rank_abundance_trampled.jpg", width = 856, height = 540)
 rankabunplot(RankAbun.trampled,scale='abundance', addit=FALSE, specnames=c(1:50), ylim=c(0,500),srt = 45) #rank abudnance plot, labelling the most common 3 species
 dev.off()
 
-RankAbun.untrampled <- rankabundance(species.data[which(site.data$TRTMT=="untrampled"),])
+RankAbun.untrampled <- rankabundance(species.data[which(site.data$GlacialDate=="untrampled"),])
 RankAbun.untrampled # a dataframe of the rank of each species
 
 png("./figures/Rank_abundance_untrampled.jpg", width = 856, height = 540)
@@ -318,33 +320,33 @@ orditorp(myNMDS,display="sites",cex=0.75,air=0.01) #this adds black site labels,
 png("./figures/NMDS_spp.jpg", width = 856, height = 540)
 # connect sites in the same treatment with a polygon use "ordihull"
 ordiplot(myNMDS,type="n")
-ordihull(myNMDS,groups=site.data1$TRTMT,draw="polygon",col="grey90",label=T)
+ordihull(myNMDS,groups=site.data1$GlacialDate,draw="polygon",col="grey90",label=T)
 orditorp(myNMDS,display="species",col="red",air=0.01)
 orditorp(myNMDS,display="sites",cex=0.75,air=0.01)
 dev.off()
 
 # link the sites within a treatment by lines
 ordiplot(myNMDS,type="n")
-ordispider(myNMDS,groups=site.data1$SITE.TRTMT,spiders="centroid",col="black",label=F)
+ordispider(myNMDS,groups=site.data1$Date,spiders="centroid",col="black",label=F)
 orditorp(myNMDS,display="species",col="red",air=0.01)
 orditorp(myNMDS,display="sites",cex=0.75,air=0.01)
 
 #other plots
 png("./figures/NMDS_site.jpg", width = 856, height = 540)
 ordiplot(myNMDS,type="n")
-ordihull(myNMDS,groups=site.data1$SITE,draw="polygon",col='blue',label=T)
+ordihull(myNMDS,groups=site.data1$Bay,draw="polygon",col='blue',label=T)
 dev.off()
 
 png("./figures/NMDS_trampling.jpg", width = 856, height = 540)
 ordiplot(myNMDS,type="n")
-ordihull(myNMDS,groups=site.data1$TRTMT,draw="polygon",col='blue',label=T)
+ordihull(myNMDS,groups=site.data1$GlacialDate,draw="polygon",col='blue',label=T)
 dev.off()
 
 ordiplot(myNMDS,type="n")
 ordihull(myNMDS,groups=site.data1$Observer,draw="polygon",col='blue',label=T)
 
 ordiplot(myNMDS,type="n")
-ordispider(myNMDS,groups=site.data1$SITE,spiders="centroid",col="black",label=T)
+ordispider(myNMDS,groups=site.data1$Bay,spiders="centroid",col="black",label=T)
 
 #####################################
 #
@@ -352,7 +354,7 @@ ordispider(myNMDS,groups=site.data1$SITE,spiders="centroid",col="black",label=T)
 #
 #####################################
 
-adonis(species.data1 ~ SITE*TRTMT, data=site.data1, permutations=9999)
+adonis(species.data1 ~ Bay*GlacialDate, data=site.data1, permutations=9999)
 adonis(species.data1 ~ PLOT*OBSERVER*DATE, data=site.data1, permutations=9999)
 
 #####################################
@@ -380,25 +382,25 @@ orditorp(myNMDSrevised,display="sites",cex=0.75,air=0.01) #this adds black site 
 
 # connect sites in the same treatment with a polygon use "ordihull"
 ordiplot(myNMDSrevised,type="n")
-ordihull(myNMDSrevised,groups=site.data$SITE,draw="polygon",col="grey90",label=T)
+ordihull(myNMDSrevised,groups=site.data$Bay,draw="polygon",col="grey90",label=T)
 orditorp(myNMDSrevised,display="species",col="red",air=0.01)
 orditorp(myNMDSrevised,display="sites",cex=0.75,air=0.01)
 
 # link the sites within a treatment by lines
 ordiplot(myNMDSrevised,type="n")
-ordispider(myNMDSrevised,groups=site.data$SITE.TRTMT,spiders="centroid",col="black",label=F)
+ordispider(myNMDSrevised,groups=site.data$Date,spiders="centroid",col="black",label=F)
 orditorp(myNMDSrevised,display="species",col="red",air=0.01)
 orditorp(myNMDSrevised,display="sites",cex=0.75,air=0.01)
 
 #other plots
 ordiplot(myNMDSrevised,type="n")
-ordihull(myNMDSrevised,groups=site.data$SITE,draw="polygon",col='blue',label=T)
+ordihull(myNMDSrevised,groups=site.data$Bay,draw="polygon",col='blue',label=T)
 
 ordiplot(myNMDSrevised,type="n")
 ordihull(myNMDSrevised,groups=site.data$Observer,draw="polygon",col='blue',label=T)
 
 ordiplot(myNMDSrevised,type="n")
-ordispider(myNMDSrevised,groups=site.data$SITE,spiders="centroid",col="black",label=T)
+ordispider(myNMDSrevised,groups=site.data$Bay,spiders="centroid",col="black",label=T)
 
 ordiplot(myNMDSrevised,type="n")
-ordihull(myNMDSrevised,groups=site.data$SITE,draw="polygon",col='blue',label=T)
+ordihull(myNMDSrevised,groups=site.data$Bay,draw="polygon",col='blue',label=T)
