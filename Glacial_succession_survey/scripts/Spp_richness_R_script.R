@@ -239,6 +239,8 @@ dev.off()
 #------------------------------------
 # What species change with time
 unique(site.data$GlacialDate)
+summary(site.data$GlacialDate)
+
 RankAbun.1720 <- rankabundance(species.data[which(site.data$GlacialDate=="1720"),])
 RankAbun.1720 # a dataframe of the rank of each species
 
@@ -246,20 +248,30 @@ png("./figures/Rank_abundance_1720.jpg", width = 856, height = 540)
 rankabunplot(RankAbun.1720,addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
 dev.off()
 
-RankAbun.1977 <- rankabundance(species.data[which(site.data$GlacialDate=="1977"),])
-RankAbun.1977 # a dataframe of the rank of each species
+RankAbun.younger <- rankabundance(species.data[which(site.data$GlacialDate=="1977"|site.data$GlacialDate=="1949"|site.data$GlacialDate=="1928"),])
+RankAbun.younger # a dataframe of the rank of each species
 
-png("./figures/Rank_abundance_1977.jpg", width = 856, height = 540)
-rankabunplot(RankAbun.1977,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
+png("./figures/Rank_abundance_younger.jpg", width = 856, height = 540)
+rankabunplot(RankAbun.younger,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
 dev.off()
 
 
 ########################
 # Look at which species had the largest change in abundance between groups
+sppyounger <- as.data.frame(cbind(rownames(RankAbun.younger), RankAbun.younger[,8]))
+spp1720 <- as.data.frame(cbind(rownames(RankAbun.1720), RankAbun.1720[,8]))
 
+pre_post_1720 <- left_join(spp1720, sppyounger, by="V1")
+colnames(pre_post_1720) <- c("Spp", "Older", "Younger")
 
+pre_post_1720$Diff <-  as.numeric(pre_post_1720$Older) - as.numeric(pre_post_1720$Younger)
 
+pre_post_1720$Rank <- rank(pre_post_1720$Diff, na.last = TRUE,ties.method = c("average"))
 
+png("./figures/Rank_abundance_pre_post_1720_diff.jpg", width = 3000, height = 2000)
+plot(pre_post_1720$Rank, pre_post_1720$Diff)
+text(pre_post_1720$Rank, pre_post_1720$Diff, pre_post_1720$Spp)
+dev.off()
 #####################################
 #
 # Similarity matrices (vegan package required)
