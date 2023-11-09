@@ -144,43 +144,21 @@ anova(model5)
 model5<-lm(PielouJ~GlacialDate, data =site.data)
 anova(model5)
 
+png("./figures/Shannon_Bay_boxplot.jpg", width = 856, height = 540)
 boxplot(shannon~Bay, data=site.data, col="light blue", xlab="Bay", ylab="Shannon Diversity Index", main="Shannon Diversity")
-
-#Revised Shannon vs GlacialDate graph
-ggplot(site.data, aes(x=GlacialDate, y= shannon)) +
-  geom_boxplot(color = "black", fill = "light blue") +
-  theme_solarized_2() +
-  labs(x = 'GlacialDate', y = 'Shannon Diversity Index', title = 'Shannon Diversity') +
-  theme(axis.text.x = element_text(angle=90, vjust=0.5)) +
-  theme(plot.title = element_text(hjust = 0.5))
-
-boxplot(shannon~GlacialDate, data=site.data, las=2, col="light blue", xlab="GlacialDate", ylab="Shannon Diversity Index", main="Shannon Diversity")
-
-#------------------------------------
-# make Date combined Bay and Glacial Date
-
-png("./figures/Shannon_glacial_site_boxplot.jpg", width = 856, height = 540)
-#Revised Shannon vs Site.GlacialDate graph
-ggplot(site.data, aes(x=Date, y= shannon)) +
-  geom_boxplot(color = "black", fill = "light blue") +
-  theme_solarized_2() +
-  labs(x = 'GlacialDate', y = 'Shannon Diversity Index', title = 'Shannon Diversity') +
-  theme(axis.text.x = element_text(angle=90, vjust=0.5)) +
-  theme(plot.title = element_text(hjust = 0.5))
-
-boxplot(shannon~Date, data=site.data, las=2, col="light blue", xlab="Site/GlacialDate", ylab="Shannon Diversity Index", main="Shannon Diversity")
 dev.off()
 
-#Revised PielouJ vs Site/GlacialDate graph
-ggplot(site.data, aes(x=Date, y=PielouJ)) +
-  geom_boxplot(color = "black", fill = "light blue") +
-  theme_solarized_2() +
-  labs(x = 'Site/GlacialDate', y = 'PielouJ', title = "Pielou's J evenness") +
-  theme(axis.text.x = element_text(angle=90, vjust=0.5)) +
-  theme(plot.title = element_text(hjust = 0.5))
+png("./figures/Shannon_GlacialDate_boxplot.jpg", width = 856, height = 540)
+boxplot(shannon~GlacialDate, data=site.data, las=2, col="light blue", xlab="GlacialDate", ylab="Shannon Diversity Index", main="Shannon Diversity")
+dev.off()
 
-# add png code here to export plots (see above for Shannon)
-boxplot(PielouJ~Date, data=site.data, col="light blue", xlab="GlacialDate", ylab="Pielou's J Evenness", main="Pielou's J evenness")
+png("./figures/Pielou_GlacialDate_boxplot.jpg", width = 856, height = 540)
+boxplot(PielouJ~GlacialDate, data=site.data, col="light blue", xlab="GlacialDate", ylab="Pielou's J Evenness", main="Pielou's J evenness")
+dev.off()
+
+png("./figures/Pielou_Bay_boxplot.jpg", width = 856, height = 540)
+boxplot(PielouJ~Bay, data=site.data, col="light blue", xlab="Bay", ylab="Pielou's J Evenness", main="Pielou's J evenness")
+dev.off()
 
 #####################################
 #
@@ -216,7 +194,6 @@ radlattice(radfit(colSums(species.data))) #other functions for rank-abundance, t
 # Requires BiodiversityR package
 #
 #####################################
-
 
 RankAbun.1 <- rankabundance(species.data)
 RankAbun.1 # a dataframe of the rank of each species
@@ -262,13 +239,13 @@ dev.off()
 #
 #####################################
 
-dissim.mat<-vegdist(species.data, method="bray", binary=FALSE)
+dissim.mat<-vegdist(species.data, method="bray", binary=FALSE, na.rm = TRUE)
 #dissim.mat
 
 #?vegdist #link to other dissimilarity metrics you could use in place of "bray"
 #these include: "manhattan", "euclidean", "canberra", "bray", "kulczynski", "jaccard", "gower", "altGower", "morisita", "horn", "mountford", "raup" , "binomial", "chao", "cao" or "mahalanobis".
 
-dissim.mat<-vegdist(species.data, method="jaccard", binary=TRUE)
+dissim.mat<-vegdist(species.data, method="jaccard", binary=TRUE, na.rm = TRUE)
 #dissim.mat
 
 #####################################
@@ -289,7 +266,10 @@ dissim.mat<-vegdist(species.data, method="jaccard", binary=TRUE)
 
 #cluster dendrogram showing how each of the 24 species are clustered
 fit <- hclust(dissim.mat, method="average")
+
+png("./figures/Dendrogram.jpg", width = 856, height = 540)
 plot(fit)
+dev.off()
 
 plot(fit); rect.hclust(fit, h=0.5, border="red") # emphasize clusters <0.5 different
 
@@ -297,16 +277,23 @@ plot(fit); rect.hclust(fit, h=0.5, border="red") # emphasize clusters <0.5 diffe
 #
 # Ordination: nMDS (requires vegan package)
 #
-#####################################
+##############################
+
+# make NAs zero
+species.data[is.na(species.data)] <- 0
 
 # remove all rows and cols with sum of 0
-summed_rows <- apply(species.data, 1, sum)
-species.data0 <- species.data[-which(summed_rows==0),]
-summed_cols <- apply(species.data, 1, sum)
-species.data1 <- species.data0[,-which(summed_cols==0)]
-site.data1 <- site.data[-which(summed_rows==0),]
+#summed_rows <- apply(species.data, 1, sum)
+#species.data0 <- species.data[-which(summed_rows==0),]
+summed_cols <- apply(species.data, 2, sum)
+species.data1 <- species.data[,-which(summed_cols==0)]
+
+site.data1<- site.data
 #-----------------------------------
-myNMDS<-metaMDS(species.data1,k=4)
+
+site.data1 <- site.data
+species.data1 <- species.data
+myNMDS<-metaMDS(species.data1,k=12)
 myNMDS #most important: is the stress low?
 stressplot(myNMDS) #low stress means that the observed dissimilarity between site pairs matches that on the 2-D plot fairly well (points hug the line)
 
@@ -317,12 +304,12 @@ ordiplot(myNMDS,type="n") #this clears the symbols from the plot
 orditorp(myNMDS,display="species",col="red",air=0.01) #this adds red species names
 orditorp(myNMDS,display="sites",cex=0.75,air=0.01) #this adds black site labels, cex is the font size
 
-png("./figures/NMDS_spp.jpg", width = 856, height = 540)
+png("./figures/NMDS_GlacialDate.jpg", width = 856, height = 540)
 # connect sites in the same treatment with a polygon use "ordihull"
 ordiplot(myNMDS,type="n")
 ordihull(myNMDS,groups=site.data1$GlacialDate,draw="polygon",col="grey90",label=T)
-orditorp(myNMDS,display="species",col="red",air=0.01)
-orditorp(myNMDS,display="sites",cex=0.75,air=0.01)
+#orditorp(myNMDS,display="species",col="red",air=0.01)
+#orditorp(myNMDS,display="sites",cex=0.75,air=0.01)
 dev.off()
 
 # link the sites within a treatment by lines

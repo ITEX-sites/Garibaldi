@@ -296,11 +296,13 @@ plot(fit); rect.hclust(fit, h=0.5, border="red") # emphasize clusters <0.5 diffe
 # Ordination: nMDS (requires vegan package)
 #
 #####################################
+# convert NA's to 0
+species.data[is.na(species.data)] <- 0
 
 # remove all rows and cols with sum of 0
 summed_rows <- apply(species.data, 1, sum)
 species.data0 <- species.data[-which(summed_rows==0),]
-summed_cols <- apply(species.data, 1, sum)
+summed_cols <- apply(species.data, 2, sum)
 species.data1 <- species.data0[,-which(summed_cols==0)]
 site.data1 <- site.data[-which(summed_rows==0),]
 #-----------------------------------
