@@ -199,20 +199,19 @@ radlattice(radfit(colSums(species.data))) #other functions for rank-abundance, t
 # Requires BiodiversityR package
 #
 #####################################
-
+colnames(species.data)<- Genus_spp
 RankAbun.1 <- rankabundance(species.data)
 RankAbun.1 # a dataframe of the rank of each species
 
 png("./figures/Rank_abundance_total.jpg", width = 856, height = 540)
-rankabunplot(RankAbun.1,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,650)) #rank abundance plot, labelling the most common 3 species
+rankabunplot(RankAbun.1,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,200)) #rank abundance plot, labelling the most common 3 species
 dev.off()
 
 site.data$GlacialDate <- as.factor(site.data$GlacialDate)
 site.data$Bay <- as.factor(site.data$Bay)
-site.data$Observer <- as.factor(site.data$OBSERVER)
 site.data$Date <- as.factor(site.data$Date)
 
-rankabuncomp(species.data, y=site.data, factor=c('GlacialDate'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
+#rankabuncomp(species.data, y=site.data, factor=c('GlacialDate'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
 
 png("./figures/Rank_abundance_treatment.jpg", width = 856, height = 540)
 rankabuncomp(species.data, y=site.data, factor=c('GlacialDate'),scale='proportion', legend=FALSE) #click on where on plot you want to have the legend
@@ -222,21 +221,44 @@ rankabuncomp(species.data, y=site.data, factor=c('Bay'),scale='proportion', lege
 rankabuncomp(species.data, y=site.data, factor=c('Date'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
 
 #------------------------------------
-RankAbun.trampled <- rankabundance(species.data[which(site.data$GlacialDate=="trampled"),])
-RankAbun.trampled # a dataframe of the rank of each species
+# what species differ between bays
+RankAbun.Sphinx <- rankabundance(species.data[which(site.data$Bay=="Sphinx"),])
+RankAbun.Sphinx # a dataframe of the rank of each species
 
-png("./figures/Rank_abundance_trampled.jpg", width = 856, height = 540)
-rankabunplot(RankAbun.trampled,scale='abundance', addit=FALSE, specnames=c(1:50), ylim=c(0,500),srt = 45) #rank abudnance plot, labelling the most common 3 species
+png("./figures/Rank_abundance_Sphinx.jpg", width = 856, height = 540)
+rankabunplot(RankAbun.Sphinx,addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
 dev.off()
 
-RankAbun.untrampled <- rankabundance(species.data[which(site.data$GlacialDate=="untrampled"),])
-RankAbun.untrampled # a dataframe of the rank of each species
+RankAbun.Sentinel <- rankabundance(species.data[which(site.data$Bay=="Sentinel"),])
+RankAbun.Sentinel # a dataframe of the rank of each species
 
-png("./figures/Rank_abundance_untrampled.jpg", width = 856, height = 540)
-rankabunplot(RankAbun.untrampled,scale='abundance', addit=FALSE, specnames=c(1:50), ylim=c(0,500), srt = 45) #rank abudnance plot, labelling the most common 3 species
+png("./figures/Rank_abundance_Sentinel.jpg", width = 856, height = 540)
+rankabunplot(RankAbun.Sentinel,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
 dev.off()
 
-# Erigeron glacialis looks like it is relatively less with trampling
+#------------------------------------
+# What species change with time
+unique(site.data$GlacialDate)
+RankAbun.1720 <- rankabundance(species.data[which(site.data$GlacialDate=="1720"),])
+RankAbun.1720 # a dataframe of the rank of each species
+
+png("./figures/Rank_abundance_1720.jpg", width = 856, height = 540)
+rankabunplot(RankAbun.1720,addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
+dev.off()
+
+RankAbun.1977 <- rankabundance(species.data[which(site.data$GlacialDate=="1977"),])
+RankAbun.1977 # a dataframe of the rank of each species
+
+png("./figures/Rank_abundance_1977.jpg", width = 856, height = 540)
+rankabunplot(RankAbun.1977,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
+dev.off()
+
+
+########################
+# Look at which species had the largest change in abundance between groups
+
+
+
 
 #####################################
 #
