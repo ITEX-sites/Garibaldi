@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>waypoints_used.csv</name>
+	<Schema name="waypoints_used" id="S_waypoints_used_ISDDSSS">
+		<SimpleField type="int" name="unnamed"><displayName>&lt;b&gt;&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Long"><displayName>&lt;b&gt;Long&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Lat"><displayName>&lt;b&gt;Lat&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Date"><displayName>&lt;b&gt;Date&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Samplers"><displayName>&lt;b&gt;Samplers&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Sheet_"><displayName>&lt;b&gt;Sheet_&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b></b></td><td>$[waypoints_used/unnamed]</td></tr>
+  <tr><td><b>Name</b></td><td>$[waypoints_used/Name]</td></tr>
+  <tr><td><b>Long</b></td><td>$[waypoints_used/Long]</td></tr>
+  <tr><td><b>Lat</b></td><td>$[waypoints_used/Lat]</td></tr>
+  <tr><td><b>Date</b></td><td>$[waypoints_used/Date]</td></tr>
+  <tr><td><b>Samplers</b></td><td>$[waypoints_used/Samplers]</td></tr>
+  <tr><td><b>Sheet_</b></td><td>$[waypoints_used/Sheet_]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b></b></td><td>$[waypoints_used/unnamed]</td></tr>
+  <tr><td><b>Name</b></td><td>$[waypoints_used/Name]</td></tr>
+  <tr><td><b>Long</b></td><td>$[waypoints_used/Long]</td></tr>
+  <tr><td><b>Lat</b></td><td>$[waypoints_used/Lat]</td></tr>
+  <tr><td><b>Date</b></td><td>$[waypoints_used/Date]</td></tr>
+  <tr><td><b>Samplers</b></td><td>$[waypoints_used/Samplers]</td></tr>
+  <tr><td><b>Sheet_</b></td><td>$[waypoints_used/Sheet_]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>waypoints_used</name>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">1</SimpleData>
+					<SimpleData name="Name">CE07</SimpleData>
+					<SimpleData name="Long">-122.978</SimpleData>
+					<SimpleData name="Lat">49.8945</SimpleData>
+					<SimpleData name="Date">Sentinel1977</SimpleData>
+					<SimpleData name="Samplers">CN, JG</SimpleData>
+					<SimpleData name="Sheet_">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9776401,49.89448948000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">2</SimpleData>
+					<SimpleData name="Name">CN01</SimpleData>
+					<SimpleData name="Long">-122.996</SimpleData>
+					<SimpleData name="Lat">49.901</SimpleData>
+					<SimpleData name="Date">Sentinel1928</SimpleData>
+					<SimpleData name="Samplers">CN, JG</SimpleData>
+					<SimpleData name="Sheet_">1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9957,49.90104999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">3</SimpleData>
+					<SimpleData name="Name">WP58</SimpleData>
+					<SimpleData name="Long">-122.991</SimpleData>
+					<SimpleData name="Lat">49.9291</SimpleData>
+					<SimpleData name="Date">Sphinx1928</SimpleData>
+					<SimpleData name="Samplers">NA</SimpleData>
+					<SimpleData name="Sheet_">NA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9911247,49.92909278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">4</SimpleData>
+					<SimpleData name="Name">WP58</SimpleData>
+					<SimpleData name="Long">-122.991</SimpleData>
+					<SimpleData name="Lat">49.9289</SimpleData>
+					<SimpleData name="Date">Sphinx1928</SimpleData>
+					<SimpleData name="Samplers">NA</SimpleData>
+					<SimpleData name="Sheet_">NA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9913,49.92893,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">5</SimpleData>
+					<SimpleData name="Name">WP55</SimpleData>
+					<SimpleData name="Long">-122.993</SimpleData>
+					<SimpleData name="Lat">49.9286</SimpleData>
+					<SimpleData name="Date">Sphinx1700</SimpleData>
+					<SimpleData name="Samplers">JG, CN</SimpleData>
+					<SimpleData name="Sheet_">3</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9926714,49.92855324,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">6</SimpleData>
+					<SimpleData name="Name">WP55</SimpleData>
+					<SimpleData name="Long">-122.992</SimpleData>
+					<SimpleData name="Lat">49.9287</SimpleData>
+					<SimpleData name="Date">Sphinx1700</SimpleData>
+					<SimpleData name="Samplers">JG, CN</SimpleData>
+					<SimpleData name="Sheet_">3</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9923651,49.92871493000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">7</SimpleData>
+					<SimpleData name="Name">WP37</SimpleData>
+					<SimpleData name="Long">-122.99</SimpleData>
+					<SimpleData name="Lat">49.9278</SimpleData>
+					<SimpleData name="Date">Sphinx1928</SimpleData>
+					<SimpleData name="Samplers">JG, CN</SimpleData>
+					<SimpleData name="Sheet_">3</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9904283,49.92784252999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">8</SimpleData>
+					<SimpleData name="Name">WP37</SimpleData>
+					<SimpleData name="Long">-122.99</SimpleData>
+					<SimpleData name="Lat">49.928</SimpleData>
+					<SimpleData name="Date">Sphinx1928</SimpleData>
+					<SimpleData name="Samplers">JG, CN</SimpleData>
+					<SimpleData name="Sheet_">3</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9904144,49.92802242,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">9</SimpleData>
+					<SimpleData name="Name">WP29</SimpleData>
+					<SimpleData name="Long">-122.989</SimpleData>
+					<SimpleData name="Lat">49.9285</SimpleData>
+					<SimpleData name="Date">Sphinx1928</SimpleData>
+					<SimpleData name="Samplers">JG, CN</SimpleData>
+					<SimpleData name="Sheet_">3</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9890628,49.92850798000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">10</SimpleData>
+					<SimpleData name="Name">WP3</SimpleData>
+					<SimpleData name="Long">-122.999</SimpleData>
+					<SimpleData name="Lat">49.9061</SimpleData>
+					<SimpleData name="Date">Sentinel1720</SimpleData>
+					<SimpleData name="Samplers">TM, NH</SimpleData>
+					<SimpleData name="Sheet_">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9993037,49.90605901000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">11</SimpleData>
+					<SimpleData name="Name">WP34</SimpleData>
+					<SimpleData name="Long">-122.999</SimpleData>
+					<SimpleData name="Lat">49.9073</SimpleData>
+					<SimpleData name="Date">Sentinel1720</SimpleData>
+					<SimpleData name="Samplers">TM, NH</SimpleData>
+					<SimpleData name="Sheet_">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9994569,49.90733619000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">12</SimpleData>
+					<SimpleData name="Name">WP33</SimpleData>
+					<SimpleData name="Long">-123.002</SimpleData>
+					<SimpleData name="Lat">49.9059</SimpleData>
+					<SimpleData name="Date">Sentinel1720</SimpleData>
+					<SimpleData name="Samplers">TM, NH</SimpleData>
+					<SimpleData name="Sheet_">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.0021307,49.90590609999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">13</SimpleData>
+					<SimpleData name="Name">WP5</SimpleData>
+					<SimpleData name="Long">-123.002</SimpleData>
+					<SimpleData name="Lat">49.9051</SimpleData>
+					<SimpleData name="Date">Sentinel1720</SimpleData>
+					<SimpleData name="Samplers">TM, NH</SimpleData>
+					<SimpleData name="Sheet_">4</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.0017686,49.90514159000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">14</SimpleData>
+					<SimpleData name="Name">WP30</SimpleData>
+					<SimpleData name="Long">-122.982</SimpleData>
+					<SimpleData name="Lat">49.8951</SimpleData>
+					<SimpleData name="Date">Sentinel1977</SimpleData>
+					<SimpleData name="Samplers">PS, AK</SimpleData>
+					<SimpleData name="Sheet_">5</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9819278,49.89510265999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">15</SimpleData>
+					<SimpleData name="Name">WP67</SimpleData>
+					<SimpleData name="Long">-123.003</SimpleData>
+					<SimpleData name="Lat">49.9055</SimpleData>
+					<SimpleData name="Date">Sentinel1720</SimpleData>
+					<SimpleData name="Samplers">NH</SimpleData>
+					<SimpleData name="Sheet_">6</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.0029802,49.90546535999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">16</SimpleData>
+					<SimpleData name="Name">CE03.WP15</SimpleData>
+					<SimpleData name="Long">-122.981</SimpleData>
+					<SimpleData name="Lat">49.9204</SimpleData>
+					<SimpleData name="Date">Sphinx1928</SimpleData>
+					<SimpleData name="Samplers">NA</SimpleData>
+					<SimpleData name="Sheet_">NA</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.981446,49.92038533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">17</SimpleData>
+					<SimpleData name="Name">CE04</SimpleData>
+					<SimpleData name="Long">-122.978</SimpleData>
+					<SimpleData name="Lat">49.9134</SimpleData>
+					<SimpleData name="Date">Sphinx1700</SimpleData>
+					<SimpleData name="Samplers">CE, CN</SimpleData>
+					<SimpleData name="Sheet_">7</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9779974,49.91343756000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">18</SimpleData>
+					<SimpleData name="Name">WP20</SimpleData>
+					<SimpleData name="Long">-122.999</SimpleData>
+					<SimpleData name="Lat">49.9037</SimpleData>
+					<SimpleData name="Date">Sentinel1928</SimpleData>
+					<SimpleData name="Samplers">CC, MF</SimpleData>
+					<SimpleData name="Sheet_">8</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9988581,49.90368453999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">19</SimpleData>
+					<SimpleData name="Name">WP1</SimpleData>
+					<SimpleData name="Long">-123.001</SimpleData>
+					<SimpleData name="Lat">49.9044</SimpleData>
+					<SimpleData name="Date">Sentinel1928</SimpleData>
+					<SimpleData name="Samplers">CC, MF</SimpleData>
+					<SimpleData name="Sheet_">8</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.0008913,49.90435011999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">20</SimpleData>
+					<SimpleData name="Name">WP4</SimpleData>
+					<SimpleData name="Long">-122.993</SimpleData>
+					<SimpleData name="Lat">49.9306</SimpleData>
+					<SimpleData name="Date">Sphinx1700</SimpleData>
+					<SimpleData name="Samplers">CL, NBL</SimpleData>
+					<SimpleData name="Sheet_">9</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9929637,49.93056795,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">21</SimpleData>
+					<SimpleData name="Name">WP69</SimpleData>
+					<SimpleData name="Long">-123.004</SimpleData>
+					<SimpleData name="Lat">49.902</SimpleData>
+					<SimpleData name="Date">Sentinel1720</SimpleData>
+					<SimpleData name="Samplers">CL, NBL</SimpleData>
+					<SimpleData name="Sheet_">9</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.0037876,49.90195759999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">22</SimpleData>
+					<SimpleData name="Name">WP73</SimpleData>
+					<SimpleData name="Long">-123.005</SimpleData>
+					<SimpleData name="Lat">49.9024</SimpleData>
+					<SimpleData name="Date">Sentinel1720</SimpleData>
+					<SimpleData name="Samplers">CL, NBL</SimpleData>
+					<SimpleData name="Sheet_">9</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.0050131,49.90237129,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">23</SimpleData>
+					<SimpleData name="Name">WP40</SimpleData>
+					<SimpleData name="Long">-123.005</SimpleData>
+					<SimpleData name="Lat">49.904</SimpleData>
+					<SimpleData name="Date">Sentinel1720</SimpleData>
+					<SimpleData name="Samplers">CL, NBL</SimpleData>
+					<SimpleData name="Sheet_">9</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-123.0049575,49.90395426999996,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">24</SimpleData>
+					<SimpleData name="Name">WP43</SimpleData>
+					<SimpleData name="Long">-122.984</SimpleData>
+					<SimpleData name="Lat">49.9235</SimpleData>
+					<SimpleData name="Date">Sphinx1928</SimpleData>
+					<SimpleData name="Samplers">NH, PS, TM, MS, AK</SimpleData>
+					<SimpleData name="Sheet_">10</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9840347,49.92345267,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">25</SimpleData>
+					<SimpleData name="Name">WP60</SimpleData>
+					<SimpleData name="Long">-122.982</SimpleData>
+					<SimpleData name="Lat">49.9228</SimpleData>
+					<SimpleData name="Date">Sphinx1928</SimpleData>
+					<SimpleData name="Samplers">NH, PS, TM, MS, AK</SimpleData>
+					<SimpleData name="Sheet_">10</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9815134,49.92284070000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">26</SimpleData>
+					<SimpleData name="Name">WP31</SimpleData>
+					<SimpleData name="Long">-122.99</SimpleData>
+					<SimpleData name="Lat">49.8973</SimpleData>
+					<SimpleData name="Date">Sentinel1949</SimpleData>
+					<SimpleData name="Samplers">JG, MS</SimpleData>
+					<SimpleData name="Sheet_">11</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9896825,49.8972982,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">27</SimpleData>
+					<SimpleData name="Name">CE05</SimpleData>
+					<SimpleData name="Long">-122.98</SimpleData>
+					<SimpleData name="Lat">49.9177</SimpleData>
+					<SimpleData name="Date">Sphinx1928</SimpleData>
+					<SimpleData name="Samplers">JG, MS</SimpleData>
+					<SimpleData name="Sheet_">12</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.979681,49.91766528000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">28</SimpleData>
+					<SimpleData name="Name">CE02</SimpleData>
+					<SimpleData name="Long">-122.981</SimpleData>
+					<SimpleData name="Lat">49.9038</SimpleData>
+					<SimpleData name="Date">Sentinel1720</SimpleData>
+					<SimpleData name="Samplers">JG, MS</SimpleData>
+					<SimpleData name="Sheet_">12</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.980867,49.90380528999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">29</SimpleData>
+					<SimpleData name="Name">WP59</SimpleData>
+					<SimpleData name="Long">-122.989</SimpleData>
+					<SimpleData name="Lat">49.926</SimpleData>
+					<SimpleData name="Date">Sphinx1928</SimpleData>
+					<SimpleData name="Samplers">CC, MF</SimpleData>
+					<SimpleData name="Sheet_">13</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9885339,49.92601654999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">30</SimpleData>
+					<SimpleData name="Name">WP42</SimpleData>
+					<SimpleData name="Long">-122.992</SimpleData>
+					<SimpleData name="Lat">49.927</SimpleData>
+					<SimpleData name="Date">Sphinx1700</SimpleData>
+					<SimpleData name="Samplers">CC, MF</SimpleData>
+					<SimpleData name="Sheet_">13</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9920168,49.92704216999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">31</SimpleData>
+					<SimpleData name="Name">WP27</SimpleData>
+					<SimpleData name="Long">-122.992</SimpleData>
+					<SimpleData name="Lat">49.9309</SimpleData>
+					<SimpleData name="Date">Sphinx1700</SimpleData>
+					<SimpleData name="Samplers">CL, NBL, CE</SimpleData>
+					<SimpleData name="Sheet_">14</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9915981,49.93088265000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">32</SimpleData>
+					<SimpleData name="Name">WP7</SimpleData>
+					<SimpleData name="Long">-122.993</SimpleData>
+					<SimpleData name="Lat">49.932</SimpleData>
+					<SimpleData name="Date">Sphinx1700</SimpleData>
+					<SimpleData name="Samplers">CL, NBL, CE</SimpleData>
+					<SimpleData name="Sheet_">14</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9931725,49.93197105000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">33</SimpleData>
+					<SimpleData name="Name">WP57</SimpleData>
+					<SimpleData name="Long">-122.99</SimpleData>
+					<SimpleData name="Lat">49.9311</SimpleData>
+					<SimpleData name="Date">Sphinx1700</SimpleData>
+					<SimpleData name="Samplers">CL, NBL, CE</SimpleData>
+					<SimpleData name="Sheet_">14</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9896892,49.93113432999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">34</SimpleData>
+					<SimpleData name="Name">WP56</SimpleData>
+					<SimpleData name="Long">-122.99</SimpleData>
+					<SimpleData name="Lat">49.9302</SimpleData>
+					<SimpleData name="Date">Sphinx1700</SimpleData>
+					<SimpleData name="Samplers">CL, NBL, CE</SimpleData>
+					<SimpleData name="Sheet_">14</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9902328,49.93021698000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">35</SimpleData>
+					<SimpleData name="Name">WP39</SimpleData>
+					<SimpleData name="Long">-122.996</SimpleData>
+					<SimpleData name="Lat">49.9032</SimpleData>
+					<SimpleData name="Date">Sentinel1928</SimpleData>
+					<SimpleData name="Samplers">PS, AK</SimpleData>
+					<SimpleData name="Sheet_">15</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9960452,49.90320779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">36</SimpleData>
+					<SimpleData name="Name">CE09</SimpleData>
+					<SimpleData name="Long">-122.995</SimpleData>
+					<SimpleData name="Lat">49.9022</SimpleData>
+					<SimpleData name="Date">Sentinel1928</SimpleData>
+					<SimpleData name="Samplers">PS, AK</SimpleData>
+					<SimpleData name="Sheet_">15</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9953469,49.90216225000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">37</SimpleData>
+					<SimpleData name="Name">CE1</SimpleData>
+					<SimpleData name="Long">-122.984</SimpleData>
+					<SimpleData name="Lat">49.8996</SimpleData>
+					<SimpleData name="Date">Sentinel1720</SimpleData>
+					<SimpleData name="Samplers">PS, AK</SimpleData>
+					<SimpleData name="Sheet_">15</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9844099,49.89956170999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">38</SimpleData>
+					<SimpleData name="Name">WP10</SimpleData>
+					<SimpleData name="Long">-122.984</SimpleData>
+					<SimpleData name="Lat">49.897</SimpleData>
+					<SimpleData name="Date">Sentinel1949</SimpleData>
+					<SimpleData name="Samplers">PS, AK</SimpleData>
+					<SimpleData name="Sheet_">15</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.984308,49.89700079000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">39</SimpleData>
+					<SimpleData name="Name">CE10</SimpleData>
+					<SimpleData name="Long">-122.965</SimpleData>
+					<SimpleData name="Lat">49.9207</SimpleData>
+					<SimpleData name="Date">Sphinx2003</SimpleData>
+					<SimpleData name="Samplers">JG, MS, CN</SimpleData>
+					<SimpleData name="Sheet_">16</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.964924,49.92065371000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">40</SimpleData>
+					<SimpleData name="Name">WP12</SimpleData>
+					<SimpleData name="Long">-122.967</SimpleData>
+					<SimpleData name="Lat">49.9225</SimpleData>
+					<SimpleData name="Date">Sphinx1977</SimpleData>
+					<SimpleData name="Samplers">JG, MS, CN</SimpleData>
+					<SimpleData name="Sheet_">16</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9674432,49.92253179999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">41</SimpleData>
+					<SimpleData name="Name">WP65</SimpleData>
+					<SimpleData name="Long">-122.97</SimpleData>
+					<SimpleData name="Lat">49.9224</SimpleData>
+					<SimpleData name="Date">Sphinx1949</SimpleData>
+					<SimpleData name="Samplers">JG, MS, CN</SimpleData>
+					<SimpleData name="Sheet_">16</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9701737,49.92241561000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">42</SimpleData>
+					<SimpleData name="Name">CE01</SimpleData>
+					<SimpleData name="Long">-122.984</SimpleData>
+					<SimpleData name="Lat">49.8996</SimpleData>
+					<SimpleData name="Date">Sentinel1720</SimpleData>
+					<SimpleData name="Samplers">CE, CN</SimpleData>
+					<SimpleData name="Sheet_">17</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9844099,49.89956170999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_waypoints_used_ISDDSSS">
+					<SimpleData name="unnamed">43</SimpleData>
+					<SimpleData name="Name">CE08</SimpleData>
+					<SimpleData name="Long">-122.992</SimpleData>
+					<SimpleData name="Lat">49.8997</SimpleData>
+					<SimpleData name="Date">Sentinel1949</SimpleData>
+					<SimpleData name="Samplers">CE, CN</SimpleData>
+					<SimpleData name="Sheet_">17</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-122.9924511,49.89966469,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

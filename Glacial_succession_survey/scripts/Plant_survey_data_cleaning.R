@@ -11,7 +11,7 @@ library(tidyr)
 setwd("~/GitHub/Garibaldi/Glacial_succession_survey")
 
 # load in the plant data
-plant_data <- read.table("./data/Plant_survey_DATA_combined_cleaning.txt", header=TRUE, sep ="\t", dec = ".")
+plant_data <- read.table("./data/older_backups/Plant_survey_DATA_combined_cleaning.txt", header=TRUE, sep ="\t", dec = ".")
 
 ########################
 
@@ -72,10 +72,25 @@ write.csv(plant_data_summarized, file = "./data/Garibaldi_plant_data_Family.csv"
 # join other species information
 plant_data_species_info <- plant_data_cleaned[,c(1:5, 46)]
 plant_data_species_info <- distinct(plant_data_species_info)
-plant_data_summarized1 <- merge(plant_data_summarized,plant_data_species_info,  by="Genus_spp")
+plant_data_summarized1 <- left_join(plant_data_summarized,plant_data_species_info,  by="Genus_spp")
 
-#-----------------------------------
-# view and sort by sum
-# top 60 appear with reasonable abundance
+#######################################
+# Look at with Glacial Retreat data and waypoints data
+waypoint_data <- read.table("./data/Glacial_retreat_times/SurveyPoints-Deglacial.csv", header=TRUE, sep =",", dec = ".")
+nrow(waypoint_data)
 
+waypoints_surveyed <- as.data.frame(colnames(plant_data_cleaned[,c(6:45)]))
+colnames(waypoints_surveyed) <- c("Name")
+nrow(waypoints_surveyed)
 
+# join lat long and glacial retreat to the waypoints we have plant data for
+waypoints_used <- left_join(waypoints_surveyed, waypoint_data, by="Name")
+
+#---------------------
+# join in the metadata
+waypoint_metadata <- read.table("./data/older_backups/Waypoint_meta_data.txt", header=TRUE, sep ="\t", dec = ".")
+waypoints_used <- left_join(waypoints_used, waypoint_metadata, by="Name")
+
+waypoints_used <- distinct(waypoints_used)
+
+write.csv(waypoints_used, file = "./data/waypoints_used.csv")
