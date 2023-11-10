@@ -28,8 +28,9 @@ getwd()  # quick double check
 # Bring in your data:
 
 # mydata <- read.csv("your drive") # # read csv into R OR use file.choose:
+mydata <- read.csv(file = "./data/example_data/sorenson_dissim_matrix.csv", row.name = 1) # bring in csv, matrix in file, and ignore name in first column
 
-mydata <- read.csv(file.choose(), row.name = 1) # bring in csv, matrix in file and ignore name in first column
+# mydata <- read.csv(file.choose(), row.name = 1) # bring in csv, matrix in file and ignore name in first column
 
 mydata # view your data
 head(mydata) # view first 6 lines
@@ -40,7 +41,7 @@ class(mydata) # Built-in matrix
 
 # Load required packages
 
-# install.packages("corrplot") # delete hashtag first time to install
+install.packages("corrplot") # delete hashtag first time to install
 library(corrplot)
 
 # Relabel categories
