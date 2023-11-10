@@ -2,7 +2,7 @@
 # Data summarizing
 # Oct 24 2023
 ##########################
-
+getwd()
 # install libraries
 install.packages("dplyr")
 
@@ -14,7 +14,7 @@ library(dplyr)
 df0 = read.csv("./data/raw_data/data_2023 - Species.csv")
 
 # remove quadrat and date columns
-df <- df0[,-c(1,3)]
+df <- df0[,-c(2)]
 
 # make transect a factor
 df$transect <- as.factor(df$transect)
@@ -28,6 +28,6 @@ summary_df <- df %>% group_by(transect) %>%
 
 
 #write file to csv
-write.csv(summary_df, file = "./data/processed_data/garibaldi_trampling_species_matrix.csv")
+write.csv(summary_df, file = "./data/processed_data/garibaldi_trampling_species_matrix1.csv")
 
 
