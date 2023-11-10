@@ -42,7 +42,7 @@ library(ggthemes)
 
 # first change path to where you want the figures output to
 #setwd("~/GitHub/Garibaldi/Trampling_spp_richness")
-
+getwd()
 # read in spp and site matrices
 species.data0 <- read.csv(file = "./data/processed_data/garibaldi_trampling_species_matrix.csv")
 site.data <- read.csv(file = "./data/processed_data/garibaldi_trampling_site_matrix.csv")
