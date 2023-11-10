@@ -30,3 +30,4 @@ summary_df <- df %>% group_by(transect) %>%
 #write file to csv
 write.csv(summary_df, file = "./data/processed_data/garibaldi_trampling_species_matrix.csv")
 
+
