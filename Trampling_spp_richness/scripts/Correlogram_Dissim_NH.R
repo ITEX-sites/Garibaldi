@@ -28,7 +28,7 @@ getwd()  # quick double check
 # Bring in your data:
 
 # mydata <- read.csv("your drive") # # read csv into R OR use file.choose:
-mydata <- read.csv(file = "./data/raw_data/sorenson_dissim_matrix.csv", row.name = 1) # bring in csv, matrix in file and ignore name in first column
+mydata <- read.csv(file = "./data/example_data/sorenson_dissim_matrix.csv", row.name = 1) # bring in csv, matrix in file, and ignore name in first column
 
 # mydata <- read.csv(file.choose(), row.name = 1) # bring in csv, matrix in file and ignore name in first column
 
