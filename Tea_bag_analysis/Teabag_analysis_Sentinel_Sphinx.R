@@ -8,11 +8,11 @@ library(lubridate)
 library(lme4)
 library(lmerTest)
 
-setwd("/Users/mfilewych1/Documents/GitHub/Garibaldi/Tea_bag_analysis")
-#teabag <- read.csv("Tea_bag_decomposition.csv")
+#setwd("/Users/mfilewych1/Documents/GitHub/Garibaldi")
+#teabag <- read.csv("Tea_bag_analysis/Tea_bag_decomposition.csv")
 
-tea <- read.csv("Simplified_tea.csv")
-tea <- slice(tea, 1:24)
+tea <- read.csv("Tea_bag_analysis/Simplified_tea.csv")
+tea <- slice(tea, 1:24)#pull off last empty row 
 
 #get rid of unimportant rows
 #teabag <- teabag[c(57:85), ]
@@ -50,12 +50,12 @@ hist(tea$k^(1/3)) #very bad
 hist(tea$k/(1/tea$k)) #very bad
 
 #trying something else *** use this one!!!
-install.packages("rcompanion")
-transf_tea <- rcompanion::transformTukey(tea$k)
-hist(transf_tea)
+#install.packages("rcompanion")
+tea$transf_tea <- rcompanion::transformTukey(tea$k)
+hist(tea$transf_tea)
 
 #trying a box-cox
-install.packages("MASS")
+#install.packages("MASS")
 library(MASS)
 #tea.bc <- lm(k ~ Location*Treatment, data = tea)
 #tea.k.bc <- boxcox(tea.bc)

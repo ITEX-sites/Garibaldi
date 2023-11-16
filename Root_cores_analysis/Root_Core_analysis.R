@@ -8,8 +8,8 @@ library(lubridate)
 library(lme4)
 library(lmerTest)
 
-setwd("/Users/mfilewych1/Documents/GitHub/Garibaldi/Root_cores_analysis")
-roots <- read.csv("Alpine_cores_names_2023_Complete.csv")
+#setwd("/Users/mfilewych1/Documents/GitHub/Garibaldi")
+roots <- read.csv("Root_cores_analysis/Alpine_cores_names_2023_Complete.csv")
 
 str(roots)
 names(roots)
@@ -31,7 +31,7 @@ ggplot(roots, aes(x=Subsite, y=Root..g.bulk.dens., fill=W.C))+
   scale_fill_manual(values=c( "#89C5DA", "#DA5724")) #+
 
 
-ggplot(roots, aes(x=Duration, y=Root..g.bulk.dens., fill=W.C))+
+rootplot<-ggplot(roots, aes(x=Duration, y=RootsBulkCubr, fill=W.C))+
   geom_point(aes(fill=W.C))+
   geom_smooth(method="lm")+
   facet_wrap(~Subsite)+
@@ -39,8 +39,7 @@ ggplot(roots, aes(x=Duration, y=Root..g.bulk.dens., fill=W.C))+
         axis.title = element_text(size = 14)
         ) +
   ylab("Root g/bulk density")+ theme_bw() + xlab("Duration in ground (Days)") +
-  labs(title = "Root growth by plot", fill="Treatment")+
-  scale_fill_manual(values=c( "#50DFFF", "#FF7070")) 
+  scale_fill_manual(values=c("#89C5DA", "#DA5724"), name = "Treatment",  labels = c("Control", "Warming"))
 
 ggplot(roots, aes(x=Duration, y=Roots.dry.weight..g., fill=W.C))+
   geom_point(aes(fill=W.C))+
@@ -60,8 +59,14 @@ roots <- mutate(roots, RootsBulkCubr = Root..g.bulk.dens.^(1/3))
 
 ModelA <- aov(data = roots , formula = RootsBulkCubr ~ Subsite*W.C*Season)
 summary(ModelA)
-TukeyHSD(ModelA)
+tukey<-TukeyHSD(ModelA)
+tukey
+#sedge has more roots than salix 
+#warming has more roots than control 
+#late season more roots than early season- 
+#roots still increasing despite aboveground senescence  
 
 # linear  model
 LinearA <- lm(data = roots, formula = roots$RootsBulkCubr ~ Duration*Subsite*W.C)
 summary(LinearA)
+
