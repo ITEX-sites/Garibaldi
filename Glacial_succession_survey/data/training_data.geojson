@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "training_data",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32610" } },
+"features": [
+
+]
+}
