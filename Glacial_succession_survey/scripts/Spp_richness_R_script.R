@@ -44,7 +44,7 @@ library(ggthemes)
 #setwd("~/GitHub/Garibaldi/Glacial_succession_survey")
 
 # read in spp and site matrices
-species.data0 <- read.csv(file = "./data/Garibaldi_plant_data_Genus_spp.csv")
+species.data0 <- read.csv(file = "./data/Garibaldi_plant_data_Genus.csv")
 site.data <- read.csv(file = "./data/waypoints_used.csv")
 
 #---------------------------
@@ -58,6 +58,7 @@ site.data$Bay <- Bay_date[,1]
 # Edit the species data
 # remove transect column
 Genus_spp <- species.data0$Genus_spp
+Genus <- species.data0$Genus
 species.data <- species.data0[,-c(1:2,43)]
 
 species.data <- t(species.data)
@@ -199,7 +200,7 @@ radlattice(radfit(colSums(species.data))) #other functions for rank-abundance, t
 # Requires BiodiversityR package
 #
 #####################################
-colnames(species.data)<- Genus_spp
+colnames(species.data)<- Genus
 RankAbun.1 <- rankabundance(species.data)
 RankAbun.1 # a dataframe of the rank of each species
 
@@ -306,11 +307,14 @@ dissim.mat<-vegdist(species.data, method="jaccard", binary=TRUE, na.rm = TRUE)
 #cluster dendrogram showing how each of the 24 species are clustered
 fit <- hclust(dissim.mat, method="average")
 
-png("./figures/Dendrogram.jpg", width = 856, height = 540)
+png("./figures/Dendrogram_Genus.jpg", width = 856, height = 540)
 plot(fit)
 dev.off()
 
-plot(fit); rect.hclust(fit, h=0.5, border="red") # emphasize clusters <0.5 different
+png("./figures/Dendrogram_clustered_Genus_0.7.jpg", width = 856, height = 540)
+plot(fit); rect.hclust(fit, h=0.7, border="blue") # emphasize clusters <0.5 different
+dev.off()
+
 
 #####################################
 #
@@ -332,16 +336,19 @@ site.data1<- site.data
 
 site.data1 <- site.data
 species.data1 <- species.data
-myNMDS<-metaMDS(species.data1,k=12)
+myNMDS<-metaMDS(species.data1,k=10)
 myNMDS #most important: is the stress low?
 stressplot(myNMDS) #low stress means that the observed dissimilarity between site pairs matches that on the 2-D plot fairly well (points hug the line)
 
 plot(myNMDS)#sites are open circles and species are red +'s
 
+png("./figures/NMDS_spp_sites.jpg", width = 2000, height = 2000)
 #the following commands create layers on a plot, and should be run sequentially
 ordiplot(myNMDS,type="n") #this clears the symbols from the plot
 orditorp(myNMDS,display="species",col="red",air=0.01) #this adds red species names
 orditorp(myNMDS,display="sites",cex=0.75,air=0.01) #this adds black site labels, cex is the font size
+#ordispider(myNMDS,groups=site.data1$Ecotone,spiders="centroid",col="black",label=F)
+dev.off()
 
 png("./figures/NMDS_GlacialDate.jpg", width = 856, height = 540)
 # connect sites in the same treatment with a polygon use "ordihull"
