@@ -360,7 +360,7 @@ dev.off()
 
 # link the sites within a treatment by lines
 ordiplot(myNMDS,type="n")
-ordispider(myNMDS,groups=site.data1$Date,spiders="centroid",col="black",label=F)
+ordispider(myNMDS,groups=site.data1$Bay,spiders="centroid",col="black",label=F)
 orditorp(myNMDS,display="species",col="red",air=0.01)
 orditorp(myNMDS,display="sites",cex=0.75,air=0.01)
 
@@ -379,7 +379,9 @@ ordiplot(myNMDS,type="n")
 ordihull(myNMDS,groups=site.data1$Observer,draw="polygon",col='blue',label=T)
 
 ordiplot(myNMDS,type="n")
-ordispider(myNMDS,groups=site.data1$Bay,spiders="centroid",col="black",label=T)
+ordihull(myNMDS,groups=site.data1$Bay,draw="polygon",col='blue',label=T)
+orditorp(myNMDS,display="species",col="red",air=0.01)
+orditorp(myNMDS,display="sites",cex=0.75,air=0.01)
 
 #####################################
 #
