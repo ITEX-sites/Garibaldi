@@ -81,6 +81,7 @@ nrow(waypoint_data)
 
 waypoint_model_data <- read.table("./data/waypoints_with_model_val.csv", header=TRUE, sep =",", dec = ".")
 
+
 waypoints_surveyed <- as.data.frame(colnames(plant_data_cleaned[,c(6:45)]))
 colnames(waypoints_surveyed) <- c("Name")
 nrow(waypoints_surveyed)
