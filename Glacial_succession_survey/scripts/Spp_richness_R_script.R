@@ -367,13 +367,13 @@ dev.off()
 
 # remove equisetum and alder
 
-
-
-png("./figures/NMDS_Pixel_model.png", width = 856, height = 540)
+png("./figures/NMDS_Pixel_model_labels.png", width = 1000, height = 800)
 # connect sites in the same treatment with a polygon use "ordihull"
 ordiplot(myNMDS,type="n")
 ordihull(myNMDS,groups=site.data1$Model_clas, draw="polygon",col="grey90",label=F)
-text(mod, labels = Management, select = Management == "BF", display = "sites"))
+text(myNMDS, labels = site.data1$Model_clas, cex=0.85, display = "sites")#,  select = Management == "BF", )
+orditorp(myNMDS,display="species",col="red",air=0.01) #this adds red species names
+orditorp(myNMDS,display="sites",cex=0.75,air=0.01) #this adds black site labels, cex is the font size
 dev.off()
 
 
