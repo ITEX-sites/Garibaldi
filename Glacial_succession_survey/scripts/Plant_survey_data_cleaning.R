@@ -79,12 +79,17 @@ plant_data_summarized1 <- left_join(plant_data_summarized,plant_data_species_inf
 waypoint_data <- read.table("./data/Glacial_retreat_times/SurveyPoints-Deglacial.csv", header=TRUE, sep =",", dec = ".")
 nrow(waypoint_data)
 
+waypoint_model_data <- read.table("./data/waypoints_with_model_val.csv", header=TRUE, sep =",", dec = ".")
+
 waypoints_surveyed <- as.data.frame(colnames(plant_data_cleaned[,c(6:45)]))
 colnames(waypoints_surveyed) <- c("Name")
 nrow(waypoints_surveyed)
 
 # join lat long and glacial retreat to the waypoints we have plant data for
-waypoints_used <- left_join(waypoints_surveyed, waypoint_data, by="Name")
+waypoints_used0 <- left_join(waypoints_surveyed, waypoint_data, by="Name")
+
+# join the model data
+waypoints_used <- left_join(waypoints_used0, waypoint_model_data, by="Name")
 
 #---------------------
 # join in the metadata
