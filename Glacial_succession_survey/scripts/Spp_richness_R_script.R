@@ -45,7 +45,7 @@ library(ggthemes)
 
 # read in spp and site matrices
 species.data0 <- read.csv(file = "./data/Garibaldi_plant_data_Genus.csv")
-site.data <- read.csv(file = "./data/waypoints_used.csv")
+site.data <- read.csv(file = "./data/waypoints_with_model_val.csv")
 
 #---------------------------
 # edit the site data
@@ -121,12 +121,12 @@ anova(model5)
 #   stat_smooth(method = "lm")#add the line
 
 # example of how to save a png image in R
-png("./figures/Shannon_bay.jpg", width = 856, height = 540)
+png("./figures/Shannon_bay.png", width = 856, height = 540)
 ggplot(data=site.data, aes(x=Bay, y=shannon, colour=GlacialDate)) + geom_point(size=3)+
   stat_smooth(method = "lm")#add the line
 dev.off()
 
-png("./figures/Shannon_Date.jpg", width = 856, height = 540)
+png("./figures/Shannon_Date.png", width = 856, height = 540)
 ggplot(data=site.data, aes(x=GlacialDate, y=shannon, colour=Bay)) + geom_point(size=3)+
   stat_smooth(method = "lm")#add the line
 dev.off()
@@ -146,23 +146,23 @@ anova(model5)
 model5<-lm(PielouJ~GlacialDate, data =site.data)
 anova(model5)
 
-png("./figures/Shannon_Bay_boxplot.jpg", width = 856, height = 540)
+png("./figures/Shannon_Bay_boxplot.png", width = 856, height = 540)
 boxplot(shannon~Bay, data=site.data, col="light blue", xlab="Bay", ylab="Shannon Diversity Index", main="Shannon Diversity")
 dev.off()
 
-png("./figures/Shannon_GlacialDate_boxplot.jpg", width = 856, height = 540)
+png("./figures/Shannon_GlacialDate_boxplot.png", width = 856, height = 540)
 boxplot(shannon~GlacialDate, data=site.data, las=2, col="light blue", xlab="GlacialDate", ylab="Shannon Diversity Index", main="Shannon Diversity")
 dev.off()
 
-png("./figures/Shannon_GlacialDate_Bay_boxplot.jpg", width = 856, height = 540)
+png("./figures/Shannon_GlacialDate_Bay_boxplot.png", width = 856, height = 540)
 boxplot(shannon~Date, data=site.data, las=2, col="light blue", xlab="GlacialDate_Bay", ylab="Shannon Diversity Index", main="Shannon Diversity")
 dev.off()
 
-png("./figures/Pielou_GlacialDate_boxplot.jpg", width = 856, height = 540)
+png("./figures/Pielou_GlacialDate_boxplot.png", width = 856, height = 540)
 boxplot(PielouJ~GlacialDate, data=site.data, col="light blue", xlab="GlacialDate", ylab="Pielou's J Evenness", main="Pielou's J evenness")
 dev.off()
 
-png("./figures/Pielou_Bay_boxplot.jpg", width = 856, height = 540)
+png("./figures/Pielou_Bay_boxplot.png", width = 856, height = 540)
 boxplot(PielouJ~Bay, data=site.data, col="light blue", xlab="Bay", ylab="Pielou's J Evenness", main="Pielou's J evenness")
 dev.off()
 
@@ -172,8 +172,8 @@ dev.off()
 #
 #####################################
 
-min(rowSums(species.data))
-rarefy(species.data, 15) #if only 15 individuals had been sampled in each treatment, what would the diversity have been?
+#min(rowSums(species.data))
+#rarefy(species.data, 15) #if only 15 individuals had been sampled in each treatment, what would the diversity have been?
 
 #####################################
 #
@@ -181,9 +181,9 @@ rarefy(species.data, 15) #if only 15 individuals had been sampled in each treatm
 #
 #####################################
 
-dev.off()
-par(mfrow=c(1,1))
-plot(fisherfit(colSums(species.data))) #here is a plot of the number of species for each "bin" of abundances, abundances are summed over all sites
+#dev.off()
+#par(mfrow=c(1,1))
+#plot(fisherfit(colSums(species.data))) #here is a plot of the number of species for each "bin" of abundances, abundances are summed over all sites
 
 #####################################
 #
@@ -204,7 +204,7 @@ colnames(species.data)<- Genus
 RankAbun.1 <- rankabundance(species.data)
 RankAbun.1 # a dataframe of the rank of each species
 
-png("./figures/Rank_abundance_total.jpg", width = 856, height = 540)
+png("./figures/Rank_abundance_total.png", width = 856, height = 540)
 rankabunplot(RankAbun.1,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,200)) #rank abundance plot, labelling the most common 3 species
 dev.off()
 
@@ -214,66 +214,66 @@ site.data$Date <- as.factor(site.data$Date)
 
 #rankabuncomp(species.data, y=site.data, factor=c('GlacialDate'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
 
-png("./figures/Rank_abundance_treatment.jpg", width = 856, height = 540)
-rankabuncomp(species.data, y=site.data, factor=c('GlacialDate'),scale='proportion', legend=FALSE) #click on where on plot you want to have the legend
-dev.off()
-
-rankabuncomp(species.data, y=site.data, factor=c('Bay'),scale='proportion', legend=TRUE, specnames=c(1:3)) #click on where on plot you want to have the legend
-rankabuncomp(species.data, y=site.data, factor=c('Date'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
-
-#------------------------------------
-# what species differ between bays
-RankAbun.Sphinx <- rankabundance(species.data[which(site.data$Bay=="Sphinx"),])
-RankAbun.Sphinx # a dataframe of the rank of each species
-
-png("./figures/Rank_abundance_Sphinx.jpg", width = 856, height = 540)
-rankabunplot(RankAbun.Sphinx,addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
-dev.off()
-
-RankAbun.Sentinel <- rankabundance(species.data[which(site.data$Bay=="Sentinel"),])
-RankAbun.Sentinel # a dataframe of the rank of each species
-
-png("./figures/Rank_abundance_Sentinel.jpg", width = 856, height = 540)
-rankabunplot(RankAbun.Sentinel,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
-dev.off()
-
-#------------------------------------
-# What species change with time
-unique(site.data$GlacialDate)
-summary(site.data$GlacialDate)
-
-RankAbun.1720 <- rankabundance(species.data[which(site.data$GlacialDate=="1720"),])
-RankAbun.1720 # a dataframe of the rank of each species
-
-png("./figures/Rank_abundance_1720.jpg", width = 856, height = 540)
-rankabunplot(RankAbun.1720,addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
-dev.off()
-
-RankAbun.younger <- rankabundance(species.data[which(site.data$GlacialDate=="1977"|site.data$GlacialDate=="1949"|site.data$GlacialDate=="1928"),])
-RankAbun.younger # a dataframe of the rank of each species
-
-png("./figures/Rank_abundance_younger.jpg", width = 856, height = 540)
-rankabunplot(RankAbun.younger,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
-dev.off()
-
-
-########################
-# Look at which species had the largest change in abundance between groups
-sppyounger <- as.data.frame(cbind(rownames(RankAbun.younger), RankAbun.younger[,8]))
-spp1720 <- as.data.frame(cbind(rownames(RankAbun.1720), RankAbun.1720[,8]))
-
-pre_post_1720 <- left_join(spp1720, sppyounger, by="V1")
-colnames(pre_post_1720) <- c("Spp", "Older", "Younger")
-
-pre_post_1720$Diff <-  as.numeric(pre_post_1720$Older) - as.numeric(pre_post_1720$Younger)
-
-pre_post_1720$Rank <- rank(pre_post_1720$Diff, na.last = TRUE,ties.method = c("average"))
-
-png("./figures/Rank_abundance_pre_post_1720_diff.jpg", width = 3000, height = 2000)
-plot(pre_post_1720$Rank, pre_post_1720$Diff)
-text(pre_post_1720$Rank, pre_post_1720$Diff, pre_post_1720$Spp)
-dev.off()
-#####################################
+# png("./figures/Rank_abundance_treatment.png", width = 856, height = 540)
+# rankabuncomp(species.data, y=site.data, factor=c('GlacialDate'),scale='proportion', legend=FALSE) #click on where on plot you want to have the legend
+# dev.off()
+#
+# rankabuncomp(species.data, y=site.data, factor=c('Bay'),scale='proportion', legend=TRUE, specnames=c(1:3)) #click on where on plot you want to have the legend
+# rankabuncomp(species.data, y=site.data, factor=c('Date'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
+#
+# #------------------------------------
+# # what species differ between bays
+# RankAbun.Sphinx <- rankabundance(species.data[which(site.data$Bay=="Sphinx"),])
+# RankAbun.Sphinx # a dataframe of the rank of each species
+#
+# png("./figures/Rank_abundance_Sphinx.png", width = 856, height = 540)
+# rankabunplot(RankAbun.Sphinx,addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
+# dev.off()
+#
+# RankAbun.Sentinel <- rankabundance(species.data[which(site.data$Bay=="Sentinel"),])
+# RankAbun.Sentinel # a dataframe of the rank of each species
+#
+# png("./figures/Rank_abundance_Sentinel.png", width = 856, height = 540)
+# rankabunplot(RankAbun.Sentinel,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
+# dev.off()
+#
+# #------------------------------------
+# # What species change with time
+# unique(site.data$GlacialDate)
+# summary(site.data$GlacialDate)
+#
+# RankAbun.1720 <- rankabundance(species.data[which(site.data$GlacialDate=="1720"),])
+# RankAbun.1720 # a dataframe of the rank of each species
+#
+# png("./figures/Rank_abundance_1720.png", width = 856, height = 540)
+# rankabunplot(RankAbun.1720,addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
+# dev.off()
+#
+# RankAbun.younger <- rankabundance(species.data[which(site.data$GlacialDate=="1977"|site.data$GlacialDate=="1949"|site.data$GlacialDate=="1928"),])
+# RankAbun.younger # a dataframe of the rank of each species
+#
+# png("./figures/Rank_abundance_younger.png", width = 856, height = 540)
+# rankabunplot(RankAbun.younger,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,100)) #rank abudnance plot, labelling the most common 3 species
+# dev.off()
+#
+#
+# ########################
+# # Look at which species had the largest change in abundance between groups
+# sppyounger <- as.data.frame(cbind(rownames(RankAbun.younger), RankAbun.younger[,8]))
+# spp1720 <- as.data.frame(cbind(rownames(RankAbun.1720), RankAbun.1720[,8]))
+#
+# pre_post_1720 <- left_join(spp1720, sppyounger, by="V1")
+# colnames(pre_post_1720) <- c("Spp", "Older", "Younger")
+#
+# pre_post_1720$Diff <-  as.numeric(pre_post_1720$Older) - as.numeric(pre_post_1720$Younger)
+#
+# pre_post_1720$Rank <- rank(pre_post_1720$Diff, na.last = TRUE,ties.method = c("average"))
+#
+# png("./figures/Rank_abundance_pre_post_1720_diff.png", width = 3000, height = 2000)
+# plot(pre_post_1720$Rank, pre_post_1720$Diff)
+# text(pre_post_1720$Rank, pre_post_1720$Diff, pre_post_1720$Spp)
+# dev.off()
+# #####################################
 #
 # Similarity matrices (vegan package required)
 #
@@ -307,11 +307,11 @@ dissim.mat<-vegdist(species.data, method="jaccard", binary=TRUE, na.rm = TRUE)
 #cluster dendrogram showing how each of the 24 species are clustered
 fit <- hclust(dissim.mat, method="average")
 
-png("./figures/Dendrogram_Genus.jpg", width = 856, height = 540)
+png("./figures/Dendrogram_Genus.png", width = 856, height = 540)
 plot(fit)
 dev.off()
 
-png("./figures/Dendrogram_clustered_Genus_0.7.jpg", width = 856, height = 540)
+png("./figures/Dendrogram_clustered_Genus_0.7.png", width = 856, height = 540)
 plot(fit); rect.hclust(fit, h=0.7, border="blue") # emphasize clusters <0.5 different
 dev.off()
 
@@ -342,7 +342,7 @@ stressplot(myNMDS) #low stress means that the observed dissimilarity between sit
 
 plot(myNMDS)#sites are open circles and species are red +'s
 
-png("./figures/NMDS_spp_sites.jpg", width = 2000, height = 2000)
+png("./figures/NMDS_spp_sites.png", width = 2000, height = 2000)
 #the following commands create layers on a plot, and should be run sequentially
 ordiplot(myNMDS,type="n") #this clears the symbols from the plot
 orditorp(myNMDS,display="species",col="red",air=0.01) #this adds red species names
@@ -350,7 +350,35 @@ orditorp(myNMDS,display="sites",cex=0.75,air=0.01) #this adds black site labels,
 #ordispider(myNMDS,groups=site.data1$Ecotone,spiders="centroid",col="black",label=F)
 dev.off()
 
-png("./figures/NMDS_GlacialDate.jpg", width = 856, height = 540)
+png("./figures/NMDS_Pixel_model.png", width = 856, height = 540)
+# connect sites in the same treatment with a polygon use "ordihull"
+ordiplot(myNMDS,type="n")
+ordihull(myNMDS,groups=site.data1$Model_clas, draw="polygon",col="grey90",label=F)
+#orditorp(myNMDS,display="species",col="red",air=0.01)
+#orditorp(myNMDS,display="sites",cex=0.75,air=0.01)
+dev.off()
+
+# TO DO: need to add labels
+# but for this we need all the WP with single categories removed
+
+# try grouping single categories
+# glacier with scree
+# till_water with water
+
+# remove equisetum and alder
+
+png("./figures/NMDS_Pixel_model_labels.png", width = 1000, height = 800)
+# connect sites in the same treatment with a polygon use "ordihull"
+ordiplot(myNMDS,type="n")
+ordihull(myNMDS,groups=site.data1$Model_clas, draw="polygon",col="grey90",label=F)
+text(myNMDS, labels = site.data1$Model_clas, cex=0.85, display = "sites")#,  select = Management == "BF", )
+orditorp(myNMDS,display="species",col="red",air=0.01) #this adds red species names
+orditorp(myNMDS,display="sites",cex=0.75,air=0.01) #this adds black site labels, cex is the font size
+dev.off()
+
+
+#--------------------------
+png("./figures/NMDS_GlacialDate.png", width = 856, height = 540)
 # connect sites in the same treatment with a polygon use "ordihull"
 ordiplot(myNMDS,type="n")
 ordihull(myNMDS,groups=site.data1$GlacialDate,draw="polygon",col="grey90",label=T)
@@ -365,12 +393,12 @@ orditorp(myNMDS,display="species",col="red",air=0.01)
 orditorp(myNMDS,display="sites",cex=0.75,air=0.01)
 
 #other plots
-png("./figures/NMDS_site.jpg", width = 856, height = 540)
+png("./figures/NMDS_site.png", width = 856, height = 540)
 ordiplot(myNMDS,type="n")
 ordihull(myNMDS,groups=site.data1$Bay,draw="polygon",col='blue',label=T)
 dev.off()
 
-png("./figures/NMDS_trampling.jpg", width = 856, height = 540)
+png("./figures/NMDS_trampling.png", width = 856, height = 540)
 ordiplot(myNMDS,type="n")
 ordihull(myNMDS,groups=site.data1$GlacialDate,draw="polygon",col='blue',label=T)
 dev.off()
