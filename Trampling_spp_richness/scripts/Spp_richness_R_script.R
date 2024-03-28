@@ -44,7 +44,7 @@ library(ggthemes)
 #setwd("~/GitHub/Garibaldi/Trampling_spp_richness")
 getwd()
 # read in spp and site matrices
-species.data0 <- read.csv(file = "./data/processed_data/garibaldi_trampling_species_matrix.csv")
+species.data0 <- read.csv(file = "./data/processed_data/finalCSV-GaribaldiSpeciesMatrixFormat.csv")
 site.data <- read.csv(file = "./data/processed_data/garibaldi_trampling_site_matrix.csv")
 
 # remove transect column
@@ -59,49 +59,8 @@ species.data <- species.data0[,-c(1:2)]
 #create dataframe of site and species data
 df<- cbind(site.data, species.data)
 
-# calculate species diversity
-diversity(species.data, index = "shannon")#this is the Shannon-Wiener index
-diversity(species.data, index = "simpson")#this is the Simpson index
-fisher.alpha(species.data) #this is Fisher's alpha from the log-series distribution, fairly independent of sample size
 
-site.data$shannon<-(diversity(species.data, index = "shannon"))#makes a new column in site data with the shannon values
-site.data$simpson<-(diversity(species.data, index = "simpson"))
-site.data$fisher<-fisher.alpha(species.data)
 
-# effects of OBSERVER on shannon diversity
-model1<-lm(shannon~OBSERVER, data =site.data)
-#summary(lm(shannon~OBSERVER, data =site.data))
-anova(model1)
-
-# effects of Site on shannon diversity
-model2<-lm(shannon~SITE, data =site.data)
-#summary(lm(shannon~SITE, data =site.data))
-anova(model2)
-
-# effects of TRTMT on shannon diversity
-model3<-lm(shannon~TRTMT, data =site.data)
-#summary(lm(shannon~TRTMT, data =site.data))
-anova(model3)
-
-# effects of aspect on shannon diversity
-model3<-lm(shannon~aspect, data =site.data)
-#summary(lm(shannon~aspect, data =site.data))
-anova(model3)
-
-# effects of slope on shannon diversity
-model3<-lm(shannon~slope, data =site.data)
-#summary(lm(shannon~slope, data =site.data))
-anova(model3)
-
-# effects of TRTMT on fisher alpha
-model4<-lm(fisher~TRTMT, data =site.data)
-#summary(lm(fisher~TRTMT, data =site.data))
-anova(model4)
-
-# effects of TRTMT on simpson diversity
-model5<-lm(simpson~TRTMT, data =site.data)
-#summary(lm(simpson~TRTMT, data =site.data))
-anova(model5)
 
 #---------------------------------------------
 # create graph of species diversity separated by X1 and coloured by X2
@@ -114,7 +73,7 @@ anova(model5)
 ggplot(data=site.data, aes(x=SITE, y=shannon, colour=TRTMT)) + geom_point(size=3)+
   stat_smooth(method = "lm")#add the line
 
-ggplot(data=site.data, aes(x=SITE, y=shannon, colour=Observer)) + geom_point(size=3)+
+ggplot(data=site.data, aes(x=SITE, y=shannon, colour=OBSERVER)) + geom_point(size=3)+
   stat_smooth(method = "lm")#add the line
 
 ggplot(data=site.data, aes(x=TRTMT, y=shannon, colour=SITE)) + geom_point(size=3)+
