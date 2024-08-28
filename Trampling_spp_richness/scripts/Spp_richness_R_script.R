@@ -125,11 +125,11 @@ ggplot(data=site.data, aes(x=TRTMT, y=shannon, colour=SITE)) + geom_point(size=3
   theme_bw() #add the line
 
 # example of how to save a png image in R
-png("./figures/Shannon_trampling_site_dotplot.jpg", width = 856, height = 540)
+ggsave(file = "./figures/Shannon_trampling_site_dotplot.jpg", plot = Shannondot, dpi = 800, units = "mm", width = 150, height = 100)
 ggplot(data=site.data, aes(x=TRTMT, y=shannon, colour=SITE)) + geom_point(size=3)+
   scale_colour_manual(values = c("#283b00", "#afc249", "#ea9173")) +
   labs(x = 'Treatment', y = 'Shannon Diversity Index') +
-  theme_bw() #add the line
+  theme_bw() -> Shannondot
 dev.off()
 
 
@@ -163,26 +163,27 @@ boxplot(shannon~TRTMT, data=site.data, las=2, col="light blue", xlab="TRTMT", yl
 
 site.data$SITE.TRTMT <- paste0(site.data$TRTMT, "_", site.data$SITE)
 
-png("./figures/Shannon_trampling_site_boxplot.jpg", width = 856, height = 540)
+ggsave(file = "./figures/Shannon_trampling_site_boxplot.jpg", plot = Shannonbox, dpi = 800, units = "mm", width = 150, height = 100)
 #Revised Shannon vs Site.TRTMT graph
 ggplot(site.data, aes(x=SITE.TRTMT, y= shannon)) +
   geom_boxplot(color = "#283b00", fill = "#afc249") +
   labs(x = 'Site/Treatment', y = 'Shannon Diversity Index') +
   theme_bw() +
   theme(axis.text.x = element_text(angle=90, vjust=0.5)) +
-  theme(plot.title = element_text(hjust = 0.5))
+  theme(plot.title = element_text(hjust = 0.5)) -> Shannonbox
 
 boxplot(shannon~SITE.TRTMT, data=site.data, las=2, col="light blue", xlab="Site/TRTMT", ylab="Shannon Diversity Index", main="Shannon Diversity")
 dev.off()
 
 #Revised PielouJ vs Site/TRTMT graph
 ggplot(site.data, aes(x=SITE.TRTMT, y=PielouJ)) +
-  geom_boxplot(color = "black", fill = "light blue") +
-  theme_solarized_2() +
-  labs(x = 'Site/TRTMT', y = 'PielouJ', title = "Pielou's J evenness") +
+  geom_boxplot(color = "#283b00", fill = "#afc249") +
+  theme_bw() +
+  labs(x = 'Site/Treatment', y = 'Evenness') +
   theme(axis.text.x = element_text(angle=90, vjust=0.5)) +
-  theme(plot.title = element_text(hjust = 0.5))
+  theme(plot.title = element_text(hjust = 0.5)) -> PielouJbox
 
+ggsave(file = "./figures/PielouJ_trampling_site_boxplot.jpg", plot = PielouJbox, dpi = 800, units = "mm", width = 150, height = 100)
 # add png code here to export plots (see above for Shannon)
 boxplot(PielouJ~SITE.TRTMT, data=site.data, col="light blue", xlab="TRTMT", ylab="Pielou's J Evenness", main="Pielou's J evenness")
 
@@ -234,9 +235,10 @@ site.data$SITE <- as.factor(site.data$SITE)
 site.data$Observer <- as.factor(site.data$OBSERVER)
 site.data$SITE.TRTMT <- as.factor(site.data$SITE.TRTMT)
 
-rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='proportion', legend=TRUE) #click on where on plot you want to have the legend
+rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='proportion', legend=TRUE)->rankabuntut #click on where on plot you want to have the legend
 
-png("./figures/Rank_abundance_treatment.jpg", width = 856, height = 540)
+dev.off()
+png("./figures/Rank_abundance_treatment.jpg",res=800, width = 15, height = 10, units = "cm")
 rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='proportion', legend=FALSE) #click on where on plot you want to have the legend
 dev.off()
 
