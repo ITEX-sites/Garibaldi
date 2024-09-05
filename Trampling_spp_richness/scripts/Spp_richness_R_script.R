@@ -44,12 +44,12 @@ library(ggthemes)
 #setwd("~/GitHub/Garibaldi/Trampling_spp_richness")
 getwd()
 # read in spp and site matrices
-species.data0 <- read.csv(file = "./data/processed_data/garibaldi_trampling_species_matrix_2024_data_t_vs_ut_cover.csv")
+species.data0 <- read.csv(file = "./data/processed_data/garibaldi_trampling_species_matrix_2024_data_cover_per_transect.csv")
 site.data <- read.csv(file = "./data/processed_data/garibaldi_trampling_site_matrix.csv")
 
 # remove transect column
-transect <- species.data0$transect
-species.data <- species.data0[,-c(1:2)]
+transect <- species.data0$Site.Transect
+species.data <- species.data0[,-c(1:1)]
 #####################################
 #
 # Diversity indices
@@ -238,7 +238,7 @@ site.data$SITE <- as.factor(site.data$SITE)
 site.data$Observer <- as.factor(site.data$OBSERVER)
 site.data$SITE.TRTMT <- as.factor(site.data$SITE.TRTMT)
 
-rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='abundance', srt = 45, xlim = c(1,35), ylim = c(0,500))
+rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='abundance', srt = 45, xlim = c(1,35), ylim = c(0,6000))
 
 rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='proportion', legend=TRUE)->rankabuntut #click on where on plot you want to have the legend
 dev.off()
