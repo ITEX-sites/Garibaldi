@@ -4,8 +4,8 @@
 #load necessary packages
 library(dplyr)
 
-#read in the file 
-speciesMatrix <- read.csv("../data/processed_data/species-data-long.csv")
+#read in the file
+speciesMatrix <- read.csv("./data/processed_data/species-data-long.csv")
 
 #add column to remove text portion of transect ID, so can determine if it's odd/even (trampled/untrampled) in simple loop
 speciesMatrix <- speciesMatrix %>%
@@ -19,11 +19,11 @@ speciesMatrix <- speciesMatrix %>%
 freqSpeciesMatrix <- speciesMatrix %>%
   group_by(species, treatment) %>%
   summarise(meanFreq = mean(frequency))  %>%
-  mutate(LogMeanFreq = log(meanFreq)) 
+  mutate(LogMeanFreq = log(meanFreq))
 
 #sort final summary dataframe so that rows are ordered by trampling treatment not species
 freqSpeciesMatrix <- freqSpeciesMatrix %>%
   arrange(treatment)
 
 #export to csv
-write.csv(freqSpeciesMatrix, "../data/processed_data/speciesFreq-pairedT.csv", row.names = FALSE)
+write.csv(freqSpeciesMatrix, "./data/processed_data/speciesFreq-pairedT.csv", row.names = FALSE)

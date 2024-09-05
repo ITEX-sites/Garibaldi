@@ -44,7 +44,7 @@ library(ggthemes)
 #setwd("~/GitHub/Garibaldi/Trampling_spp_richness")
 getwd()
 # read in spp and site matrices
-species.data0 <- read.csv(file = "./data/processed_data/finalCSV-GaribaldiSpeciesMatrixFormat.csv")
+species.data0 <- read.csv(file = "./data/processed_data/garibaldi_trampling_species_matrix_2024_data_t_vs_ut_cover.csv")
 site.data <- read.csv(file = "./data/processed_data/garibaldi_trampling_site_matrix.csv")
 
 # remove transect column
@@ -174,14 +174,16 @@ ggplot(site.data, aes(x=SITE.TRTMT, y= shannon)) +
 
 boxplot(shannon~SITE.TRTMT, data=site.data, las=2, col="light blue", xlab="Site/TRTMT", ylab="Shannon Diversity Index", main="Shannon Diversity")
 dev.off()
-
+dev.new()
 #Revised PielouJ vs Site/TRTMT graph
-ggplot(site.data, aes(x=SITE.TRTMT, y=PielouJ)) +
-  geom_boxplot(color = "#283b00", fill = "#afc249") +
+ggplot(site.data, aes(x=TRTMT, y=PielouJ)) +
+  geom_boxplot(color = "black", aes(fill = SITE)) +
   theme_bw() +
   labs(x = 'Site/Treatment', y = 'Evenness') +
   theme(axis.text.x = element_text(angle=90, vjust=0.5)) +
-  theme(plot.title = element_text(hjust = 0.5)) -> PielouJbox
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_fill_manual(values = c("#283b00", "#afc249", "#ea9173"))-> PielouJbox
+
 
 ggsave(file = "./figures/PielouJ_trampling_site_boxplot.jpg", plot = PielouJbox, dpi = 800, units = "mm", width = 150, height = 100)
 # add png code here to export plots (see above for Shannon)
@@ -203,6 +205,7 @@ rarefy(species.data, 15) #if only 15 individuals had been sampled in each treatm
 #####################################
 
 dev.off()
+dev.new()
 par(mfrow=c(1,1))
 plot(fisherfit(colSums(species.data))) #here is a plot of the number of species for each "bin" of abundances, abundances are summed over all sites
 
@@ -227,7 +230,7 @@ RankAbun.1 <- rankabundance(species.data)
 RankAbun.1 # a dataframe of the rank of each species
 
 png("./figures/Rank_abundance_total.jpg", width = 856, height = 540)
-rankabunplot(RankAbun.1,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,650)) #rank abundance plot, labelling the most common 3 species
+rankabunplot(RankAbun.1,scale='abundance', addit=FALSE, specnames=c(1:31), srt = 45, xlim = c(1,32), ylim = c(0,1000)) #rank abundance plot, labelling the most common 3 species
 dev.off()
 
 site.data$TRTMT <- as.factor(site.data$TRTMT)
@@ -235,11 +238,13 @@ site.data$SITE <- as.factor(site.data$SITE)
 site.data$Observer <- as.factor(site.data$OBSERVER)
 site.data$SITE.TRTMT <- as.factor(site.data$SITE.TRTMT)
 
-rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='proportion', legend=TRUE)->rankabuntut #click on where on plot you want to have the legend
+rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='abundance', srt = 45, xlim = c(1,35), ylim = c(0,500))
 
+rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='proportion', legend=TRUE)->rankabuntut #click on where on plot you want to have the legend
 dev.off()
 png("./figures/Rank_abundance_treatment.jpg",res=800, width = 15, height = 10, units = "cm")
-rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='proportion', legend=FALSE) #click on where on plot you want to have the legend
+rankabuncomp(species.data, y=site.data, factor=c('TRTMT'),scale='abundance', srt = 45, xlim = c(1,35), ylim = c(0,500))
+ #click on where on plot you want to have the legend
 dev.off()
 
 rankabuncomp(species.data, y=site.data, factor=c('SITE'),scale='proportion', legend=TRUE, specnames=c(1:3)) #click on where on plot you want to have the legend
