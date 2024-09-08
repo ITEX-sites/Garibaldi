@@ -15,7 +15,7 @@ Website: https://garibaldialpine.wixsite.com/garibaldialpine
 
 Please see individual folders for data and analyses:
 
-**trampling_analyses**: Tests i) effects of human trampling disturbance on plant growth and reproduction proxies of common plants across an elevation gradient, and ii) which species are more susceptible to trampling. (Chardon et al. _Human trampling disturbance impacts subalpine and alpine plant growth more than reproduction_. In review.)
+**trampling_analyses**: Tests i) effects of human trampling disturbance on plant growth and reproduction proxies of common plants across an elevation gradient, and ii) which species are more susceptible to trampling. (Chardon et al. 2023. Human trampling disturbance impacts subalpine and alpine plant growth more than reproduction. Plants.
 
 Additional information:
 
