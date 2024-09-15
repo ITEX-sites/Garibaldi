@@ -1,7 +1,7 @@
 ## Glacial Succession Survey 2023
 
 ## Contributors: 
-Ciara Norton <email> Last_edited_date
+Ciara Norton <ciaranorton@hotmail.com> Last_edited_date
 Cassandra Elphinstone <cassandra.elphinstone@shaw.ca> Aug 22 2023
 
 #-----------------------------
