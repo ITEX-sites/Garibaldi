@@ -1,7 +1,7 @@
 ## reading, cleaning, and analyzing TOMST data 
 # using code from https://cran.r-project.org/web/packages/myClim/vignettes/myclim-demo.html
 
-install.packages("myClim")
+#install.packages("myClim")
 library(myClim)
 library(dplyr)
 library(tidyr)
@@ -12,7 +12,7 @@ library(rstatix)
 library(cowplot)
 library(lme4)
 
-setwd("/Users/evankohn/Desktop/Garibaldi/TOMST_2023")
+setwd("/Users/evankohn/Desktop/Garibaldi/TOMST_2023")#update to local 
 
 
 ## Read in and clean ####
@@ -118,6 +118,7 @@ microclimALL <- microclimALL %>%
     TRUE ~ "Unknown"
   ))
 
+write.csv(microclimALL, 'TOMST_2022_2023_daily.csv') 
 
 ## Dif between treatments? ####
 t.test(T1 ~ treatment, data = microclimALL)
@@ -192,9 +193,12 @@ microclimALL <- microclimALL %>% drop_na(T1)
 microclimALL_long <- microclimALL %>%
   pivot_longer(cols = c(T1, T2, T3), names_to = "Temperature_Measure", values_to = "Temperature")
 
+microclimALL_long$year<-lubridate::year(microclimALL_long$datetime)
+microclimALL_long$doy<-lubridate::yday(microclimALL_long$datetime)
+
 ggplot(microclimALL_long, aes(x = treatment, y = Temperature, fill = Temperature_Measure)) +
   geom_boxplot() +
-  facet_wrap(~Site) +
+  facet_wrap(~Site+ year) +
   theme_minimal()+
   labs(y= "Average Temperature", x = "Treatment", fill = "Temperature Sensor")
 
@@ -243,20 +247,20 @@ final_plot_temp
 
 # Plot with moisture trackers
 
-## sig_labels <- data.frame(
-##  Site = c("Cassiope", "Cassiope", "Salix", "Salix", "Sedge", "Sedge"), 
-##  treatment = c("C", "W", "C", "W", "C", "W"),  
-##  Moisture = c(4000, 4000, 4000, 4000, 4000, 4000),  
-##  label = c("a", "b", "a","a", "a", "b"))
+# sig_labels <- data.frame(
+#Site = c("Cassiope", "Cassiope", "Salix", "Salix", "Sedge", "Sedge"), 
+#treatment = c("C", "W", "C", "W", "C", "W"),  
+#  Moisture = c(4000, 4000, 4000, 4000, 4000, 4000),  
+#  label = c("a", "b", "a","a", "a", "b"))
 
-## ggplot(microclimALL_long, aes(x = treatment, y = Moisture, fill = treatment)) +
-##   geom_boxplot() +
-##   facet_wrap(~Site) +
-##   scale_fill_manual(values=c("C" = "#89C5DA","W" = "#DA5724"))  +
-##   theme_minimal() +
-##   geom_text(data = sig_labels, aes(x = treatment, y = Moisture, label = label), size = 4, color = "black")+ 
-##   labs(y = "Average Daily Moisture", x = "Treatment")+
-##   theme(legend.position = "none")
+ggplot(microclimALL_long, aes(x = treatment, y = Moisture, fill = treatment)) +
+   geom_boxplot() +
+   facet_wrap(~Site) +
+   scale_fill_manual(values=c("C" = "#89C5DA","W" = "#DA5724"))  +
+   theme_minimal() +
+   #geom_text(data = sig_labels, aes(x = treatment, y = Moisture, label = label), size = 4, color = "black")+ 
+   labs(y = "Average Daily Moisture", x = "Treatment")+
+   theme(legend.position = "none")
   
 m1 <- ggplot(microclimALL %>% filter(Site == "Cassiope"), 
              aes(x = treatment, y = Moisture, fill = treatment)) +
@@ -309,6 +313,39 @@ ggplot(microclim2022_all, aes(x = datetime, y = T1, color = treatment)) +
   theme_minimal() +
   xlab("Date")+
   ylab("Temp")
+
+
+##Courtney plots- April 2026## 
+ggplot(microclimALL_long, aes(x = doy, y = Moisture, color = treatment)) +
+      geom_point() + geom_smooth()+
+      facet_wrap(~year+ Site) +
+      scale_color_manual(values=c("C" = "#89C5DA","W" = "#DA5724"))  +
+      theme_minimal() +
+      labs(y = "Average Daily Moisture", x = "DOY")+ ggtitle("Soil Moist")
+
+ggplot(subset(microclimALL_long,Temperature_Measure=="T1"), aes(x = doy, y = Temperature, color = treatment)) +
+     geom_point() + geom_smooth()+
+      facet_wrap(~year+ Site) +
+      scale_color_manual(values=c("C" = "#89C5DA","W" = "#DA5724"))  +
+      theme_minimal() +
+      #geom_text(data = sig_labels, aes(x = treatment, y = Moisture, label = label), size = 4, color = "black")+ 
+      labs(y = "Average Daily Temp", x = "DOY")+ ggtitle("T1- Soil temp -6cm")
+
+ggplot(subset(microclimALL_long,Temperature_Measure=="T2"), aes(x = doy, y = Temperature, color = treatment)) +
+  geom_point() + geom_smooth()+
+  facet_wrap(~year+ Site) +
+  scale_color_manual(values=c("C" = "#89C5DA","W" = "#DA5724"))  +
+  theme_minimal() +
+  #geom_text(data = sig_labels, aes(x = treatment, y = Moisture, label = label), size = 4, color = "black")+ 
+  labs(y = "Average Daily Temp", x = "DOY")+ ggtitle("T2-ground temp 2cm ")
+
+ggplot(subset(microclimALL_long,Temperature_Measure=="T3"), aes(x = doy, y = Temperature, color = treatment)) +
+  geom_point() + geom_smooth()+
+  facet_wrap(~year+ Site) +
+  scale_color_manual(values=c("C" = "#89C5DA","W" = "#DA5724"))  +
+  theme_minimal() +
+  #geom_text(data = sig_labels, aes(x = treatment, y = Moisture, label = label), size = 4, color = "black")+ 
+  labs(y = "Average Daily Temp", x = "DOY")+ ggtitle("T3-Air temp 15cm")
 
 
 ## custom date range averages ####
