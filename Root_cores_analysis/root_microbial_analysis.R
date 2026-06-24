@@ -268,6 +268,12 @@ roots3<-aov(Rootscub~Site*treatment , all)
 summary(roots3)
 TukeyHSD(roots3)
 
+roots4<-lmer(Rootscub~VWC*Season + (1|Site) , all) 
+anova(roots4)
+summary(roots4)
+emmeans::emmeans(roots4, specs = c("VWC", "Season"))
+emmeans::emtrends(roots4, pairwise~Season, var="VWC")
+
 mic0<-(lmer(logmic~Season*Site*treatment + (1|Plot), subset(all, year>2022))) 
 anova(mic0)# Site, Season x Site, Season x treatment, Site x treatment (weak- not part of Q1)
 emmeans::contrast(em0, "pairwise",adjust = "Tukey")
@@ -289,6 +295,12 @@ em5 <- emmeans::emmeans(mic0, pairwise~ treatment|Site|Season )
 em5 
 r2glmm::r2beta(mic0) #r2= 0.58
 
+mic1<-(lmer(logmic~ VWC * Season+ (1|Plot) + (1|Site), subset(all, year>2022))) 
+anova(mic1)
+summary(mic1)
+emmeans::emmeans(mic1, specs = "VWC")
+emmeans::emmeans(mic1, specs = c("VWC", "Season"))
+emmeans::emtrends(mic1, pairwise~Season, var="VWC")
 
 #2) Are the timing of root growth and soil microbial biomass linked? 
 all2<-subset(all, !is.na(Rootscub))
