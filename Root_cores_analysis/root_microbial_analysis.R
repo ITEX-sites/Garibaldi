@@ -7,7 +7,7 @@ library(lme4)
 library(lmerTest)
 
 #read in data & combine----
-soil<-read.csv("Microbiometer_analysis/Microbiometer_Data_complete.csv")
+soil<-read.csv("Root_cores_analysis/Microbiometer_Data_complete.csv")
 soil<-rename(soil, treatment=treatment..W.C.)
 roots <- read.csv("Root_cores_analysis/Alpine_cores_names_2023_Complete.csv")
 roots<-rename(roots, treatment=W.C)
@@ -46,7 +46,7 @@ rootsx<-dplyr::select(roots, Site, treatment,Root..g.bulk.dens., GWC.., Plot, ye
 all<-left_join(soilx, rootsx)
 
 #read in TOMST data 
-microclimALL<-read.csv("TOMST_analysis/TOMST_2022_2023_daily.csv")
+microclimALL<-read.csv("Root_cores_analysis/TOMST_2022_2023_daily.csv")
 microclimALL <- mutate(microclimALL, Site = if_else(Site== "Cassiope", "Heather", Site))
 
 #remove values prior to installation for Sentinel plots 
